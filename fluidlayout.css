@@ -1,0 +1,7 @@
+
+/* Media Query 1 */
+@import url("mobilestyle.css") only screen and (max-width:479px);
+/* Media Query 2 */
+@import url("tabletstyle.css") only screen and (min-width:480px) and (max-width:770px);
+/* Media Query 3 */
+@import url("style.css") only screen and (min-width:771px);

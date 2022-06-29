@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<learningObject language="en-GB" name="FAIR sharing and access" navigation="Linear" textSize="12" displayMode="fill window" editorVersion="3" responsive="true"><bullets linkID="PG1409328797078" name="Learning objectives" delaySecs="1" showBullets="0" showPanel="0" panelWidth="Full"><![CDATA[<p>This unit outlines the benefits and challenges associated with sharing research data openly.</p>
+  <br />
+<p>After completing this unit you will:
+</p>
+<br />
+<p>▪ Be informed about the benefits and barriers to sharing research data.
+</p>
+<p>▪ Understand the principles of open research data.
+</p>
+<p>▪ Know about the FAIR principles and how to share your research data in a way that is FAIR.
+</p>
+<p>▪ Recognize why you might choose to license your dataset, and the different types of open data licence that are available.
+</p>
+<p>▪ Be aware of the role of data access statements when publishing the results of your research.
+</p>
+]]></bullets><textGraphics linkID="PG1362655857478" name="Introduction" align="Left" imagesize="auto" url="FileLocation + 'media/EnZmap_with_legend_metzger_cc-by_resize.png'" tip="'EnZmap with legend&#x2019; image by Marc Metzger (DataShare, CC-BY 4.0)"><![CDATA[<p>Research is often conducted with the use of public funds or for public benefit. Traditionally, scholars and scientists have communicated their results to peers and the public through written publications.</p>
+
+<p>Many people involved in the research process now believe the scholarly record is not complete unless linked to the data and code which were used to generate the published results.</p>
+
+<p>This unit will explore the benefits of data sharing, the concerns you may have, and how to go about making your data available to others appropriately.</p>
+
+<p>Even if your research involves using somebody&nbsp;else&#39;s data,&nbsp;understanding the issues involved in data sharing will make you a more knowledgable user of secondary sources of data.</p>
+]]></textGraphics><text linkID="PG1595410497402" name="Video: Informal data sharing"><![CDATA[<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/RVZbk3GEVSw" width="560"></iframe></p>
+
+<p>This short deadpan cartoon by the New York University Health Sciences Libraries encapsulates potential problems with informal methods of data sharing, and the frustrations of a prospective data user.</p>
+
+<p>Where available, playback quality and subtitles may be selected using the options menu (click the &#39;cog&#39; button below the video). You can also watch the video directly on&nbsp;<a href="https://www.youtube.com/watch?v=RVZbk3GEVSw" target="_blank">YouTube</a>.</p>
+]]></text><textGraphics linkID="PG1599236953477" name="Data as a public good" align="Right" imagesize="auto" url="FileLocation + 'media/Benefits_of_sharing_by_ubiquity_press_ccby.png'" tip="'Benefits of data sharing' image by Ubiquity Press (CC BY)" hidePanel="true"><![CDATA[<p>Many research funders view research data as a public good which should be openly available to the academic community and preserved for future re-use.</p>
+
+<p>UK Research and Innovation&#39;s &#39;Common principles on data policy&#39; states:</p>
+
+<p>&quot;Publicly funded research data are a public good, produced in the public interest, which should be made openly available with as few restrictions as possible in a timely and responsible manner.&quot;</p>
+
+<p>In addition to fulfilling publisher and funder requirements, publishing research data allows others to replicate, validate and build upon your research. In turn, being cited by others who use your data helps to increase the impact of your research, while sharing data may open doors leading to new collaborative opportunities.</p>
+
+<p>Providing access to research data also opens opportunities for it to be used by others in innovative ways that might not otherwise have been considered by the original creators.</p>
+]]></textGraphics><text linkID="PG1595588444478" name="Video: Making research&amp;nbsp;data available"><![CDATA[<p>
+  <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/BjcbS3XwSTY?end=160" width="560">
+  </iframe>
+</p>
+<p>In this clip, Dr Marc Metzger from the School of Geosciences, University of Edinburgh, talks about the importance and the benefits of sharing his data.
+</p>
+<p>Playback quality and subtitles may be selected using the options menu (click the &#39;cog&#39; button below the video). You can also watch the full video directly on&nbsp;<a href="https://www.youtube.com/watch?v=BjcbS3XwSTY" target="_blank">YouTube</a>.
+</p>
+<p>A transcript of this video is also available on the following page.
+</p>
+]]></text><text linkID="PG1595588942737" name="Video transcript"><![CDATA[<p>Research Data Management I guess is the whole process - from first thinking of your project... when you design it... when you write the proposal. What data do you need? Where does it come from? What type of IPR is involved?</p>
+
+<p>And then how are you going to use it? What type of data do you generate during your project? What do you collect during your project?&nbsp;And then how do you store it afterwards? And how are you going to share that data with other people in the scientific community but potentially also outside the scientific community. So there&#39;s several reasons why I want to share my data with others.</p>
+
+<p>First of all I think it&#39;s just a good thing to do. For sort of scientific / academic reasons for replicability and transparency. It&#39;s good to have your data in a way where other,&nbsp;accessible where other people can access it.</p>
+
+<p>Increasingly also funders require you to share your data but there are also advantages as a researcher that are more immediate. One of them is that if you share your data more people can use it and there&#39;s more chance that your papers based on that data get cited. Also other people might be able to use your data in a way that generates impact and the impact agenda is increasingly important.</p>
+
+<p>I created a couple of of maps that are well - one is a European map, one is a global map - that identify different regions and these maps have generated quite a bit of interest. People want to use them for different purposes, sometimes to just have them as an illustration in a book or in a publication, sometimes to analyse their data to see where their locations where their data sits within these maps, and sometimes for more integrated modelling reasons.</p>
+
+<p>And so I used to get lots of emails from people saying could you, &#39;Could you please share this data file with me?&#39;, &#39;Could you please share these GIS files?&#39; And I would reply and have a little opening spiel and then upload the file or have it on a dropbox server with a link and that would take quite a bit of time.</p>
+
+<p>It was interesting to hear why they wanted to use my data but in the end it takes quite a bit of time and so what I&#39;ve done is I&#39;ve uploaded those data files to DataShare and now when people contact me I can just say &#39;Here is the link, you can download the data here.&#39; And there&#39;s a full explanation of what the data is in the DataShare files. So that&#39;s a way that saves me a lot of time and also now I have a record of how many times the datasets are viewed or downloaded which is very nice.</p>
+]]></text><textGraphics linkID="PG1628004803092" name="Open data and the fight against COVID-19" align="Left" imagesize="auto" url="FileLocation + 'media/WHO_COVID_dashboard_global_20210802.PNG'" tip="'Total COVID-19 cases by WHO region, as of 2nd August 2021' (WHO COVID-19 Dashboard. Geneva: World Health Organization, 2020. Available online: https://covid19.who.int/ (last cited: 2021-08-03))" transcriptbuttonlabel="Transcript"><![CDATA[<p>The Coronavirus crisis is one of several global challenges which has highlighted the critical importance&nbsp;of making research data rapidly available for re-use, as well as curated to common standards.&nbsp;For example, UNESCO has stated that &ldquo;Open Science is critical to the fight against COVID-19.&rdquo;</p>
+
+<p>&quot;Scientific communication, research and data offer key building blocks to create new scientific knowledge. It is important to acknowledge that the creation of new scientific knowledge to deal with the emergency risk management depends on creating an open and level playing field and providing unconditional access and sharing of scientific contents, technologies and processes to the entire scientific community from developed and developing countries alike. Access to verified and peer reviewed data, journal articles and laboratory log books, is thus central to find a cure against the ongoing crisis. Verified information and scientific research can also keep the public updated on the situation and allay fears that may be caused by ignorance or disinformation.&quot;</p>
+
+<p>https://en.unesco.org/covid19/communicationinformationresponse/opensolutions</p>
+]]></textGraphics><textGraphics linkID="PG1601651310485" name="Open data licensing" align="Left" imagesize="auto" url="FileLocation + 'media/Capture.PNG'" tip="'Open licence buttons for websites' image by OKF (CC BY)"><![CDATA[<p>Research data is protected by copyright law, meaning others are prohibited from copying and sharing data unless granted permission by the original creator/s. Sharing your data under a licence allows you to grant others the right to download and use your research data, and applying an explicit licence removes any ambiguity over what users can and cannot do with your data.</p>
+
+<p>The Open Knowledge Foundation&#39;s (OKF) definition of open data is data &quot;that can be freely used, re-used and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike&quot;.</p>
+
+<p>Open data means not only do other people have the right to download and use the data, but they have the right to process, modify and re-distribute versions of the original data for their own purposes. This may potentially include using your research data for commercial purposes as well as further academic research.</p>
+
+<p>Research funders will commonly expect data to be shared as openly as possible, unless there is a valid reason that data cannot be shared publicly. For example, where access to data must be protected by legal or commercial obligations.</p>
+]]></textGraphics><textGraphics linkID="PG1601396275469" name="Creative Commons 4.0 licences explained" align="Right" imagesize="auto" url="FileLocation + 'media/CC_licenses.PNG'" tip="'CC licenses' image by MANTRA team, based on content by Creative Commons (https://creativecommons.org/licenses/, CC BY)" transcriptbuttonlabel="Transcript"><![CDATA[<p>Creative Commons is a US-based non-profit organisation which has been a leader in developing legal tools for sharing creative works online.
+</p>
+<p>Creative Commons (CC) licences are popular because they provide robust legal code, alongside an easy to understand human-readable summary, and a machine-readable layer of code to help make information resources interoperable across systems.
+</p>
+<p>CC licences work well for both research data and expressive works because they
+</p>
+<ul>
+  <li>conform to both copyright law and database rights where applicable</li>
+  <li>do not need to be ported for use in particular countries, as they are applicable in all jurisdictions</li>
+</ul>
+<p>Several open data advocacy groups, including DataCite, recommend CC0 (CC Zero) for datasets, allowing end-users freedom to use and re-use data without restriction. However, CC-BY licenses may be more palatable for academic data creators, whose careers depend on citations for their publication record.
+</p>
+<p>You can select an appropriate licence and generate licence text for your web page or document using the online tool: https://creativecommons.org/choose/
+</p>]]></textGraphics><nav linkID="PG1601386139603" name="Barriers to sharing research data" text="&lt;p&gt;Researchers devote a large amount of physical and intellectual effort to collect, prepare and analyse their data before publishing their results. Many of these datasets have significant value beyond their use for the original research.&lt;/p&gt;&#10;&#10;&lt;p&gt;As we have seen, there are a number of significant benefits to sharing research data, not only for the original data creators but for the wider research community. However, it may not always be possible to make research data openly available.&lt;/p&gt;&#10;&#10;&lt;p&gt;With adequate planning, it may be possible to provide some degree of access to data that cannot otherwise be shared publicly. For example, by gaining appropriate consent, using data manipulation methods to anonymise or de-identify the data, or by applying access controls to restrict who can use the data.&lt;/p&gt;&#10;&#10;&lt;p&gt;Some of the perceived barriers to sharing research data are shown in the next window, along with some suggested solutions (advance to the next slide by using the right arrow).&lt;/p&gt;&#10;" type="Slide" nextBtnTip="Next" prevBtnTip="Previous" slideCount="Slide {i} of {n}"><navPage linkID="PG1601649169855" name="Financial" text="&lt;p&gt;While universities are primarily in the business of producing knowledge, there may also be a financial value attached to some types of research data. In particular, research funded in collaboration with the private sector may be subject to restrictions on how research outputs, including research data, may be used.&lt;/p&gt;&#10;&#10;&lt;p&gt;In such cases, it may not be initially advisable to share your data, even where the licence or terms and conditions explicitly prohibits commercial use. Note that use of data shared under a &amp;lsquo;non-commercial&amp;rsquo; license may be difficult to monitor. It may be more appropriate to apply access controls than to share data under a restrictive license which will be difficult, or even impossible, to monitor.&lt;/p&gt;&#10;&#10;&lt;p&gt;It is advised to consult appropriately within your university or institution for guidance on this issue, for example your institutional research office.&lt;/p&gt;&#10;"/><navPage linkID="PG1601386185263" name="Confidentiality" text="&lt;p&gt;Personal information about human subjects should always be treated as sensitive and confidential, and handled with great care.&lt;/p&gt;&#10;&#10;&lt;p&gt;The collection and handling of personal information about research participants will be subject to any applicable data protection laws,&amp;nbsp;for example the General Data Protection Regulation (GDPR), as well as being subject to the consent documentation and institutional ethics codes that govern your research activity.&lt;/p&gt;&#10;&#10;&lt;p&gt;It may be possible to anonymise sensitive data by removing or replacing any information that could lead to the direct or indirect identification of an individual in the data. An anonymised version of the data, a &amp;lsquo;public use dataset&amp;rsquo;, may then be freely and safely shared with others without violating any legal or ethical obligations&lt;/p&gt;&#10;&#10;&lt;p&gt;Be aware that sharing&amp;nbsp;anonymised data may be easier said than done, as the process of making sensitive research data safe to share openly&amp;nbsp;may potentially be challenging or even impossible.&lt;/p&gt;&#10;"/><navPage linkID="PG1601386206911" name="Ownership" text="&lt;p&gt;Another potential barrier to sharing data may be determining who actually owns the data. For example, the data may be owned in whole or part by other authors or commercial entities. In some cases, you may not be permitted to share the data making it a potential violation of copyright for you to republish them.&#10;&lt;/p&gt;&#10;&lt;p&gt;If the data are original, you may need to consult with collaborators and partners to ensure that you have the necessary permissions to share or deposit data. For data derived from another source, in many cases you can gain permission to deposit derived data by giving attribution in the metadata to the original data source.&#10;&lt;/p&gt;&#10;"/></nav><buttonQuestion linkID="PG1407347936420" name="How open is open?" instruction="&lt;p&gt;Please reflect on how you would answer the following question. Press the &amp;#39;Check&amp;#39; button to see feedback.&lt;/p&gt;&#10;" prompt="&lt;p&gt;Many in the open data movement believe that &amp;lsquo;non-commercial&amp;rsquo; licences - those that allow reuse of data except for purposes of profit - are not truly open, and may even damage the emerging knowledge economy.&#10;  &lt;br /&gt;&#10;  &lt;br /&gt;&#10;  What do you think?&#10;&lt;/p&gt;&#10;" feedback="&lt;p&gt;Of course this is a matter of personal choice, unless a contract prevents you from making your data open.&lt;br /&gt;&#10;&lt;br /&gt;&#10;Making your data open means being open to all possible uses of your data. We don&amp;#39;t tend to like the idea of others profiting from our work, especially large corporations. However, publishers, entrepeneurs, social enterprises and start-ups may be able to make use of your data in imaginative and innovative ways that you might not have considered otherwise.&lt;/p&gt;&#10;&#10;&lt;p&gt;Of course, you can select an alternative licence if you wish to apply particular conditions on the use of your data. For example, the requirement for the original data creators to be attributed, or the requirement not to change the work in the course of re-using it (no derivatives).&lt;/p&gt;&#10;&#10;&lt;p&gt;&amp;quot;The coolest thing to do with your data will be thought of by someone else.&amp;quot;&lt;/p&gt;&#10;&#10;&lt;p&gt;Rufus Pollock, Cambridge University and Open Knowledge Foundation&lt;/p&gt;&#10;" align="Left" panelWidth="Medium" label="Check" labelWidth="100"/><nav linkID="PG1604921066589" name="The FAIR principles" text="&lt;p&gt;Many research organisations have signed up to support the FAIR principles, which indicate that research data should not only be shared, but shared in a way that is FAIR (Findable, Accessible, Interoperable and Reuseable).&lt;/p&gt;&#10;&#10;&lt;p&gt;The concept of FAIR sharing, set out in &amp;#39;The FAIR Guiding Principles for scientific data management and stewardship&amp;#39; (Wilkinson et al, 2016), has largely eclipsed the notion of open research data. It is easier to make your data FAIR if it is open, but FAIR principles allow that not all research data should be made open without restriction.&lt;/p&gt;&#10;&#10;&lt;p&gt;Click on the tabs for details of the FAIR principles (FAIR specification from: https://www.go-fair.org/fair-principles/).&lt;/p&gt;&#10;" type="Tab" nextBtnTip="Next" prevBtnTip="Previous" slideCount="Slide {i} of {n}"><navPage linkID="PG1604921120255" name="&lt;strong&gt;Findable&lt;/strong&gt;" text="&lt;p&gt;&amp;lsquo;The first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services.&amp;rsquo;&lt;/p&gt;&#10;&#10;&lt;p&gt;F1. Data and metadata are assigned a globally unique and persistent identifier&lt;br /&gt;&#10;F2. Data are described with rich metadata (defined by R1 below)&lt;br /&gt;&#10;F3. Metadata clearly and explicitly include the identifier of the data they describe&lt;br /&gt;&#10;F4. Data and metadata are registered or indexed in a searchable resource&lt;/p&gt;&#10;&#10;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#10;"/><navPage linkID="PG1604921159280" name="&lt;strong&gt;Accessible&lt;/strong&gt;" text="&lt;p&gt;&amp;lsquo;Once the user finds the required data, she/he needs to know how can they be accessed, possibly including authentication and authorisation.&amp;rsquo;&lt;/p&gt;&#10;&#10;&lt;p&gt;A1. Data and metadata are retrievable by their identifier using a standardised communications protocol&lt;br /&gt;&#10;A1.1 The protocol is open, free, and universally implementable&lt;br /&gt;&#10;A1.2 The protocol allows for an authentication and authorisation procedure, where necessary&lt;br /&gt;&#10;A2. Data and metadata are accessible, even when the data are no longer available&lt;/p&gt;&#10;"/><navPage linkID="PG1604921207589" name="&lt;strong&gt;Interoperable&lt;/strong&gt;" text="&lt;p&gt;&amp;lsquo;The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.&amp;rsquo;&lt;/p&gt;&#10;&#10;&lt;p&gt;I1. Data and metadata use a formal, accessible, shared, and broadly applicable language for knowledge representation (such as standard metadata vocabularies or ontologies)&lt;br /&gt;&#10;I2. Data and metadata use vocabularies that follow FAIR principles (such as generic or discipline-specific metadata standards)&lt;br /&gt;&#10;I3. Data and metadata include qualified references to other data and metadata. (Related objects are linked using persistent identifiers and citation.)&lt;/p&gt;&#10;"/><navPage linkID="PG1604921246956" name="&lt;strong&gt;Reuseable&lt;/strong&gt;" text="&lt;p&gt;&amp;lsquo;The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings.&amp;rsquo;&lt;/p&gt;&#10;&#10;&lt;p&gt;R1. Data and metadata are richly described with a plurality of accurate and relevant attributes&lt;br /&gt;&#10;R1.1. Data and metadata are released with a clear and accessible data usage license&lt;br /&gt;&#10;R1.2. Data and metadata are associated with detailed provenance&amp;nbsp;&lt;br /&gt;&#10;R1.3. Data and metadata meet domain-relevant community standards&lt;/p&gt;&#10;"/></nav><textGraphics linkID="PG1604922446531" name="What does it mean to make your data FAIR?" align="Left" imagesize="auto" url="FileLocation + 'media/goFAIR_logo.svg'" tip="'GoFAIR logo' image by GoFAIR (CC BY)" transcriptbuttonlabel="Transcript"><![CDATA[<p>The FAIR principles are designed to help researchers make&nbsp;the data they share findable and&nbsp;accessible, in turn simplifying the process of finding and using&nbsp;the data by others.</p>
+
+<p>In practice this mean that when sharing data researchers should include metadata describing the data, along with appropriate documentation necessary for others&nbsp;to understand and use the data.&nbsp;Institutional and&nbsp;domain specific data repositories will follow appropriate metadata standards to ensure research data can be searched and found. Additionally,&nbsp;FAIR data should be assigned a unique identifier, such as a digitial object identifier (DOI) to provide&nbsp;a stable and consistent way to locate the data and&nbsp;metadata.</p>
+
+<p>FAIR principles can be applied not only to the sharing of research data. You can also&nbsp;make your metadata, code, and other research objects FAIR as well, by using appropriate repositories and documenting them well.</p>
+
+<p>Applying the FAIR principles&nbsp;when sharing your data and other research outputs could help you achieve greater impact both in the academic community and society more generally.</p>
+]]></textGraphics><text linkID="PG1595856750993" name="Video: APA explains data sharing"><![CDATA[<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/D-KlMPG_MhQ" width="560"></iframe></p>
+
+<p>This video by the American Psychological Association (APA) provides a good overview of the issues around data sharing, including adoption of the FAIR principles.</p>
+
+<p>Where available, playback quality and subtitles may be selected using the options menu (click the &#39;cog&#39; button below the video). You can also watch the video directly on&nbsp;<a href="https://www.youtube.com/watch?v=D-KlMPG_MhQ" target="_blank">YouTube</a>.</p>
+
+<p>A transcript of this video is available here:<br />
+https://www.apa.org/pubs/journals/resources/data-sharing-video</p>
+]]></text><textGraphics linkID="PG1601393700182" name="FAIR sharing with data repositories" align="Left" imagesize="auto" url="FileLocation + 'media/Metzger_DataShare_item_image.png'" tip="'Edinburgh DataShare open data repository' image by MANTRA team (CC BY)" transcriptbuttonlabel="Transcript"><![CDATA[<p>The FAIR principles are written with research data, metadata and infrastructure in mind. You don&rsquo;t need to create your own infrastructure to make your research data FAIR, simply deposit your data in a disciplinary or institutional data repository.</p>
+
+<p>Data repositories are digital services designed to allow research data to be uploaded, preserved and shared with others. Depositing your research data in a data repository will help make your data FAIR by facilitating discovery and long-term preservation of your data, and provide a digital object identifier (DOI) to provide consistent and stable access to your data.</p>
+
+<p>Leveraging the expertise of data curators, data repositories provide added value to the datasets they manage to ensure that research data remain accessible and usable in the future.</p>
+]]></textGraphics><nav linkID="PG1607428578311" name="Where to share your data" text="&lt;p&gt;There are a large number of data repositories, from dedicated discipline-specific services designed with particular types of research data in mind, to more general data repositories that accept a range of data types from a range of disciplines.&lt;/p&gt;&#10;&#10;&lt;p&gt;Click on the buttons for details about different types of data repository.&lt;/p&gt;&#10;" type="Button" nextBtnTip="Next" prevBtnTip="Previous" slideCount="Slide {i} of {n}"><navPage linkID="PG1607428687556" name="&lt;b&gt;Local institutional repositories&lt;/b&gt;" text="&lt;p&gt;Institutional data repositories, such as the University of Edinburgh&amp;#39;s open data repository DataShare, allow researchers to share research data so others can find, understand, download and reuse it.&lt;/p&gt;&#10;"/><navPage linkID="PG1607428712995" name="&lt;b&gt;National repository services&lt;/b&gt;" text="&lt;p&gt;Some of the UK research councils fund data services to curate, disseminate and preserve data created as part of their funded programmes. Examples include the ESRC&amp;#39;s UK Data Service, and the designated data centres of the Natural Environment Research Council.&lt;/p&gt;&#10;"/><navPage linkID="PG1607428738268" name="&lt;strong&gt;General data repositories&lt;/strong&gt;" text="&lt;p&gt;There are a number of general-purpose repositories, including Zenodo (https://zenodo.org) and figshare (https://figshare.com) which allow researchers to share data sets and other research outputs in a citable, shareable and discoverable manner.&lt;/p&gt;&#10;"/><navPage linkID="PG1607428766829" name="&lt;strong&gt;re3data.org&lt;/strong&gt;" text="&lt;p&gt;If you need to identify a suitable data repository for your data, re3data.org provides a searchable index of data repositories.&lt;/p&gt;&#10;"/></nav><text linkID="PG1595859245454" name="Data access statements"><![CDATA[<p>When publishing results, it is common practice to provide details of where and how the underlying data may be accessed, particularly data generated by publicly funded research. For example, UKRI &#39;common principles on research data&#39; require data access statements to be included in publications resulting from UKRI-funded research.
+</p>
+<p>When writing a data access statement you should include the following information:
+</p>
+<ul>
+  <li>if data are openly available, name of the data repository where the data can be accessed, including persistent identifier (e.g. DOI).</li>
+  <li>if data are not openly available, outline any ethical, legal or commercial reasons the data cannot be shared openly.</li>
+  <li>if data are not openly available, provide a link to permanent record detailing restrictions and conditions for access.</li>
+  <li>if publication uses existing data, provide a citation.</li>
+</ul>
+<p>There is further guidance on writing data access statements, including example statements, available from the University of Manchester&#39;s Research Data Management site (see Further Reading).
+</p>]]></text><gapFill linkID="PG1297862175937" name="Summary (1 of 2)" text="&lt;p&gt;You have now been introduced to the issues surrounding the sharing and licensing of research data.&#10;&lt;/p&gt;&#10;&lt;p&gt;As a summary task please drag and drop the words at the bottom of the page into the grey gaps left in the text.&#10;&lt;/p&gt;&#10;" passage="&lt;p&gt;Many funding bodies have adopted research data sharing |policies| or requirements.&lt;/p&gt;&#10;&#10;&lt;p&gt;Sharing research data enables others to replicate, validate and build upon your research without the |duplication| of effort involved in collecting the data again. It may also lead to new |collaborations| between data users and data creators.&lt;/p&gt;&#10;&#10;&lt;p&gt;When sharing research data, applying the |FAIR principles| will help to make your data findable, accessible, interoperable and reusable.&lt;/p&gt;&#10;&#10;&lt;p&gt;However, not all data can or should be shared. Issues such as ownership, commercial value, and |confidentiality| need to be considered.&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="Well done! Please continue to the second part of the activity on the next screen." panelWidth="Large"/><gapFill linkID="PG1399461319733" name="Summary (2 of 2)" text="&lt;p&gt;Please drag and drop the words at the bottom of the page into the grey gaps left in the text.&lt;/p&gt;&#10;" passage="&lt;p&gt;Research data are&amp;nbsp;protected by copyright law, prohibiting others from copying and sharing the work without |permission| from the original data creator/s.&lt;/p&gt;&#10;&#10;&lt;p&gt;Sharing your data under a licence allows you to grant others the right to use your research data, removing&amp;nbsp;any |ambiguity| over what others can and cannot do with your data.&lt;/p&gt;&#10;&#10;&lt;p&gt;A |CC0 licence| makes it clear that the work is in the public domain and may be used, adapted and distributed without restriction.&amp;nbsp;&lt;/p&gt;&#10;&#10;&lt;p&gt;A |CC-BY licence| makes it clear to users that they must attribute the work to the creator or author i.e. they must give credit by citing the creator.&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="Congratulations! You have successfully completed this unit." panelWidth="Large"/><text linkID="PG1300895470421" name="Next &amp; further reading "><![CDATA[<p><b>Congratulations once again!</b>
+  <br />
+  <br />
+  You have now completed this final unit of MANTRA. Take a look at the &#39;Further reading&#39; to gain further understanding of sharing and licensing research data.
+  <br />
+  <br />
+  You may also wish to gain practical skills in data handling in the software environment of your choice (SPSS, R, ArcGIS, NVivo). <b>Click</b> &#39;Data handling tutorials&#39; on the <a href="http://mantra.ed.ac.uk/">MANTRA home page</a> or go directly from <a href="../softwarepracticals.html">here</a> to select from the four tutorial options.
+  <br />
+  <br />
+  We are interested in your <a href="../feedback.html">feedback</a>, and we would like to get your comments on on any aspect of the course. Please fill in the feedback form, it will only take a few minutes.
+  <br />
+  <br />
+  <b>If you found this course useful, please recommend it to another person!</b>
+  <br />
+  <br />
+  <br />
+  <b>Further reading</b>
+</p>
+<p>Ball, A. (2014). &lsquo;How to License Research Data&rsquo;. DCC How-to Guides. Edinburgh: Digital Curation Centre. Retrieved 21 April 2020 from
+  <br />
+  <a href="https://www.dcc.ac.uk/guidance/how-guides/license-research-data" target="_blank">https://www.dcc.ac.uk/guidance/how-guides/license-research-data</a>
+</p>
+<p>Borgman, C. L. (2010). <i>Research Data: Who will share what, with whom, when, and why</i>. China-North America Library Conference, 17 August 2010.
+  <br />
+  <a href="https://works.bepress.com/borgman/238/" target="_blank">https://works.bepress.com/borgman/238/</a>
+</p>
+<p>Colavizza, G. et al. (2019) The citation advantage of linking publications to research data.
+  <br />
+  <a href="https://arxiv.org/abs/1907.02565" target="_blank">https://arxiv.org/abs/1907.02565</a>
+</p>
+<p>Consultative Committee for Space Data Systems (CCSDS). (2012). &#39;Reference Model for an Open Archival Information System (OAIS), Recommended Practice&#39; in <i>CCSDS 650.0-M-2 (Magenta Book)</i>, Issue 2, June 2012.Retrieved 21 April 2020 from
+  <br />
+  <a href="http://public.ccsds.org/publications/archive/650x0m2.pdf  " target="_blank">http://public.ccsds.org/publications/archive/650x0m2.pdf</a>
+</p>
+<p>Digital Curation Centre (DCC). <i>Curation Reference Manual</i>. Retrieved 21 April 2020 from
+  <br />
+  <a href="http://www.dcc.ac.uk/resources/curation-reference-manual" target="_blank">http://www.dcc.ac.uk/resources/curation-reference-manual</a>
+</p>
+<p>Digital Curation Centre (DCC). <i>DCC Curation Lifecycle Model</i>. Retrieved 22 April 2020 from
+  <br />
+  <a href="http://www.dcc.ac.uk/resources/curation-lifecycle-model " target="_blank">http://www.dcc.ac.uk/resources/curation-lifecycle-model </a>
+</p>
+<p>Digital Preservation Coalition (DPC). (2015). Digital Preservation Handbook, 2nd Edition. Retrieved 27 April 2020 from
+  <br />
+  <a href="https://www.dpconline.org/handbook" target="_blank">https://www.dpconline.org/handbook</a>
+</p>
+<p>Force11.org (2014) Guiding Principles for Findable, Accessible, Interoperable and Re-usable Data Publishing version b1.0. Retrieved 22 April 2020 from
+  <br />
+  <a href="https://www.force11.org/fairprinciples" target="_blank">https://www.force11.org/fairprinciples</a>
+</p>
+<p>Hannay, T. (5 August 2014). &#39;Stop the deluge of science research&#39; in <i>The Guardian</i>. Retrieved 22 April 2020 from
+  <br />
+  <a href="http://www.theguardian.com/higher-education-network/blog/2014/aug/05/why-we-should-publish-less-scientific-research" target="_blank">https://www.theguardian.com/higher-education-network/blog/2014/aug/05/why-we-should-publish-less-scientific-research</a>
+</p>
+<p>Korn, N., Oppenheim, C. (June 2011). <i>Licensing Open Data: A Practical Guide</i> (v.2.0). Retrieved 22 April 2020 from
+  <br />
+  <a href="http://discovery.ac.uk/files/pdf/Licensing_Open_Data_A_Practical_Guide.pdf" target="_blank">http://discovery.ac.uk/files/pdf/Licensing_Open_Data_A_Practical_Guide.pdf</a>
+</p>
+<p>Murray-Rust, P., Neylon, C., Pollock, R. and Wilbanks, J. (19 February 2010). <i>Panton Principles: Principles for Open Data in Science</i>. Open Knowledge Foundation. Retrieved 22 April 2020 from
+  <br />
+  <a href="http://pantonprinciples.org/ " target="_blank">http://pantonprinciples.org/ </a>
+</p>
+<p>Nature (Editor). (2014). &#39;Editorial: Share alike&#39; in <i>Nature</i> Vol. 507(07491):140. DOI: 10.1038/507140a. Retrieved 22 April 2020 from
+  <br />
+  <a href="http://www.nature.com/news/share-alike-1.14850" target="_blank">http://www.nature.com/news/share-alike-1.14850</a>
+</p>
+<p>OECD. (2007). <i>OECD principles and guidelines for access to research data from public funding</i>. Retrieved 22 April 2020 from
+  <br />
+  <a href="http://www.oecd.org/science/scienceandtechnologypolicy/38500813.pdf" target="_blank">http://www.oecd.org/science/scienceandtechnologypolicy/38500813.pdf</a>
+</p>
+<p>Open Knowledge Foundation (OKF) The Open Data Handbook. Retrieved 22 April 2020 from
+  <br />
+  <a href="http://opendatahandbook.org/" target="_blank">http://opendatahandbook.org/</a>
+</p>
+<p>Parsons, M. A. and Fox, P. A. (2013). &#39;Is Data Publication the Right Metaphor?&#39; in <i>Data Science Journal</i>, Vol. 12.
+  <br />
+  DOI: <a href="https://doi.org/10.2481/dsj.WDS-042" target="_blank">https://doi.org/10.2481/dsj.WDS-042</a>
+</p>
+<p>Piwowar, H. A., Day, R. S., Fridsma, D. B. (21 March 2007). <i>Sharing Detailed Research Data is Associated with Increased Citation Rate</i>. PLoS ONE 2(3): e308.
+  <br />
+  DOI: <a href="https://doi.org/10.1371/journal.pone.0000308" target="_blank">https://doi.org/10.1371/journal.pone.0000308</a>
+</p>
+<p>Research Data Alliance (RDS). (2020). RDA COVID-19 Guidelines and Recommendations.
+  <br />
+  DOI: <a href="https://doi.org/10.15497/rda00046" rel="noreferrer" target="_blank">https://doi.org/10.15497/rda00046</a>
+</p>
+<p>SPARC Europe. (2017). The Open Data Citation Advantage. Retrieved 20 April 2020 from
+  <br />
+  <a href="https://sparceurope.org/open-data-citation-advantage" target="_blank">https://sparceurope.org/open-data-citation-advantage</a>
+</p>
+<p>Summers, Ed. (2010). &#39;the 5 stars of open linked data&#39; in <i>inkdroid</i> blog. Retrieved 13 October 2020 from
+  <br />
+  <a href="https://inkdroid.org/2010/06/04/the-5-stars-of-open-linked-data/" target="_blank">https://inkdroid.org/2010/06/04/the-5-stars-of-open-linked-data/</a>
+</p>
+<p>The Royal Society. (2012). <i>Science as an Open Enterprise: Final Report</i>. Retrieved 13 October 2020 from
+  <br />
+  <a href="http://royalsociety.org/policy/projects/science-public-enterprise/report/" target="_blank">https://royalsociety.org/topics-policy/projects/science-public-enterprise/Report/</a>
+</p>
+<p>UK Research and Innovation (July 2018) <i>Common principles on data policy. Retrieved 20 April 2020 from
+  <br />
+  <a href="https://www.ukri.org/funding/information-for-award-holders/data-policy/common-principles-on-data-policy/" target="_blank">https://www.ukri.org/funding/information-for-award-holders/data-policy/common-principles-on-data-policy/</a> </i>
+</p>
+<p>University of Manchester. <i>Data Access Statements. Retrieved 1 December 2020 from
+  <br />
+  <a href="https://www.library.manchester.ac.uk/using-the-library/staff/research/research-data-management/sharing/data-access-statements/" target="_blank">https://www.library.manchester.ac.uk/using-the-library/staff/research/research-data-management/sharing/data-access-statements/</a> </i>
+</p>
+]]></text></learningObject>

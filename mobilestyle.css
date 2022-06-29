@@ -1,0 +1,354 @@
+@charset "utf-8";
+/*  THE FOLLOWING CLEARFIX STYLE
+    FORCES THE SURROUNDING BOX TO 
+    ENCASE ALL FLOATING ELEMENTS.
+*/
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% 
+.ie6 img {
+	width:100%;
+}*/
+
+body {
+background-color:#fff;
+
+}
+/***********************************************************************************************************************
+DOCUMENT: style/format.css
+DEVELOPED BY: Ryan Stemkoski
+COMPANY: Zipline Interactive
+EMAIL: ryan@gozipline.com
+PHONE: 509-321-2849
+DATE: 2/26/2009
+DESCRIPTION: This document contains the structural formatting files for the accordion style menu.
+************************************************************************************************************************/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+.wrapper {
+	width: 347px;
+	/*height:386px;set the height of entire accordion here if required*/
+	/*margin:10px;*/
+	}/*holds the whole accordian*/
+.wrapper1 {
+	float:left;
+	width: 347px;
+	/*height:386px;set the height of entire accordion here if required*/
+	/*margin:10px;*/
+	}/*holds the whole accordian*/
+.wrapper2 {
+	float:left;
+	width: 347px;
+	/*height:386px;set the height of entire accordion here if required*/
+	/*margin:10px*/
+	}/*holds the whole accordian*/
+.wrapper3 {
+	float:left;
+	width: 347px;
+	/*height:386px;set the height of entire accordion here if required*/
+	/*margin:10px;*/
+	}/*holds the whole accordian*/	
+.accordionButton {/*just the clickable heading*/	
+	width: 331px;
+	height:65px;
+	float: left;
+	_float: none;  /* Float works in all browsers but IE6*/ 
+	cursor: pointer;
+	margin-top:6px;
+	margin-left:6px;
+	margin-right:6px;
+	margin-bottom:6px;
+	}
+.buttonimage1 {
+	background-image:url(./images/button1.png);
+	background-repeat:no-repeat;
+	width: 331px;
+	height:65px;
+}
+.buttonimage2 {
+	background-image:url(./images/button2.png);
+	background-repeat:no-repeat;
+	width: 331px;
+	height:65px;
+}
+.buttonimage3 {
+	background-image:url(./images/button3.png);
+	background-repeat:no-repeat;
+	width: 331px;
+	height:65px;
+}
+.buttonimage4 {
+	background-image:url(./images/button4.png);
+	background-repeat:no-repeat;
+	width: 331px;
+	height:65px;
+}
+.buttonimage5 {
+	background-image:url(./images/button5.png);
+	background-repeat:no-repeat;
+	width: 331px;
+	height:65px;
+}
+.buttonimage6 {
+	background-image:url(./images/button6.png);
+	background-repeat:no-repeat;
+	width: 331px;
+	height:65px;
+}
+.buttonimage7 {
+	background-image:url(./images/button7.png);
+	background-repeat:no-repeat;
+	width: 331px;
+	height:65px;
+}
+.buttonimage8 {
+	background-image:url(./images/button8.png);
+	background-repeat:no-repeat;
+	width: 331px;
+	height:65px;
+}
+.buttonimage9 {
+	background-image:url(./images/button9.png);
+	background-repeat:no-repeat;
+	width: 331px;
+	height:65px;
+}
+
+
+.accordionContent {	/*just the content of the tabs*/
+	width: 347px;
+	float: left;
+	_float: none; /* Float works in all browsers but IE6*/ 
+	}
+.open {
+	min-height:80px;
+	line-height:180%;
+	font-size:80%;
+	font-weight:bold;
+}
+.banner {
+	/*width:288px;*/
+	width:347px;
+	height:73px;
+	padding-left: 7px;
+	background-image:url(images/bannermobile.png);
+	background-repeat:no-repeat;
+	background-color:#000;
+}
+.topmenu {
+	width:347px;
+	clear:both;
+}
+h1 {
+	top:0px;
+	position:absolute;
+	left:-3000px;
+}
+.title {
+	top:0px;
+	position:absolute;
+	left:-3000px;
+}
+
+.left {
+	margin-top:3px;
+	margin-bottom: 3px;
+	background-color:#000;
+	text-align: center;
+	color:#fff;
+	padding-top:5px;
+	padding-left:7px;
+	padding-bottom:5px;
+	font-size:90%;
+	width:347px;
+}
+
+ .footerbox {
+	padding-left:10px;
+}
+	
+.edina {
+	float:left;
+}
+
+.socialmedia {
+	top:0px;
+	position:absolute;
+	left:-3000px;
+}
+	
+.cc2 {
+	float:right !important;
+	padding-top:14px;
+	padding-bottom: 5px;
+}
+
+.uofe {
+	float:left;
+	padding-bottom:12px;
+	padding-top:12px;
+}
+
+.clear {
+	clear:both;
+}
+.footer{
+	font-size:80%;
+	text-align: center;
+	padding-bottom: 10px;
+	}
+	
+.grey {
+	border: 1px solid #b8b8b8;
+	padding:2px;
+}
+
+.learningunits {
+	padding-left:3px;
+}
+	
+#nav {
+margin:0;
+margin-top:2px;
+padding-top:5px;
+padding-left:7px;
+padding-right:0px;
+padding-bottom:0px;
+background-color:#000;
+margin-bottom:8px;
+width:347px;
+line-height:200%;
+}
+
+#nav li {
+/*display:inline;*/
+padding:0;
+margin:0;
+}
+#nav a:link,
+#nav a:visited {
+color:#ffffff;
+padding:2px 25px 2px 25px;
+text-decoration:none;
+font-size:90%;
+font-weight:bold;
+ }
+li#nav-home a#active{
+font-weight:bold;
+background-color:#666666;
+margin:0px;
+
+}
+#nav a:hover {
+text-decoration:underline;
+font-weight:bold;
+ }
+ .right {
+	 top:0px;
+	position:absolute;
+	left:-3000px;
+float:left;
+width:25%;
+
+}
+.rightright {
+float:right;
+width:25%;
+}
+ 
+/***********************************************************************************************************************
+ EXTRA STYLES ADDED FOR MOUSEOVER / ACTIVE EVENTS
+************************************************************************************************************************/
+
+.on {/*this is for when a heading is activated*/
+		min-height:65px;
+	}
+	
+.over { /*when you mouse over a heading the colour changes*/
+	min-height:65px;
+	}
+	
+.clearfix:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+}
+.clearfix {display: inline-block }
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */ 
+.surround {
+	border:2px solid #d1d2d4;
+	-moz-border-radius: 18px;
+ 	border-radius: 18px;
+	margin-bottom:9px;
+}
+.txtbuttonheading {
+	font-weight:bold;
+	padding-left:30px;
+	padding-top:25px;
+		}
+a.txtbuttonheading:link {
+	text-decoration:none;
+	/*color:#0b317a;*/
+	font-size:80%;
+}
+a.txtbuttonheading:visited {
+	text-decoration:none;
+	/*color:#0b317a;*/
+	font-size:80%;
+}
+a.txtbuttonheading:hover {
+	text-decoration:underline;
+	/*color:#0b317a;*/
+	font-size:80%;
+	
+}
+.soft {font-size:80%;
+padding-left:34px;}
+
+table, th, td
+ {
+ border: 1px solid #99ddf3;
+ background-color:#ecf8fc;
+ }
+table.second, th.second, td.second
+ {
+ border: 1px solid #ffffff;
+ background-color:#ffffff;
+ }
+ table.third, th.third, td.third
+ {
+ border: 1px solid #fb9a49;
+ background-color:#fbebdd;
+ }
+

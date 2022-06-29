@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<learningObject language="en-GB" name="Organising data" navigation="Linear" textSize="12" displayMode="fill window" editorVersion="3" responsive="true"><bullets linkID="PG1409756571628" name="Learning objectives" delaySecs="1" showBullets="0" showPanel="0" panelWidth="Full"><![CDATA[<p>The aim of this unit is to introduce you to the concepts of research data organisation, explain why it is important, and what constitutes good data file management.
+</p>
+<br/>
+<p>After completing this unit you will:
+</p>
+<br/>
+<p>▪ Appreciate why research data organisation&nbsp;is important as your project grows.
+</p>
+<p>▪ Understand data file naming,&nbsp;re-naming and versioning conventions.
+</p>
+<p>▪ Be prepared to manage your code and track workflows to make them shareable and reproducable.
+</p>
+<p>▪ See how electronic lab notebooks can support the collaborative research process.
+</p>
+]]></bullets><text linkID="PG1594931968904" name="Introduction"><![CDATA[<p>At the start of a research project, it is easy to believe that you&#39;ll remember what name you gave to a file and where you put it. However, once your research gets underway there may be multiple files in various formats, multiple versions, websites, citations, blogs, articles, methodologies, notes, spreadsheets, etc. all relating to your research. Trying to find a data file that you need which has been stored or named incorrectly or inaccurately can be both frustrating and a waste of valuable time.<br />
+<br />
+Good file management practices are therefore essential to enable you to identify, locate and use your research data files efficiently and effectively. Additionally, good file management practices such as following group file naming protocols are also required should you wish to share your files with others in a shared file space.<br />
+<br />
+&quot;Naming records consistently, logically and in a predictable way will distinguish similar records from one another at a glance, and by doing so will facilitate the storage and retrieval of records, which will enable users to browse file names more effectively and efficiently. Naming records according to agreed conventions should also make file naming easier for colleagues because they will not have to &lsquo;re-think&rsquo; the process each time.&quot;<br />
+<br />
+<a href="https://www.ed.ac.uk/records-management/guidance/records/practical-guidance/naming-conventions" target="_blank">University of Edinburgh, Records Management Section</a></p>
+]]></text><text linkID="PG1590412571147" name="Video: good file management in research" textWidth="760"><![CDATA[<p><iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/i2jcOJOFUZg" width="560"></iframe></p>
+
+<p>Professor Jeff Haywood, former Vice Principal and Chief Information Officer &amp; Librarian, University of Edinburgh, talks about the importance of good file management in research projects.<br />
+<br />
+Playback quality and subtitles may be selected using the options menu (click&nbsp;the &#39;cog&#39; button below the video). You can also watch this&nbsp;video directly on <a href="http://www.youtube.com/watch?v=i2jcOJOFUZg&amp;index=2&amp;list=PL2XF5RiVI7GMB6mlitNrD38Z82i2qOmZR" target="_blank">YouTube</a>.<br />
+<br />
+A transcript of this video is also available on the following page.</p>
+]]></text><text linkID="PG1589979803308" name="Video transcript" textWidth="760"><![CDATA[<p>I certainly have, over the years, learned some more discipline about saving files with intelligible names in intelligible places. Because although everybody always says oh I&#39;ll remember, actually in truth you never do. And so as a consequence I have actually had to go back and listen to and open and peer into files to see what was in, them because the name, the labelling and the location were cryptic after the event.<br />
+<br />
+I&#39;ve mostly worked in small team settings, and so therefore sharing data between the team members has been normal, so I haven&#39;t had that problem of having data just for me and then suddenly wanting to share it. And so I have had to have some degree of discipline around labelling the data so that they were intelligible to other people, for instance SPSS files having meaningful labels on them so that when you gave them to other people they could make sense of them, because it actually feels much more laborious to go back and label something after the event then it does to do it at the time.<br />
+<br />
+And so there is a discipline you need to teach yourself, I think, to do it at the time because if you don&#39;t you regret it later if you have to go back. So I think that to some degree the extent to which people gather data and store data in sensible ways is a reflection of how they keep all the other data that&#39;s in their lives and it is quite interesting that sometimes when you get a look into people&#39;s filing systems electronically or see the desktops on their machines you realise it&#39;s a rather amorphous plethora of objects and things which are not structured and that some people have them highly structured. I think I&#39;ve been fortunate that I&#39;ve always had a bit of a folder compartmentalisation mentality and that&#39;s actually made it easier to keep things and be able to find them later. I think that without that, you do find that over a period of time you gather so much data that finding where the things are that you wanted, and trying to understand where and how you gathered them at that time becomes a problem. And so I think when that becomes a problem you become resistant perhaps to sharing because you know they are not labelled well, and certainly to putting into open access position locations where other people could get them without any help from you.<br />
+<br />
+I think that where you are funded by research councils, for instance like ESRC, and you have to put it into their repository, and you have to label it up in a proper way, is a really useful discipline to make you get it right. But I think that even for postgraduate students with their own data that they are going to use in their PhD etc., it&#39;s like handling references with Endnote or bibliographic reference management tools, that it&#39;s a good discipline to get into at a really early stage. Because once it becomes a habit it doesn&#39;t seem so much of a chore. When people come back and ask you years later, if you like, to label data, that&#39;s a chore.</p>
+]]></text><textGraphics linkID="PG1594987900166" name="Benefits of a file naming strategy" align="Left" imagesize="auto" url="FileLocation + 'media/FLICKR_image_by_WD_Store_-_removing_paper_files_from_box_-_CCSA_small.jpg'" tip="Removing paper files from box image by WD_Store (Flickr, CC-BY 2.0)" transcriptbuttonlabel="Transcript"><![CDATA[<p>A key aspect of successfully managing your data is naming and organising your files and associated folders effectively. A file name is the chief identifier for a research data file.</p>
+
+<p>A good file and folder naming strategy will help you to quickly find the files you need, to easily understand what a particular data file is and what it contains, and to differentiate between different files and different versions of the same file.</p>
+
+<p>Adopting a sensible file naming strategy and applying it consistently will provide an audit trail for the development of your data. This will help prevent confusion when working on files, particularly when working collaboratively with others, and ensure data files are not accidentally overwritten or deleted.</p>
+]]></textGraphics><buttonNav linkID="PG1594932184232" name="What&amp;#39;s in a name?" text="&lt;p&gt;There are three main criteria to consider regarding the naming and labelling of research data files, namely:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;&#9;&lt;li&gt;&lt;b&gt;Organisation&lt;/b&gt; - important for future access and retrieval, and needs to take into account the file naming constraints of the system where the file is located.&lt;/li&gt;&#10;&#9;&lt;br /&gt;&#10;&#9;&lt;li&gt;&lt;b&gt;Context&lt;/b&gt; - this could include content specific or descriptive information, independent of where the data are stored.&lt;/li&gt;&#10;&#9;&lt;br /&gt;&#10;&#9;&lt;li&gt;&lt;b&gt;Consistency &lt;/b&gt;- choose a naming convention and ensure that the rules are followed systematically by always including the same information in the same order.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;Consider the two examples in the panel to the right which demonstrate the benefits of effective file labelling.&lt;/p&gt;&#10;" panelWidth="Medium" hidePage="false"><nestedPage linkID="PG1594932184300" name="Example 1" text="&lt;p&gt;&lt;span style=&quot;tab-stops:list 36.0pt&quot;&gt;&lt;span style=&quot;tab-stops:list 36.0pt&quot;&gt;&lt;strong&gt;File name:&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;span style=&quot;tab-stops:list 36.0pt&quot;&gt;&lt;span style=&quot;tab-stops:list 36.0pt&quot;&gt;&lt;/span&gt;interview02.docx&lt;/span&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;What can the file name tell us about the file?&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;This&amp;nbsp;file name includes descriptive information but does not contain any&amp;nbsp;contextual information. While this naming strategy&amp;nbsp;may have meaning to the person creating the data, someone who is not familiar with the data (perhaps even the data creator after some time has passed)&amp;nbsp;may need to open multiple files to find the correct one.&lt;/p&gt;&#10;" align="Top"/><nestedPage linkID="PG1594932184311" name="Example 2" text="&lt;p&gt;&lt;strong&gt;File name&lt;/strong&gt;:&lt;/p&gt;&#10;&#10;&lt;p&gt;IP02R0120190731.docx&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;What can the file name tell us about the file?&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;This file name can be broken down into four separate elements:&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;File name components:&lt;/strong&gt; I P02 R01 20190731&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;&#9;&lt;li&gt;I = interview (type of data)&lt;/li&gt;&#10;&#9;&lt;li&gt;P[n] = participant ID - participant 02&lt;/li&gt;&#10;&#9;&lt;li&gt;R[n] = researcher ID &amp;ndash; researcher 01&lt;/li&gt;&#10;&#9;&lt;li&gt;Date of interview in form YYYYMMDD &amp;ndash; 20190731&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;Using this particular&amp;nbsp;file naming convention, we can easily find out what type of data it is, which participant it relates to, who conducted the interview, and the date the interview was conducted without needing to open the file.&lt;/p&gt;&#10;" align="Top"/><nestedPage linkID="PG1594932184320" name="Summary" text="&lt;p&gt;Comparing these two examples, we can see that including contextual information will help you to keep track of the research process, and help to make finding the data files you need quicker and easier.&lt;/p&gt;&#10;" align="Top"/></buttonNav><text linkID="PG1594823422088" name="Naming conventions"><![CDATA[<p>A file name should include enough descriptive and contextual information to make the files relevant and useful for you and other potential users.</p>
+
+<p>Avoid using&nbsp;generic file names that may conflict when moved from one location to another.&nbsp;Remember that file names should remain meaningful and useful independently of where they were originally created and stored, and should outlast the person who originally created and named the file.</p>
+
+<p>The following non-exhaustive list includes a number of common elements that should be considered when developing a file naming strategy:</p>
+
+<ul>
+	<li>Description of the content</li>
+	<li>Project number</li>
+	<li>Name of creator</li>
+	<li>Name of research team/department associated with the data</li>
+	<li>Date of creation; Publication date</li>
+	<li>Version number</li>
+</ul>
+
+<p>Decide what labels are appropriate for your own data files and be consistent in applying them. Labelling your files effectively can provide an audit trail for the development of your data.</p>
+]]></text><nav linkID="PG1593620838713" name="File naming considerations" text="&lt;p&gt;There are a number of easy-to-follow rules for naming files&amp;nbsp;that will help to improve the use and re-use&amp;nbsp;of your data, shown in the next window (advance to the next slide by using the right arrow).&lt;/p&gt;&#10;" type="Slide" nextBtnTip="Next" prevBtnTip="Previous" slideCount="Slide {i} of {n}"><navPage linkID="PG1593620838723" name="&lt;strong&gt;1.&amp;nbsp;Keep file names short and relevant&lt;/strong&gt;" text="&lt;p&gt;File names should be short and relevant - generally about 25 characters is a sufficient length to capture enough descriptive and contextual&amp;nbsp;information for a data file.&lt;/p&gt;&#10;"/><navPage linkID="PG1593620838726" name="&lt;strong&gt;2.&amp;nbsp;Do not use special characters&lt;/strong&gt;" text="&lt;p&gt;Do not use special characters in a filename, such as: &amp;pound;&amp;quot;$%!&amp;rdquo;&amp;not;&amp;amp;*^()+=[]{}~@:;#,.&amp;lt;&amp;gt; as these are often used for specific tasks in different operating systems.&lt;/p&gt;&#10;"/><navPage linkID="PG1593620838728" name="&lt;strong&gt;3. Do not use full-stops or spaces&lt;/strong&gt;" text="&lt;p&gt;Like special characters, full-stops and spaces are parsed differently on different systems - consider using&amp;nbsp;underscores or hyphens instead.&lt;/p&gt;&#10;"/><navPage linkID="PG1593620838732" name="&lt;strong&gt;4. Date formatting&lt;/strong&gt;" text="&lt;p&gt;If including dates, format them consistently&amp;nbsp;following the format Year-Month-Day:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;&#9;&lt;li&gt;YYYY-MM-DD&lt;/li&gt;&#10;&#9;&lt;li&gt;YYYY-MM&lt;/li&gt;&#10;&#9;&lt;li&gt;YYYY-YYYY&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;Formatting dates in this way maintains the chronological order and simplifies the process of sorting and browsing your data files.&lt;/p&gt;&#10;"/><navPage linkID="PG1593620838734" name="&lt;strong&gt;5. Case dependency&lt;/strong&gt;" text="&lt;p&gt;Do not assume that the software application or instrument uses case dependency when naming or renaming files within the aforementioned utility - assume that TANGO, Tango and tango are the same, even though&amp;nbsp;some file systems may consider them as different.&lt;/p&gt;&#10;"/></nav><text linkID="PG1590411917308" name="Video: common mistakes when organising your data" textWidth="760"><![CDATA[<p><iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/Z_ysxiAGKC8" width="560"></iframe></p>
+
+<p>This video is from a talk given by Dave Anderson from the National Oceanic and Atmospheric Administration&#39;s (NOAA) National Climatic Data Center at the Data Management workshop sponsored by the Earth Science Information Partners (ESIP).</p>
+
+<p>It highlights how early decisions made about data organisation can lead to problems for the ongoing usability of research data in the future. These include issues with proprietary formats, unhelpful labelling and vague file names.</p>
+]]></text><textGraphics linkID="PG1594989766141" name="Automatically generated file names" align="Right" imagesize="auto" url="FileLocation + 'media/FLICKR_image_by_Oak_Ridge_National_Laboratory_-_Standoff_Laser_Spectroscopy_System_CC_BY_2.0.jpg'" tip="Standoff Laser Spectroscopy System image by Oak Ridge National Laboratory (Flickr, CC-BY 2.0)" transcriptbuttonlabel="Transcript"><![CDATA[<p>There are situations in which files may be assigned automatically generated file names.</p>
+
+<p>For example,</p>
+
+<ul>
+	<li>image files generated by&nbsp;digital cameras will often be&nbsp;assigned base file names consisting of sequential numbers.</li>
+	<li>proprietary software or instrumentation often generate crude, default or multiple file names.</li>
+</ul>
+
+<p>To enhance the usability of automatically generated file names&nbsp;it may be necessary to rename the relevant files to make them consistent with your own file naming conventions.</p>
+
+<p>Although all operating systems have in-built file management tools for renaming files, there are dedicated software tools that can simplify this&nbsp;process, particularly when there are a large numbers of file names to be modified.</p>
+
+<p>Batch renaming (also known as mass file renaming, bulk renaming) allows research data files and folders to be renamed in a consistent&nbsp;and automated way, and&nbsp;software exists for most operating systems.</p>
+
+<p>These tools can also be used to remove or replace special and/or non-English characters in file names when transferring data files between systems, where one or the other&nbsp;system does not support them.</p>
+]]></textGraphics><nav linkID="PG1590416993189" name="Batch renaming tools" text="&lt;p&gt;There are a number of batch renaming tools available. Some&amp;nbsp;examples of tools available for different operating systems&amp;nbsp;are shown in the next window (advance to the next slide by using the right arrow).&lt;/p&gt;&#10;" type="Slide" nextBtnTip="Next" prevBtnTip="Previous" slideCount="Slide {i} of {n}"><navPage linkID="PG1590417013747" name="&lt;b&gt;Windows&lt;/b&gt;" text="&lt;ul&gt;&#10;&#9;&lt;li&gt;Ant Renamer:&amp;nbsp;&lt;a href=&quot;http://www.antp.be/software/renamer&quot; target=&quot;_blank&quot;&gt;www.antp.be/software/renamer&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;br /&gt;&#10;&#9;&lt;li&gt;RenameIT:&amp;nbsp;&lt;a href=&quot;http://sourceforge.net/projects/renameit/&quot; target=&quot;_blank&quot;&gt;sourceforge.net/prpjects/renameit&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;br /&gt;&#10;&#9;&lt;li&gt;Bulk Rename Utility:&amp;nbsp;&lt;a href=&quot;http://www.bulkrenameutility.co.uk/&quot; target=&quot;_blank&quot;&gt;www.bulkrenameutility.co.uk/&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;"/><navPage linkID="PG1590417046443" name="&lt;strong&gt;Mac&lt;/strong&gt;" text="&lt;ul&gt;&#10;&#9;&lt;li&gt;Renamer:&amp;nbsp;&lt;a href=&quot;http://renamer.com/&quot; target=&quot;_blank&quot;&gt;renamer.com/&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;br /&gt;&#10;&#9;&lt;li&gt;Name Changer:&amp;nbsp;&lt;a href=&quot;http://mrrsoftware.com/namechanger/&quot; target=&quot;_blank&quot;&gt;mrrsoftware.com/namechanger/&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;"/><navPage linkID="PG1590417076715" name="&lt;strong&gt;Linux&lt;/strong&gt;" text="&lt;ul&gt;&#10;&#9;&lt;li&gt;GNOME Commander:&amp;nbsp;&lt;a href=&quot;https://gcmd.github.io/&quot; target=&quot;_blank&quot;&gt;https://gcmd.github.io/&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;br /&gt;&#10;&#9;&lt;li&gt;GPRename:&amp;nbsp;&lt;a href=&quot;http://gprename.sourceforge.net/&quot; target=&quot;_blank&quot;&gt;http://gprename.sourceforge.net/&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;"/><navPage linkID="PG1590417098523" name="&lt;strong&gt;Unix&lt;/strong&gt;" text="&lt;ul&gt;&#10;&#9;&lt;li&gt;Using the &lt;b&gt;grep&lt;/b&gt; command to search for regular expressions&lt;/li&gt;&#10;&lt;/ul&gt;&#10;"/></nav><quiz linkID="PG1594828000923" name="Activity 1 - naming files effectively" order="random" numQuestions="*" align="left" panelWidth="Medium" instructions="&lt;p&gt;Consider the following file names. Decide which of the three options uses the most effective file naming convention.&#10;&lt;/p&gt;&#10;&lt;p&gt;Click the &amp;#39;Submit&amp;#39; button for feedback. Click the &amp;#39;Next&amp;#39; button to proceed through the exercise.&#10;&lt;/p&gt;" judge="false" showfeedback="true" feedback="&lt;p&gt;Well done, you have completed this quiz. Click the &amp;#39;right arrow&amp;#39; below to continue this unit.&lt;/p&gt;&#10;" quesCount="Question {i} of {n}" feedbackLabel="Feedback" singleRight="Your answer is correct!" singleWrong="Your answer is incorrect" multiRight="You have selected all the correct answers" multiWrong="You have not selected the correct combination of answers" onCompletion="You have completed the exercise" score="You scored {i} / {n}" submitBtnText="Submit" nextBtnText="Next" restartBtnText="Restart"><question linkID="PG1594828025337" prompt="" name="Question" type="Single Answer"><option linkID="PG1594828071393" text="&lt;p&gt;240319attch&lt;/p&gt;&#10;" name="Answer" feedback="&lt;p&gt;No. The file name appears to use&amp;nbsp;a date format (DD-MM-YY)&amp;nbsp;which is less&amp;nbsp;easy to interpret, browse and locate chronologically. The file name is&amp;nbsp;not immediately intuitive.&lt;/p&gt;&#10;" correct="false"/><option linkID="PG1594828031161" text="&lt;p&gt;2019-03-24_Attachment&lt;/p&gt;&#10;" name="Answer" feedback="&lt;p&gt;Yes. Files using this naming convention are easy to distinguish from one another, easier to browse and to locate chronologically.&lt;/p&gt;&#10;" correct="true"/><option linkID="PG1594828059961" text="&lt;p&gt;24 March 2019&amp;nbsp;Attachment&lt;/p&gt;&#10;" name="Answer" feedback="&lt;p&gt;No. Using this data format will mean the file will be less easy to browse and locate chronologically. File names including&amp;nbsp;spaces may be parsed differently when transferred to other platforms or operating&amp;nbsp;systems.&lt;/p&gt;&#10;" correct="false"/></question><question linkID="PG1594828198065" prompt="" name="Question" type="Single Answer"><option linkID="PG1594828571322" text="&lt;p&gt;labtox_recent_110819_old_version.sps&lt;/p&gt;&#10;" name="Answer" feedback="&lt;p&gt;No. The date format is ambiguous - does it refer to 11th August 2019 or 19th August 2011? There could be a number of old versions, dependent on the type of analysis - avoid using potentially confusing labels where possible. Versioning will help to identify older versions of a file&amp;nbsp;from more recent updates.&lt;/p&gt;&#10;" correct="false"/><option linkID="PG1594828597889" text="&lt;p&gt;FFTX_3776438656.sps&lt;/p&gt;&#10;" name="Answer" feedback="&lt;p&gt;No. This is an application- or instrument-generated filename which lacks&amp;nbsp;descriptive or context-specific information.&lt;/p&gt;&#10;" correct="false"/><option linkID="PG1594828582881" text="&lt;p&gt;2019-08-11_bioassay_toxicity_V1.sps&lt;/p&gt;&#10;" name="Answer" feedback="&lt;p&gt;Yes. The date is in a uniform format and is easy to distinguish from other files using the same date convention. The file name represents the content more accurately. Using a version numbering convention also makes it easier to distinguish from other versions of the same file.&lt;/p&gt;&#10;" correct="true"/></question></quiz><textGraphics linkID="PG1594988261607" name="Working in a team" align="Left" imagesize="auto" url="FileLocation + 'media/640px-A_group_of_African_scientists_working_as_a_team_wikimedia_CC-BY-2.0.jpg'" tip="African scientists working as a team image by Excelz (Wikimedia, CC-SA 4.0)" transcriptbuttonlabel="Transcript"><![CDATA[<p>If you are sharing data and collaborating with others&nbsp;in shared folders or spaces it is even more important that all team members adopt the same conventions and standards.</p>
+
+<p>To ensure data can be easily accessed and understood, and to protect against accidental data loss:</p>
+
+<ul>
+	<li>Create a simple &#39;quick guide&#39; document which details the naming and organisational conventions.</li>
+	<br />
+	<li>Ensure all team members or collaborators have access to the guide and are trained in the conventions.</li>
+</ul>
+]]></textGraphics><textGraphics linkID="PG1594989357999" name="Versioning files" align="Right" imagesize="auto" url="FileLocation + 'media/PhD_versions_6.png'" tip="PhD thesis versioning image by MANTRA team (CC-BY 4.0)" transcriptbuttonlabel="Transcript"><![CDATA[<p>It is important to identify and distinguish versions of research data files consistently. Versioning your files ensures that a clear audit trail exists for tracking the development of a data file and identifying earlier versions when needed.</p>
+
+<p>When versioning files it is common practice to use consecutive numbering for major version changes, with decimals used for minor changes (v1; v1.1; v2.1; v2.2).</p>
+
+<p>Record every change irrespective of how minor that change may be. However, keep in mind that too many similar or related files may be confusing, both to yourself and to anyone else wanting to access or use your data. You may think that you know which data file is which but that may not always be the case as time passes and the number of different file versions grows.</p>
+
+<p>It is easier to maintain a manageable number of versions with a clear naming structure. As long as the original &#39;raw&#39; or definitive copy is retained and processing is well documented, intermediate working files can be discarded.</p>
+]]></textGraphics><text linkID="PG1590420985635" name="Versioning in the cloud"><![CDATA[<p>There are a number of&nbsp;dedicated and cloud-based tools which provide tools for versioning files.</p>
+
+<ul>
+	<li>Dedicated tools, such as Subversion and TortoiseSVN, provide systems for versioning files.</li>
+	<br />
+	<li>When working on files collaboratively, cloud-based services such as Wikis and Google Docs provide automatic version tracking, allowing you to &#39;roll back&#39; to older versions if necessary.</li>
+	<br />
+	<li>Microsoft SharePoint and OneDrive are cloud-based file storage and file sharing services which have in-built backup and file versioning tools. These can be particularly useful when working on files collaboratively.</li>
+	<br />
+	<li>The Open Science Framework (OSF) provide a free and open source project management tool. The OSF tool facilitates collaboration with external partners and includes functionality to organise, version, document and share research files and outputs.</li>
+</ul>
+
+<p>Your university may have a contract with a particular provider, whether this is Dropbox, Google or Microsoft. It is recommended that you use institutionally supported services where available and there will be advantages to using your own university&#39;s preferred system.</p>
+]]></text><buttonQuestion linkID="PG1297259836250" name="Activity 2&amp;nbsp;- consistent file naming" instruction="&lt;p&gt;Reflect&amp;nbsp;on your own file naming and versioning practices and think about the following question.&lt;/p&gt;&#10;&#10;&lt;p&gt;Click on the &amp;#39;Answer&amp;#39; button for feedback.&lt;/p&gt;&#10;" prompt="&lt;p&gt;What advantages are there to a consistent approach to labelling and versioning data files?&lt;/p&gt;&#10;" label="Answer" feedback="&lt;p&gt;A consistent approach to versioning files means that you can easily identify the most recent copy of a file or a final version of a file without having to open individual files.&lt;/p&gt;&#10;&#10;&lt;p&gt;Adding contextual and descriptive information in a file name can help identify what was changed in the file and when.&lt;/p&gt;&#10;&#10;&lt;p&gt;If a common file naming or versioning procedure is agreed and used consistently, the process of working on shared files with research colleagues or collaborators will be simplified.&lt;/p&gt;&#10;" align="Left" panelWidth="Medium"/><textGraphics linkID="PG1594989500895" name="Don&amp;#39;t forget your code" align="Left" imagesize="auto" url="FileLocation + 'media/SPSS_syntax_screenshot_2.PNG'" tip="SPSS syntax image by MANTRA team (CC-BY 4.0)" transcriptbuttonlabel="Transcript"><![CDATA[<p>Data is seldom analysed in its raw form, and the term &#39;research software&#39; refers to the code or processing scripts used to clean, transform or analyse research data.</p>
+
+<p>Your code may be written in scripting languages such as UNIX shell or&nbsp;Python, in traditional programming languages such as C, C++, FORTRAN or Java, or data analysis packages such as R or MATLAB.</p>
+
+<p>For a research project this might include:</p>
+
+<ul>
+	<li>a few lines of a shell script to clean or filter your data</li>
+	<li>a set of R commands to generate graphs</li>
+	<li>Python code for text mining</li>
+	<li>SPSS syntax file for your statistical analysis</li>
+	<li>10,000 lines of Java for medical image analysis</li>
+</ul>
+
+<p>Regardless of the scale, the syntax and code you generate is an important research output required to validate your work. As with the data itself, you need to implement a strategy for naming, versioning and archiving your research software.</p>
+]]></textGraphics><text linkID="PG1595006151989" name="Code versioning tools"><![CDATA[<p>There are a number of useful tools available designed to help you track and version your code. The most widely used are based on the Git versioning system, and these include:
+</p>
+<p>GitHub: <a href="https://github.com/" target="_blank">https://github.com</a>
+  <br />
+  GitLab: <a href="https://about.gitlab.com/" target="_blank">https://about.gitlab.com</a>
+  <br />
+  Bitbucket: <a href="https://bitbucket.org/" target="_blank">https://bitbucket.org</a>
+  <br />
+  Gitea: <a href="https://gitea.io/en-us/" target="_blank">https://gitea.io/en-us</a>
+</p>
+<p>These tools are designed specifically to track the development and allow you to version your code. They support and promote collaborative working, and allow you to make your code publicly available when appropriate.
+</p>
+<p>These services commonly provide some level of free access. For a more complete set of code versioning tools, check with your own institute as they may have a license arrangement to use one of these services.
+</p>
+<p>If your code is extensive, it is highly recommended to use a Git repository. There are extensive training videos on using Git repositories available online which will help you to use of your repository of choice correctly and make the most of its functionality.
+</p>
+<p>If your code base is small and comprises only one or two files you may prefer to use a manual versioning system instead.
+</p>
+]]></text><text linkID="PG1594980941150" name="Computational notebooks"><![CDATA[<p>Computational notebooks provide a workspace for writing and developing code, facilitating the sharing and publishing of script workflows.
+</p>
+<p>Perhaps the most commonly known computational notebook, Jupyter Notebook provides an open-source web-based application for creating and sharing documents that contain live code, equations, visualisations and narrative text.
+</p>
+<p>In addition to tracking the development of code, Jupyter Notebook can be used directly for cleaning and transforming data, numerical simulation, statistical modeling and more.
+</p>
+]]></text><nav linkID="PG1595006339795" name="Electronic lab notebooks" text="&lt;p&gt;Other tools, such as electronic lab notebooks (ELNs) can support the organisation of research data.&lt;/p&gt;&#10;&#10;&lt;p&gt;ELNs perform the same function as paper lab notebooks, and also enable better sharing and searching for data.&lt;/p&gt;&#10;&#10;&lt;p&gt;Some electronic lab notebooks also support integration with other tools used in the lab, and with research infrastructure.&lt;/p&gt;&#10;&#10;&lt;p&gt;Click on the headings to see the advantages of using an electronic lab notebook.&lt;/p&gt;&#10;" type="Tab" nextBtnTip="Next" prevBtnTip="Previous" slideCount="Slide {i} of {n}"><navPage linkID="PG1595006339807" name="Organising your data" text="&lt;p&gt;&#x25AA; Data and documents have a unique ID assigned to them at time of creation which stays with them regardless of changes to the filename, preventing mix-ups with similarly named files.&lt;/p&gt;&#10;&#10;&lt;p&gt;&#x25AA; All files have appropriate metadata including creator, creation date, last modification, file type etc assigned to them at time of creation.&lt;/p&gt;&#10;&#10;&lt;p&gt;&#x25AA; Files may be tagged according to their content, grouping them together and facilitating their rapid identification and retrieval during searches.&lt;/p&gt;&#10;&#10;&lt;p&gt;&#x25AA; Powerful searching capabilities allow files to be quickly identified via filters, tags, unique IDs, modification dates, creator etc.&lt;/p&gt;&#10;&#10;&lt;p&gt;&#x25AA; Files may be organised into notebooks and folders making them easy to locate and browse.&lt;/p&gt;&#10;&#10;&lt;p&gt;&#x25AA; Files and datasets may be linked within documents allowing results and methodologies for different experiments to be kept together.&lt;/p&gt;&#10;&#10;&lt;p&gt;&#x25AA; Automatic recording of document versions helps ensure that research is recorded in a way that supports protection of intellectual property.&lt;/p&gt;&#10;"/><navPage linkID="PG1595006339809" name="Sharing data with others" text="&lt;p&gt;&#x25AA; Documents, notebooks, folders and files may be shared in a controlled way between users enabling collaboration within and between groups.&lt;/p&gt;&#10;&#10;&lt;p&gt;&#x25AA; Data can be accessed 24/7.&lt;/p&gt;&#10;&#10;&lt;p&gt;&#x25AA; Principal investigators and lab administrators can control user access and privileges to documents and data (e.g. read only or editing capabilities).&lt;/p&gt;&#10;"/><navPage linkID="PG1595006339811" name="Integration with other tools" text="&lt;p&gt;&#x25AA; Users can access and make links to data on commercial file sharing apps like Dropbox and OneDrive, and institutional and lab file storage facilities.&lt;/p&gt;&#10;&#10;&lt;p&gt;&#x25AA; Users can export datasets directly to data repositories.&lt;/p&gt;&#10;&#10;&lt;p&gt;&#x25AA; Through an &lt;b&gt;application programming interface &lt;/b&gt;(API), other research tools can be integrated with the electronic lab notebook.&lt;/p&gt;&#10;"/></nav><text linkID="PG1594993608305" name="Video: example of an ELN"><![CDATA[<p>
+  <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/nlgSiZHze70?rel=0" width="560">
+  </iframe>
+</p>
+<p>This video demonstrates one commercially available electronic lab notebook service, RSpace, showing how ELNs are used to manage documentation and data within a research project.
+</p>
+<p>The University of Edinburgh has a discounted licence agreement with RSpace to provide the standard RSpace Enterprise edition integrated with local storage infrastructure.
+</p>]]></text><gapFill linkID="PG1297862175937" name="Summary" text="&lt;p&gt;You have now been introduced to the principles&amp;nbsp;of good research data organisation, why it is important, and to&amp;nbsp;tools that can help you to&amp;nbsp;manage the process of organising your data.&lt;br /&gt;&#10;&lt;br /&gt;&#10;As a summary task please drag and drop the words at the bottom of the page into the gaps left in the text.&lt;br /&gt;&#10;&lt;br /&gt;&#10;&lt;b&gt;Hint:&lt;/b&gt; If the word you select is not the correct word you won&amp;#39;t be able to drop it into the gap.&lt;/p&gt;&#10;" passage="&lt;p&gt;Research data files and folders need to be labelled and organised in a |systematic| way so that they are both identifiable and accessible for current and future users.&#10;  &lt;br /&gt;&#10;  &lt;br /&gt;&#10;  Naming records according to agreed |conventions| should make file naming easier for colleagues because they will not have to &amp;lsquo;re-think&amp;rsquo; the process each time.&#10;  &lt;br /&gt;&#10;  &lt;br /&gt;&#10;  One benefit of consistent research data file labelling is that files are not accidentally |overwritten| or deleted.&#10;  &lt;br /&gt;&#10;  &lt;br /&gt;&#10;  It is important to consistently identify and distinguish |versions| of research data files. This ensures that a clear audit trail exists for tracking the development of a data file and identifying earlier versions when needed.&#10;&lt;/p&gt;&#10;&lt;p&gt;For larger research projects, think about tools that can help you organise your data, such as batch |renaming| tools, code |versioning| repositories and electronic lab |notebooks|.&#10;&lt;/p&gt;" interactivity="Drag Drop" feedback="Congratulations! You have successfully completed this unit." panelWidth="Large"/><text linkID="PG1590423605731" name="Next &amp;amp; further reading"><![CDATA[<p><b>What to do next</b>?
+  <br />
+  <br />
+  You have now completed this unit. Take a look at the &#39;Further reading&#39; where you will find a list of resources that will help you gain further understanding of file naming conventions and versioning.
+  <br />
+  <br />
+  You could also start a new unit and come back to check these resources later. We recommend that you continue with the <a href="../fileformatsandtransformation/">File formats & transformation</a> unit.
+  <br />
+  <br />
+  If you prefer, you can also go back to the <a href="http://mantra.ed.ac.uk/">MANTRA</a> home page and choose a different unit.
+  <br />
+  <br />
+  <br />
+  <b>Further Reading</b>
+</p>
+<p>Butters O., Plomp E., Gibson S., Zormpa E., Tesfaye B., Amariei T. (2020). Why mycode.R_final.v2_usethisone is not helping your workflow. Retrieved 16 July 2020 from
+  <br />
+  <a href="https://software.ac.uk/blog/2020-06-05-cw20-speed-blog-why-mycoderfinalv2usethisone-not-helping-your-workflow" target="_blank">https://software.ac.uk/blog/2020-06-05-cw20-speed-blog-why-mycoderfinalv2usethisone-not-helping-your-workflow</a>
+</p>
+<p>Git Hub Guides (website).
+  <br />
+  <a href="https://guides.github.com/" target="_blank">https://guides.github.com/</a>
+</p>
+<p>Kwok, R. (2018). How to pick an electronic laboratory notebook. Nature 560, 269-270.
+  <br />
+  <a href="https://www.nature.com/articles/d41586-018-05895-3" target="_blank">https://www.nature.com/articles/d41586-018-05895-3</a>
+</p>
+<p>MIT Libraries. Data management and publishing: Organize your files. Massachusetts Institute of Technology. Retrieved 22 April 2020 from
+  <br />
+  <a href="http://libraries.mit.edu/data-management/store/organize" target="_blank">http://libraries.mit.edu/data-management/store/organize</a>
+</p>
+<p>Open Science Framework (OSF). Best practices [File naming, Organizing files, Version control].
+  <br />
+  <a href="https://help.osf.io/hc/en-us/sections/360003624133-File-Management-and-Licensing" target="_blank">https://help.osf.io/hc/en-us/sections/360003624133-File-Management-and-Licensing</a>
+</p>
+<p>Perkel, JM. (2018). Why Jupyter is data scientists&rsquo; computational notebook of choice. Nature 563, 145-146.
+  <br />
+  <a href="https://www.nature.com/articles/d41586-018-07196-1" target="_blank">https://www.nature.com/articles/d41586-018-07196-1</a>
+</p>
+<p>World Wide Web Consortium (W3C). Date and Time Formats. Retrieved 22 April 2020 from
+  <br />
+  <a href="https://www.w3.org/TR/NOTE-datetime" target="_blank">https://www.w3.org/TR/NOTE-datetime</a>
+</p>
+]]></text></learningObject>

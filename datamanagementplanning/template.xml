@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<learningObject language="en-GB" name="Data management planning" navigation="Linear" textSize="12" displayMode="fill window" editorVersion="3" responsive="true"><bullets linkID="PG1591632248699" name="Learning objectives" delaySecs="1" showBullets="0" showPanel="0" panelWidth="Full"><![CDATA[<p>The aim of this unit is to help you to think through how you will collect, store and share the wealth of research data you will collect during your research project.</p>
+  <br />
+<p>After completing this unit you will:
+</p>
+<br />
+<p>▪ Understand the basic principles of research data management and the key role that data management plays in the responsible conduct of research.
+</p>
+<p>▪ Consider your research in terms of the research data lifecycle and be able to plan ahead to prepare for potential data management pitfalls.
+</p>
+<p>▪ Know about the data management planning requirements of different research funders.
+</p>
+<p>▪ Be aware of data management planning tools, support and guidance which are available to academic researchers.
+</p>
+<p>▪ Be able to use the information in this unit to develop a data and software management plan, and to maintain it through the course of your research.
+</p>
+]]></bullets><text linkID="PG1588940100307" name="Video: What is research data management?" textWidth="760"><![CDATA[<p>
+  <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="280" src="https://www.youtube.com/embed/-xwC7R9Km1c?rel=0" width="560">
+  </iframe>
+</p>
+<p>Research data management (RDM) is about handling research data effectively and appropriately throughout the life of a research project and beyond. Research data management refers to all aspects of creating, storing, sharing and archiving data and is an essential aspect of conducting responsible research.
+</p>
+<p>Many universities, including the University of Edinburgh, encourage their staff and students to undertake data management planning before starting a new research project. Writing a data management plan allows principal investigators, research teams, and postgraduate students to address potential issues related to working with research data.
+</p>
+<p>This video by Cambridge University provides an introduction to the topic of research data management.
+</p>
+<p>Playback quality and subtitles may be selected using the options menu (click the &#39;cog&#39; button below the video). You can also watch the video directly on <a href="https://youtu.be/-xwC7R9Km1c" target="_blank">YouTube</a>.
+</p>
+]]></text><text linkID="PG1296637934560" name="Scenario: what would you have to do?" textWidth="760"><![CDATA[<p><b>Activity</b>
+  <br />
+  <br />
+  Read the scenario below and the questions which follow. What do you think you might do in such a case? Record your thoughts and review them after you have completed this unit.
+  <br />
+  <br />
+  <b>Scenario</b>
+  <br />
+  <br />
+  You have completed your postgraduate study with flying colours and published a couple of papers to disseminate your research results. Your papers have been cited widely in the research literature by others who have built upon your findings. However, three years later another researcher has accused you of having falsified the data.
+  <br />
+  <br />
+  Do you think you would be able to prove that you had done the work as described? If so, how?
+  <br />
+  <br />
+  What would you need to prove that you haven&#39;t falsified the data?
+  <br />
+  <br />
+  What should you have done throughout your research study to be able to prove now that you had done the work as described?
+</p>
+]]></text><text linkID="PG1591106246148" name="Video: Data management planning"><![CDATA[<p>
+  <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/kQNp7w2Ty0M?end=71&amp;rel=0" width="560">
+  </iframe>
+</p>
+<p>In this clip, Robin Rice, Data Librarian at the University of Edinburgh, talks about data management planning and how writing a data management plan can help your research.
+</p>
+<p>Playback quality and subtitles may be selected using the options menu (click the &#39;cog&#39; button below the video). You can also watch the full video directly on&nbsp;<a href="https://www.youtube.com/watch?v=kQNp7w2Ty0M&amp;t" target="_blank">YouTube</a>.
+</p>
+<p>A transcript of this video is also available on the following page.
+</p>
+]]></text><text linkID="PG1591113660040" name="Video transcript"><![CDATA[<p>A data management plan is basically a blueprint for what you&#39;re going to do with that data throughout the lifecycle so throughout your research project. And you may not have thought of everything but at least by planning you can avoid major pitfalls of data loss and you can predict what you&#39;ll need to do in order to share the data at the end if that&#39;s what&#39;s needed.</p>
+
+<p>So for example, you can get the right kind of forms of consent from your data subjects and you can get the costs upfront for the services that you&#39;ll need and you can put that into your grant so that the funders will pay it and that you won&#39;t be stuck without services that you need.</p>
+
+<p>So the data management plan ideally is a living document that you start when you write your research proposal. And it will change over time and the Research Data Support team can help you make those adjustments as you go.</p>
+]]></text><bullets linkID="PG1508170872908" name="Why manage your data?" delaySecs="1" showBullets="0" showPanel="0" panelWidth="Full"><![CDATA[<p>Good data management is the basis of successful research. Managing your data effectively across the data lifecycle is essential to the success of your research project or your postgraduate study.
+  <br />
+  <br />
+  The benefits of managing your data include:
+</p>
+<p>&nbsp;
+</p>
+<p>▪ Meeting funding body grant requirements.
+</p>
+<p>▪ Reinforcing research integrity and reproducibility.
+</p>
+<p>▪ Increasing your research efficiency.
+</p>
+<p>▪ Ensuring research data and records are accurate, complete, authentic and reliable.
+</p>
+<p>▪ Saving time and resources in the long run.
+</p>
+<p>▪ Enhancing data security and minimising the risk of data loss.
+</p>
+<p>▪ Preventing duplication of effort by enabling others to use your data.
+</p>
+<p>▪ Complying with practices conducted in industry and commerce.
+</p>
+]]></bullets><hotspotImage linkID="PG1589813070592" name="Research data lifecycle" text="&lt;p&gt;A useful approach to thinking about the different data management activities which are essential to a successful research project is&amp;nbsp;in terms of the &lt;strong&gt;research data lifecycle&lt;/strong&gt;.&lt;/p&gt;&#10;&#10;&lt;p&gt;Breaking down the research process in this way will ensure&amp;nbsp;you&amp;nbsp;consider&amp;nbsp;your&amp;nbsp;data management approach from beginning to end, and will help you to consider potential&amp;nbsp;data management challenges which may occur during the life of your project.&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;b&gt;Click&lt;/b&gt; on each heading in the image to explore the different stages of the data lifecycle.&lt;/p&gt;&#10;" url="FileLocation + 'media/data_lifecycle_V2.PNG'" tip="Research data lifecycle" interactivity="Click Explore" highlight="false" hicol="0xFFFF00" align="Left" nextTxt="Next" priorTxt="Previous"><hotspot linkID="PG1589813255069" name="Data management planning" text="&lt;p&gt;Most funding applications now require a data management plan (DMP) or similar document. Writing a DMP&amp;nbsp;at the start of your project will help you to think through all stages of the data lifecycle before you begin.&lt;/p&gt;&#10;" x="204" y="221" w="120" h="93"/><hotspot linkID="PG1589813206750" name="Creating data" text="&lt;p&gt;Before collecting data, think carefully about how your data will be created. What types of data will you generate? How much data will you collect? What data formats will you use?&lt;/p&gt;&#10;" x="268" y="98" w="127" h="86"/><hotspot linkID="PG1589813416541" name="Documenting data" text="&lt;p&gt;It is important to maintain documentation capturing the&amp;nbsp;information needed to allow yourself and other potential users&amp;nbsp;to understand and use the data.&lt;/p&gt;&#10;&#10;&lt;p&gt;For example, think about how to make your file structure/naming understandable to others. Consider which data you will&amp;nbsp;keep and which data can be discarded without compromising the research record.&lt;/p&gt;&#10;" x="332" y="229" w="140" h="80"/><hotspot linkID="PG1589813475196" name="Accessing and using data" text="&lt;p&gt;How&amp;nbsp;will you organise your data and structure your files during the life of your project?&amp;nbsp;How will you manage access and permissions if working collaboratively?&lt;/p&gt;&#10;" x="273" y="350" w="116" h="84"/><hotspot linkID="PG1589813518380" name="Storing and backing up data" text="&lt;p&gt;How do you plan to store your data? How will you ensure sensitive data are protected?&amp;nbsp;Think about how you will backup your data to protect&amp;nbsp;against data loss.&lt;/p&gt;&#10;" x="125" y="352" w="127" h="86"/><hotspot linkID="PG1589813564725" name="Sharing data" text="&lt;p&gt;Many funders and publishers require research data to be made publicly available, where this&amp;nbsp;is possible. With this in mind, think about how you will share your research data at the end of the project.&lt;/p&gt;&#10;&#10;&lt;p&gt;Investigate: Are you expected / allowed to share your data? What factors might restrict you being able to share your data?&lt;/p&gt;&#10;&#10;&lt;p&gt;Do you plan to deposit your data in a data repository? Which one?&lt;/p&gt;&#10;" x="54" y="226" w="128" h="81"/><hotspot linkID="PG1589813613597" name="Preserving data" text="&lt;p&gt;How will you ensure that your data remain accessible and usable in the long term? Take into account that ongoing support of a particular file format is not guaranteed and some formats may no longer be supported in the future. For preservation purposes, it is recommended to use&amp;nbsp;open file formats where possible.&lt;/p&gt;&#10;" x="123" y="103" w="131" h="81"/></hotspotImage><text linkID="PG1590147417677" name="Video: Institutional services and&amp;nbsp;support" textWidth="760" hidePage="false"><![CDATA[<p><iframe allowfullscreen="" frameborder="0" height="280" src="https://www.youtube.com/embed/cuaAVum9mZk" width="560"></iframe></p>
+
+<p>Your own institution will have a range of services, resources and guidance available to help you access, manage, store, preserve and share your research data. If you are unsure which services are available to you, or you need help finding and accessing resources, please speak to a librarian at your own institution for help.<br />
+<br />
+An example of the types of services which may be available is given in this video, which demonstrates the range of research data services available to research staff and students at the University of Edinburgh.<br />
+<br />
+Playback quality and subtitles may be selected using the options menu (click the &#39;cog&#39; button below the video). You can also watch this video directly on&nbsp;<a href="https://www.youtube.com/watch?v=cuaAVum9mZk" target="_blank">YouTube</a>.<br />
+<br />
+A transcript of this video is also available on the following page.</p>
+]]></text><text linkID="PG1589814150901" name="Video transcript"><![CDATA[<p>Data management is a crucial part of any research project. This involves collecting, storing, using, sharing and preserving research data in an effective and productive manner.<br />
+<br />
+No matter the subject of your study, the level of your experience, or where you are in the research process, the Research Data Service is here to help you. If you are unfamiliar with the fundamentals of research data management and sharing, we offer a range of free online, scheduled and bespoke training for individuals and groups.<br />
+<br />
+Before you begin your project, you can use a free online tool to create a data management plan, a document required by funders outlining how you intend to manage your research data throughout the project. You can also book a personal consultation with one of our staff to discuss your plan and get expert advice. This is especially useful if you&rsquo;re working with personal or sensitive data.<br />
+<br />
+If you need to access existing data for your research, the Research Data Service team can help you find and access a comprehensive range of datasets. Once you have your data, we offer a range of tools that will help you store, manage and allow safe access. All university researchers are given a free quota of networked storage space, with add-on options for data-intensive projects. There is a tool for syncing your data and collaborating with external colleagues. We also have a secure facility for working with highly sensitive data.<br />
+<br />
+Once your research is complete, it&rsquo;s time to preserve your data for future use. Our tools enable you to securely retain your research data for the long-term, ensuring compliance with funder, journal and university requirements. You can choose to license and share your data with other researchers by using our trusted open access repository, and our team is on-hand to provide advice and quality assurance during this process. Or you can select private long-term retention, with only you and your nominated colleagues able to access the data.<br />
+<br />
+Effective data management has many benefits. We offer comprehensive support that complies with best practice and funder requirements. Whatever your data management needs, get in touch with the Research Data Service at the University of Edinburgh and find out how we can help you.</p>
+]]></text><bullets linkID="PG1508172710903" name="Data management plan" delaySecs="1" showBullets="0" showPanel="0" panelWidth="Full"><![CDATA[<p>A <strong>data management plan</strong> (DMP) is a formal document you develop at the start of your research project which outlines all aspects of your data management (i.e. what you will do with your data during and after your research project). Many funders require the first version of a DMP to be submitted alongside your funding application.
+  <br />
+  <br />
+  Developing a DMP may seem daunting. However, it is a vital step in your research process that you cannot afford to skip. It helps you ensure your research data are accurate, complete, reliable, and secure both during and after you complete your research.
+  <br />
+  <br />
+  Your data management plan may describe:
+</p>
+  <br />
+<p>▪ What research data you will be creating or collecting.
+</p>
+<p>▪ Who will be responsible for each aspect of the management plan you are developing.
+</p>
+<p>▪ What policies (funding, institutional, and legal) will apply to your data.
+</p>
+<p>▪ How the data will be organised (folder structures, file naming conventions, file versioning).
+</p>
+<p>▪ How the data will be documented during the collection and analysis phase of your research.
+</p>
+<p>▪ What data management practices (backups, storage, access control, archiving) you will use to store and secure your data.
+</p>
+<p>▪ What facilities and equipment will be required (hard-disk space, backup server, repository).
+</p>
+<p>▪ Who will have ownership and access rights to your data.
+</p>
+<p>▪ How the data will be preserved and made available in the long term once your research is completed.
+</p>
+<p><b>Important!</b> DMPs should be maintained and kept up-to-date throughout the course of your research.
+</p>
+]]></bullets><text linkID="PG1324061417074" name="Funder DMP requirements" textWidth="760"><![CDATA[<p>Funding bodies increasingly require that grant applications include data management plans. For example:
+</p>
+<ul>
+  <li>Current <strong>National Science Foundation</strong> (NSF, American funding agency) policy states that all NSF proposals must have a supplementary document of no more than two pages labelled &quot;Data Management Plan&quot;.</li>
+</ul>
+<ul>
+  <li><strong>European Commission</strong> guidance on Open Data Management: <a href="https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm" target="_blank">https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm</a></li>
+</ul>
+<ul>
+  <li><strong>UK Research and Innovation</strong> (UKRI), the umbrella body for the UK&#39;s publicly funded Research Councils, set expectations for the systematic and routine management and sharing of research data funded by their members: <a href="https://www.ukri.org/funding/information-for-award-holders/data-policy/" target="_blank">https://www.ukri.org/funding/information-for-award-holders/data-policy/</a></li>
+</ul>
+<p>The following <strong>UK funding bodies</strong> explicitly require a data management plan as part of funding proposals:
+</p>
+<ul>
+  <li><strong>Biotechnology and Biological Sciences Research Council </strong>(BBSRC):&nbsp;<a href="http://www.bbsrc.ac.uk/about/policies-standards/data-sharing-policy/" target="_blank">www.bbsrc.ac.uk/about/policies-standards/data-sharing-policy/</a></li>
+</ul>
+<ul>
+  <li><strong>Cancer Research UK</strong>: <a href="http://www.cancerresearchuk.org/funding-for-researchers/applying-for-funding/policies-that-affect-your-grant/submission-of-a-data-sharing-and-preservation-strategy/data-sharing-guidelines#Data" target="_blank">www.cancerresearchuk.org/funding-for-researchers/applying-for-funding/policies-that-affect-your-grant/submission-of-a-data-sharing-and-preservation-strategy/data-sharing-guidelines#Data</a></li>
+</ul>
+<ul>
+  <li><strong>Economic and Social Research Council </strong>(ESRC):&nbsp;<a href="http://www.esrc.ac.uk/funding/guidance-for-grant-holders/research-data-policy/" target="_blank">www.esrc.ac.uk/funding/guidance-for-grant-holders/research-data-policy/</a></li>
+</ul>
+<ul>
+  <li><strong>Medical Research Council </strong>(MRC):&nbsp;<a href="https://mrc.ukri.org/funding/guidance-for-applicants/2-the-application/#2.2.7" target="_blank">https://mrc.ukri.org/funding/guidance-for-applicants/2-the-application/#2.2.7</a></li>
+</ul>
+<ul>
+  <li><strong>Natural Environment Research Council </strong>(NERC):&nbsp;<a href="https://nerc.ukri.org/research/sites/environmental-data-service-eds/dmp/" target="_blank">https://nerc.ukri.org/research/sites/environmental-data-service-eds/dmp</a></li>
+</ul>
+<ul>
+  <li><strong>Science &amp; Technology Facilities Council </strong>(STFC):&nbsp;<a href="http://www.stfc.ac.uk/funding/research-grants/data-management-plan/" target="_blank">www.stfc.ac.uk/funding/research-grants/data-management-plan/</a></li>
+</ul>
+<ul>
+  <li><strong>The Wellcome Trust </strong>has a single data, software, and materials managements and sharing policy:&nbsp;<a href="https://wellcome.ac.uk/grant-funding/guidance/data-software-materials-management-and-sharing-policy" target="_blank">https://wellcome.ac.uk/grant-funding/guidance/data-software-materials-management-and-sharing-policy</a></li>
+</ul>
+<p>UK funders that currently <b>do not</b> require a data management plan:
+</p>
+<ul>
+  <li><strong>Engineering and Physical Sciences Research Council </strong>(EPSRC) &quot;does not require DMPs with research grant applications, but [their] research data principles include that &#39;<em>...project specific data management policies and plans... ...should exist for all data&#39;&quot;</em>: <a href="https://epsrc.ukri.org/files/aboutus/standards/clarificationsofexpectationsresearchdatamanagement/" target="_blank">https://epsrc.ukri.org/files/aboutus/standards/clarificationsofexpectationsresearchdatamanagement</a></li>
+</ul>]]></text><text linkID="PG1591955869520" name="Managing other research outputs"><![CDATA[<p>Data and publications aren&rsquo;t the only outputs of academic research: it often produces software code, workflows, methods and protocols too. In many cases all of these things are required in order to build up a full picture of the research project, or attempt to reproduce its published findings.
+</p>
+<p>A relatively recent trend is to think holistically about all of the output types that emerge from the research process. This approach is reflected in the Wellcome Trust&rsquo;s Outputs Management Plan requirement (<a href="https://wellcome.org/grant-funding/guidance/how-complete-outputs-management-plan/" target="_blank">https://wellcome.org/grant-funding/guidance/how-complete-outputs-management-plan</a>), which replaced their former requirement for a data management plan. Here, data management planning is incorporated within a broader activity, addressing all of the different products of research.
+</p>
+]]></text><textGraphics linkID="PG1594995032296" name="Software management planning" align="Left" imagesize="auto" url="FileLocation + 'media/blackbox_version_smaller.png'" tip="Data processing black box image by Williams et al (2017) (CC-BY-4.0)" transcriptbuttonlabel="Transcript"><![CDATA[<p>Consider the image on the right. Without access to the software code used to process the raw data into the datasets that are ultimately analysed by the research team, it is impossible to confidently trace a path from data collection to the published conclusions.
+</p>
+<p>By sharing your code, for example in a code repository, you will help to make your research more transparent, and allow others to re-run the code to replicate the results.
+</p>
+<p>As with research data management, successful and responsible management of software and other research outputs starts with a plan. Guidance on producing a software management plan is available from the Software Sustainability Institute (<a href="https://www.software.ac.uk/software-management-plans/" target="_blank">https://www.software.ac.uk/software-management-plans</a>).
+</p>
+]]></textGraphics><text linkID="PG1591357996227" name="Making data FAIR"><![CDATA[<p>Many research organisations have signed up to support the <strong>FAIR Data Principles&nbsp;</strong>(https://www.go-fair.org/fair-principles/), a set of guiding data management principles researchers can adopt to improve the usefulness and impact of their data. The ultimate goal of FAIR is to optimise the reuse of data, and FAIR data should therefore be:</p>
+
+<ul>
+	<li><strong>F</strong>indable</li>
+</ul>
+
+<p>Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services.</p>
+
+<ul>
+	<li><strong>A</strong>ccessible</li>
+</ul>
+
+<p>Once the user finds the required data, she/he needs to know how they can&nbsp;be accessed, possibly including authentication and authorisation.</p>
+
+<ul>
+	<li><strong>I</strong>nteroperable</li>
+</ul>
+
+<p>The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.</p>
+
+<ul>
+	<li><strong>R</strong>e-useable</li>
+</ul>
+
+<p>Metadata and data should be well-described so that they can be replicated and/or combined in different settings.<br />
+<br />
+Following these&nbsp;principles can help your research achieve greater impact both in the academic community and society more generally.</p>
+]]></text><list linkID="PG1592833484792" name="Data management planning tools" text="&lt;p&gt;The following&amp;nbsp;dedicated tools are designed to make the process of writing a data management plan easier. Click the name of each tool for more information.&lt;/p&gt;&#10;" panelWidth="Large"><listItem linkID="PG1592833509789" name="&lt;strong&gt;DMPonline&lt;/strong&gt;" text="&lt;p&gt;DMPonline (https://dmponline.dcc.ac.uk/) is a web-based tool developed by the Digital Curation Centre (DCC) that supports researchers to develop good quality data management and sharing plans. The tool contains the latest funder templates and provides funder-specified guidance alongside DCC best practice guidance to help researchers answer the data management questions clearly and concisely.&lt;/p&gt;&#10;&#10;&lt;p&gt;DMPonline provides functionality to allow institutions to customise the tool for their researchers. For example, the University of Edinburgh has created DMP templates for research projects where the available funder templates are not relevant. These provide UoE-specific guidance and suggested answers to support research staff and students plan a data management strategy when funder guidance is not available.&lt;/p&gt;&#10;&#10;&lt;p&gt;The tool can also be customised to allow users to request feedback on their plan directly from support services at their institution. For example, University of Edinburgh researchers can request feedback and advice on their DMP from the Research Data Support team.&lt;/p&gt;&#10;&#10;&lt;p&gt;Additionally, users can choose to share a draft or final version of their DMP with stakeholders. This allows the plan to be written collaboratively rather than being the sole responsibility of one individual. This is particularly important when it is necessary to ensure that everyone understands their responsibilities within the plan.&lt;/p&gt;&#10;"/><listItem linkID="PG1592834089510" name="&lt;strong&gt;DMPTool&lt;/strong&gt;" text="&lt;p&gt;For those based in the USA, the DMPTool (https://dmptool.org/) provides a click-through wizard for creating a DMP that complies with funder requirements. It also has direct links to funder websites, help text for answering questions, and resources for best practices surrounding data management.&lt;/p&gt;&#10;"/></list><text linkID="PG1591107358913" name="Video: Using DMPonline to create a data management plan" hidePage="false"><![CDATA[<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/kQNp7w2Ty0M?start=71&amp;end=143&amp;rel=0" width="560"></iframe></p>
+
+<p>In this clip, Dr Niamh Moore, Deputy Director of Research (Ethics) in the School of Social and Political Science, University of Edinburgh, talks about using the DMPonline tool and how this can help&nbsp;you to structure your thinking in terms of data management planning.</p>
+
+<p>Playback quality and subtitles may be selected using the options menu (click the &#39;cog&#39; button below the video). You can also watch the full&nbsp;video directly on <a href="https://www.youtube.com/watch?v=kQNp7w2Ty0M&amp;t=71s" target="_blank">YouTube</a>.</p>
+
+<p>A transcript of this video is also available on the following page.</p>
+]]></text><text linkID="PG1591113746673" name="Video transcript" hidePage="false"><![CDATA[<p>For me the emergence of more attention to data management and the creation of Data Management Plans and then tools like DMPonline are really useful. Now that there&#39;s much more attention to data management having a tool like DMPonline which is really a series of prompts to get you as a researcher to think through different aspects of what you&#39;re doing and how you&#39;re going to do it.
+</p>
+<p>I think it&#39;s really useful to have that structure of DMPonline because it can draw your attention to things that you&#39;re not quite thinking about yet I suppose. Where are you going to store this data? Who will have access to it? You know - during the research, after the research.
+</p>
+<p>So those nitty-gritty questions are now that level of detail is now really important particularly because obviously a lot of our data is now digital and can travel much more easily.
+</p>
+<p>Thinking through the detail of where the data is going to be and who has access to it is now just really really crucial in research projects. And DMPonline really helps to structure thinking around that.
+</p>
+]]></text><list linkID="PG1296651822405" name="Components of a data management plan" text="&lt;p&gt;A simple data management plan may include the following headings, based on the Digital Curation Centre&amp;#39;s &amp;#39;Checklist for a Data Management Plan&amp;rsquo;. Click on the headings to view detailed information.&lt;/p&gt;&#10;"><nestedPage name="Administrative information" text="&lt;ul&gt;&#10;&#9;&lt;li&gt;Name and ID of the project&lt;/li&gt;&#10;&#9;&lt;li&gt;Project description&lt;/li&gt;&#10;&#9;&lt;li&gt;Funding body/bodies&lt;/li&gt;&#10;&#9;&lt;li&gt;Principal investigator name and possibly ID&lt;/li&gt;&#10;&#9;&lt;li&gt;Project data contact&lt;/li&gt;&#10;&#9;&lt;li&gt;Related policies&lt;/li&gt;&#10;&#9;&lt;li&gt;Date of first version&lt;/li&gt;&#10;&#9;&lt;li&gt;Date of last update&lt;/li&gt;&#10;&lt;/ul&gt;&#10;"/><nestedPage name="Data collection" text="&lt;ul&gt;&#10;&#9;&lt;li&gt;Data description, including anticipated type, format and volume&lt;/li&gt;&#10;&#9;&lt;li&gt;Existing datasets to be re-used&lt;/li&gt;&#10;&#9;&lt;li&gt;Methods by which data will be collected or created&lt;/li&gt;&#10;&#9;&lt;li&gt;Structures, naming and versioning system for folders and files&lt;/li&gt;&#10;&#9;&lt;li&gt;Quality assurance processes&lt;/li&gt;&#10;&lt;/ul&gt;&#10;"/><nestedPage name="Documentation and metadata" text="&lt;ul&gt;&#10;&#9;&lt;li&gt;A list of information you expect will be needed for the data to be read and interpreted in the future&lt;/li&gt;&#10;&#9;&lt;li&gt;How you plan to collect or create this documentation and metadata&lt;/li&gt;&#10;&#9;&lt;li&gt;The metadata standards you will use&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;Some examples of data documentation:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;&#9;&lt;li&gt;Laboratory notebooks &amp;amp; experimental protocols&lt;/li&gt;&#10;&#9;&lt;li&gt;Questionnaires, codebooks, data dictionaries&lt;/li&gt;&#10;&#9;&lt;li&gt;Software syntax and output files&lt;/li&gt;&#10;&#9;&lt;li&gt;Information about equipment settings &amp;amp; instrument calibration&lt;/li&gt;&#10;&#9;&lt;li&gt;Database schema&lt;/li&gt;&#10;&#9;&lt;li&gt;Methodology reports&lt;/li&gt;&#10;&#9;&lt;li&gt;Provenance information about sources of derived data&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;Add detailed descriptions for collections or files, e.g. what is in a file, where did it come from, how could it be retrieved if needed, any existing problems etc.&lt;/p&gt;&#10;"/><nestedPage name="Ethics and legal compliance" text="&lt;p&gt;&lt;strong&gt;Ethics&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;&#9;&lt;li&gt;Details of consent needed for data preservation and sharing&lt;/li&gt;&#10;&#9;&lt;li&gt;Steps to be taken, if needed, to protect the identity of any participants&lt;/li&gt;&#10;&#9;&lt;li&gt;Steps to be taken, if needed, to ensure sensitive data is stored and transferred securely&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Copyright and intellectual property rights&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;&#9;&lt;li&gt;Name(s) of the owner(s) of the data&lt;/li&gt;&#10;&#9;&lt;li&gt;Licence(s) for re-use which will be applied (e.g. one of the licences available from Creative Commons or Open Data Commons)&lt;/li&gt;&#10;&#9;&lt;li&gt;Restrictions on third party use&lt;/li&gt;&#10;&#9;&lt;li&gt;Any expected delay to data sharing e.g. pending a patent application or embargo related to publication in a journal&lt;br /&gt;&#10;&#9;&amp;nbsp;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;"/><nestedPage name="Storage and backup" text="&lt;ul&gt;&#10;&#9;&lt;li&gt;Where (physically) data will be stored&lt;/li&gt;&#10;&#9;&lt;li&gt;Backup provision&lt;/li&gt;&#10;&#9;&lt;li&gt;Person or team responsible for backup&lt;/li&gt;&#10;&#9;&lt;li&gt;Recovery procedures&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;&#9;&lt;li&gt;Risks, and how they will be managed&lt;/li&gt;&#10;&#9;&lt;li&gt;Access arrangements&lt;/li&gt;&#10;&#9;&lt;li&gt;Any arrangements, if needed, for safe and secure transfer of data collected in the field&lt;/li&gt;&#10;&lt;/ul&gt;&#10;"/><nestedPage name="Selection and preservation" text="&lt;ul&gt;&#10;&#9;&lt;li&gt;Details of which data should be retained, shared and/or preserved, with particular reference to contractual, legal or regulatory requirements&lt;/li&gt;&#10;&#9;&lt;li&gt;Foreseeable research uses for the data&lt;/li&gt;&#10;&#9;&lt;li&gt;Length of time for which data will (or should) be kept beyond the life of the project&lt;/li&gt;&#10;&#9;&lt;li&gt;The repository or archive where the data will be held, and any associated charges&lt;/li&gt;&#10;&#9;&lt;li&gt;Time and effort needed to prepare data for preservation / data sharing&lt;/li&gt;&#10;&lt;/ul&gt;&#10;"/><nestedPage name="Data sharing" text="&lt;ul&gt;&#10;&#9;&lt;li&gt;Steps to be taken to maximise the data&amp;#39;s discoverability&lt;/li&gt;&#10;&#9;&lt;li&gt;Any conditions or restrictions on sharing the data, and whether these will be set out in a data sharing agreement&lt;/li&gt;&#10;&#9;&lt;li&gt;Mechanism for sharing (i.e. via a repository, direct correspondence or other arrangement)&lt;/li&gt;&#10;&#9;&lt;li&gt;Timing of data publication&lt;/li&gt;&#10;&#9;&lt;li&gt;Arrangements if any to obtain a persistent identifier for the data&lt;/li&gt;&#10;&lt;/ul&gt;&#10;"/><nestedPage name="Responsibilities and resources" text="&lt;ul&gt;&#10;&#9;&lt;li&gt;Named person responsible for implementation of the data management plan&lt;/li&gt;&#10;&#9;&lt;li&gt;Named person responsible for each data management activity&lt;/li&gt;&#10;&#9;&lt;li&gt;Hardware and software required (any that is additional to existing institutional provision), including specialist infrastructure for working with sensitive data (e.g. a data safe haven)&lt;/li&gt;&#10;&#9;&lt;li&gt;Additional specialist expertise or training required&lt;/li&gt;&#10;&#9;&lt;li&gt;Charges to be applied for use of chargable data services (e.g. &lt;strong&gt;Edinburgh Data Safe Haven&lt;/strong&gt;) or data repositories (e.g.&lt;strong&gt;DataVault&lt;/strong&gt;)&lt;/li&gt;&#10;&lt;/ul&gt;&#10;"/></list><categories linkID="PG1589897981869" name="Activity: components of a data management plan" text="&lt;p&gt;Drag and drop the components of a data management plan&amp;nbsp;given on the right on to the correct heading below.&lt;br /&gt;&#10;&lt;br /&gt;&#10;&lt;b&gt;Hint:&lt;/b&gt; There are no more than 5 items for each heading. You may find it helpful to use the &amp;quot;Full Screen&amp;quot; button in the bottom left-hand corner, and the &amp;quot;Check Answers&amp;quot; button in the bottom right-hand corner, which will display green ticks to highlight the correct answers.&lt;/p&gt;&#10;" feedback="" buttonLabel="Check Answers" feedbackScore="You have placed {i} out of {n} labels correctly"><category linkID="PG1589897981888" name="Administrative information"><item linkID="PG1589897981890" name="Project name and ID"/><item linkID="PG1589897981892" name="Project description"/><item linkID="PG1589897981895" name="Funding body"/><item linkID="PG1589897981899" name="Principal Investigator name and ID"/><item linkID="PG1589897981901" name="Date of last update"/></category><category linkID="PG1589897981932" name="Documentation and metadata"><item linkID="PG1589897981949" name="Information needed for re-use of your data"/><item linkID="PG1589897981953" name="How metadata is to be created"/><item linkID="PG1589897981959" name="How documentation is to be created"/><item linkID="PG1589897981964" name="Metadata standards"/></category><category linkID="PG1589897982010" name="Storage and backup"><item linkID="PG1589897982029" name="Storage location"/><item linkID="PG1589897982035" name="Backup provision"/><item linkID="PG1589897982039" name="Recovery procedure"/></category><category linkID="PG1589897982074" name="Data sharing"><item linkID="PG1589897982086" name="Discoverability"/><item linkID="PG1589897982088" name="Conditions on sharing"/><item linkID="PG1589897982092" name="Mechanism(s) for sharing"/><item linkID="PG1589897982095" name="Timing of publication"/><item linkID="PG1589897982099" name="Persistent identifier process"/></category></categories><text linkID="PG1591108871508" name="Video: DMPonline and research support services"><![CDATA[<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/UnfIIldYY_k?start=145&amp;end=209&amp;rel=0" width="560"></iframe></p>
+
+<p>In this clip Lis, a PhD student at the University of Edinburgh, talks about using DMPonline and the support she received from the university&nbsp;Research Data Support team to write her data management plan.</p>
+
+<p>Playback quality and subtitles may be selected using the options menu (click the &#39;cog&#39; button below the video). You can also watch the full video directly on <a href="https://www.youtube.com/watch?v=kQNp7w2Ty0M&amp;t=143s" target="_blank">YouTube</a>.</p>
+
+<p>A transcript of this video is also available on the following page.</p>
+]]></text><text linkID="PG1591113870162" name="Video transcript"><![CDATA[<p>There is a website where you can actually go there and just understand how to organize a Data Management Plan which is Data Management Plan online [DMPonline]. So I used that platform to create mine and it was quite helpful because at the beginning you don&#39;t know how to write it you know like the structure and everything so actually I used that website and I integrated all the questions that they suggested and yeah basically I did my Data Management Plan based on that website.</p>
+
+<p>I was working on building up my Data Management Plan. At the beginning I had plenty of doubts and questions so I contacted them [Research Data Support] by email and they just responded very quickly and very nicely so it was really really good support. So actually I sent my Data Management Plan they reviewed them and sent me some comments and feedback so you know the communication was so fluent like all the time so I really appreciated that support.</p>
+]]></text><text linkID="PG1506430728850" name="Data Management Plan template"><![CDATA[<p>The next page presents a data management plan (DMP) template suitable for postgraduate research projects.<br />
+<br />
+<b>Please note</b>: if your browser settings are configured to save PDF files rather than view them in a browser, the DMP template may not display on the next page. If the DMP template is not displayed on the next page, please save the PDF file to your computer and view it using your chosen PDF viewer.</p>
+]]></text><embedDiv linkID="PG1409844130413" name="DMP template for postgraduate research projects" src="https://mantra.ed.ac.uk/datamanagementplanning/uoe_pgr_dmp_template_20190726.pdf"/><gapFill linkID="PG1593001252686" name="Summary (1 of 2)" text="&lt;p&gt;You have now been introduced to the key concepts of data management and data management plans and planning.&lt;br /&gt;&#10;&lt;br /&gt;&#10;&lt;b&gt;Instructions:&lt;/b&gt; As a summary task please drag and drop the words at the bottom of the page into the gaps left in the text.&lt;br /&gt;&#10;&lt;br /&gt;&#10;&lt;b&gt;Hint&lt;/b&gt;: If the word you select is not the correct word you won&amp;#39;t be able to drop it into the gap.&lt;/p&gt;&#10;" passage="&lt;p&gt;A &lt;b&gt;data management plan&lt;/b&gt; will help you:&#10;&lt;/p&gt;&#10;&lt;ul&gt;&#10;  &lt;li&gt;ensure your research data and records are |accurate|, complete, authentic and reliable (by helping you ensure labelling is meaningful and complete).&lt;/li&gt;&#10;  &lt;li&gt;save |time| and resources in the long run.&lt;/li&gt;&#10;  &lt;li&gt;enhance data |security| and thereby minimise the |risk| of data loss.&lt;/li&gt;&#10;  &lt;li&gt;reinforce research integrity and |reproducibility| by others.&lt;/li&gt;&#10;  &lt;li&gt;prevent |duplication| of effort by enabling others to use your data.&lt;/li&gt;&#10;&lt;/ul&gt;" interactivity="Drag Drop" feedback="&lt;p&gt;Well done! Please continue to the second part of the activity on the next screen.&lt;/p&gt;&#10;" panelWidth="Large" checkBtn="Check" showBtn="Show Answers" gapFillWrong="You have not filled in any answers correctly. Please try again." gapFillWrongTracking="You have not filled in any answers correctly." gapFillIncomplete="Please complete the exercise." gapFillPartWrongTracking="Your correct answers are shown in green." gapFillPartWrong="Your correct answers are shown in green. Try again with those you have got wrong."/><gapFill linkID="PG1593001139750" name="Summary (2 of 2)" text="" passage="&lt;p&gt;A &lt;b&gt;data management plan&lt;/b&gt; may include information on:&#10;&lt;/p&gt;&#10;&lt;ul&gt;&#10;  &lt;li&gt;data |organisation| e.g. naming of folders and files&lt;/li&gt;&#10;  &lt;li&gt;contextual information about the rersearch project, such as documentation and other |metadata|&lt;/li&gt;&#10;  &lt;li&gt;storage and |security| (including backup methods and use of encryption)&lt;/li&gt;&#10;  &lt;li&gt;data |protection|, rights and access (to help meet your ethical, legal and regulatory obligations)&lt;/li&gt;&#10;  &lt;li&gt;preservation, |sharing| and licensing (to help maximise the reach and impact of your research).&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Data management plans |differ| according to your research area. They don&amp;#39;t come in one-size-fits-all. They should be simple, |clear| and regularly |updated| throughout the course of your research.&#10;&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="&lt;p&gt;Congratulations! You have successfully completed this unit.&lt;/p&gt;&#10;" panelWidth="Full" checkBtn="Check" showBtn="Show Answers" gapFillWrong="You have not filled in any answers correctly. Please try again." gapFillWrongTracking="You have not filled in any answers correctly." gapFillIncomplete="Please complete the exercise." gapFillPartWrongTracking="Your correct answers are shown in green." gapFillPartWrong="Your correct answers are shown in green. Try again with those you have got wrong."/><text linkID="PG1296644000309" name="Next &amp; further reading"><![CDATA[<p><b>What to do next?</b>
+  <br />
+  <br />
+  You have now completed this unit. To gain further understanding of what constitutes and defines research data management planning we suggest that you consult the &#39;Further reading&#39; resources below.
+  <br />
+  <br />
+  You could also start a new unit and come back to check these resources later. We recommend that you continue with the <a href="../organisingdata/">Organising data</a> unit.
+  <br />
+  <br />
+  If you prefer, you could instead go back to the <a href="http://mantra.ed.ac.uk/">MANTRA</a> home page and choose a different unit.
+  <br />
+  <br />
+  <br />
+  <b>Further reading</b>
+</p>
+<p>Borghi J, Abrams S, Lowenberg D, Simms S, Chodacki J. (2018). <em>Support Your Data: A Research Data Management Guide for Researchers</em>. Research Ideas and Outcomes 4: e26439.
+  <br />
+  <a href="https://doi.org/10.3897/rio.4.e26439" target="_blank">https://doi.org/10.3897/rio.4.e26439</a>
+</p>
+<p>Data Archiving and Networked Services (DANS), Netherlands eScience Center. <em>Five recommendations for FAIR software</em>. Retrieved 20 May 2020 from
+  <br />
+  <a href="https://fair-software.eu/" target="_blank">https://fair-software.eu/</a>
+</p>
+<p>Digital Curation Centre (DCC). <em>Data management plans</em>. Retrieved 04 May 2020 from
+  <br />
+  <a href="https://www.dcc.ac.uk/resources/data-management-plans" target="_blank">https://www.dcc.ac.uk/resources/data-management-plans</a>
+</p>
+<p>DCC. <em>DMPonline</em>.
+  <br />
+  <a href="https://dmponline.dcc.ac.uk/">https://dmponline.dcc.ac.uk/</a>
+</p>
+<p>GO FAIR. <em>FAIR Principles</em>. Retrieved 20 May 2020 from
+  <br />
+  <a href="https://www.go-fair.org/fair-principles/" target="_blank">https://www.go-fair.org/fair-principles/</a>
+</p>
+<p>Goodman A, Pepe A, Blocker AW, Borgman CL, Cranmer K, Crosas M, et al. (2014) <em>Ten Simple Rules for the Care and Feeding of Scientific Data</em>. PLoS Comput Biol 10(4): e1003542.
+  <br />
+  <a href="https://doi.org/10.1371/journal.pcbi.1003542" target="_blank">https://doi.org/10.1371/journal.pcbi.1003542</a>
+</p>
+<p>Hudson-Vitale C, Moulaison-Sandy H. (2019). <em>Data Management Plans: A Review</em>. Journal of Library Information Technology Vol. 39, No. 6, pp: 322-328.
+  <br />
+  <a href="https://doi.org/10.14429/djlit.39.06.15086" target="_blank">https://doi.org/10.14429/djlit.39.06.15086</a>
+</p>
+<p>Nature. (2016). <em>1,500 scientists lift the lid on reproducibility</em>.
+  <br />
+  <a href="https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970" target="_blank">https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970</a>
+</p>
+<p>Software Sustainability Institute (SSI). <em>Software Management Plans</em>. Retrieved 12 June 2020 from
+  <br />
+  <a href="https://www.software.ac.uk/software-management-plans" target="_blank">https://www.software.ac.uk/software-management-plans</a>
+</p>
+<p>Strasser C., Cook R., Michener W., Budden A. Primer on Data Management: What you always wanted to know (PDF, 206KB). Retrieved 17 July 2020 from
+  <br />
+  <a href="https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf" target="_blank">https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf</a>
+</p>
+<p>UK Data Service (UKDS). <em>Plan to share</em>. Retrieved 20 May 2020 from
+  <br />
+  <a href="https://www.ukdataservice.ac.uk/manage-data/plan.aspx" target="_blank">https://www.ukdataservice.ac.uk/manage-data/plan.aspx</a>
+</p>
+<p>University of California Curation Center. <em>DMPTool</em>.
+  <br />
+  <a href="https://dmptool.org/" target="_blank">https://dmptool.org/</a>
+</p>
+<p>Wellcome Trust. <em>How to complete an outputs management plan</em>. Retrieved 12 June 2020 from
+  <br />
+  <a href="https://wellcome.ac.uk/grant-funding/guidance/how-complete-outputs-management-plan" target="_blank">https://wellcome.ac.uk/grant-funding/guidance/how-complete-outputs-management-plan</a>
+</p>
+]]></text></learningObject>
