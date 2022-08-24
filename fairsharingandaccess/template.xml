@@ -114,36 +114,33 @@ https://www.apa.org/pubs/journals/resources/data-sharing-video</p>
   <li>if publication uses existing data, provide a citation.</li>
 </ul>
 <p>There is further guidance on writing data access statements, including example statements, available from the University of Manchester&#39;s Research Data Management site (see Further Reading).
-</p>]]></text><gapFill linkID="PG1297862175937" name="Summary (1 of 2)" text="&lt;p&gt;You have now been introduced to the issues surrounding the sharing and licensing of research data.&#10;&lt;/p&gt;&#10;&lt;p&gt;As a summary task please drag and drop the words at the bottom of the page into the grey gaps left in the text.&#10;&lt;/p&gt;&#10;" passage="&lt;p&gt;Many funding bodies have adopted research data sharing |policies| or requirements.&lt;/p&gt;&#10;&#10;&lt;p&gt;Sharing research data enables others to replicate, validate and build upon your research without the |duplication| of effort involved in collecting the data again. It may also lead to new |collaborations| between data users and data creators.&lt;/p&gt;&#10;&#10;&lt;p&gt;When sharing research data, applying the |FAIR principles| will help to make your data findable, accessible, interoperable and reusable.&lt;/p&gt;&#10;&#10;&lt;p&gt;However, not all data can or should be shared. Issues such as ownership, commercial value, and |confidentiality| need to be considered.&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="Well done! Please continue to the second part of the activity on the next screen." panelWidth="Large"/><gapFill linkID="PG1399461319733" name="Summary (2 of 2)" text="&lt;p&gt;Please drag and drop the words at the bottom of the page into the grey gaps left in the text.&lt;/p&gt;&#10;" passage="&lt;p&gt;Research data are&amp;nbsp;protected by copyright law, prohibiting others from copying and sharing the work without |permission| from the original data creator/s.&lt;/p&gt;&#10;&#10;&lt;p&gt;Sharing your data under a licence allows you to grant others the right to use your research data, removing&amp;nbsp;any |ambiguity| over what others can and cannot do with your data.&lt;/p&gt;&#10;&#10;&lt;p&gt;A |CC0 licence| makes it clear that the work is in the public domain and may be used, adapted and distributed without restriction.&amp;nbsp;&lt;/p&gt;&#10;&#10;&lt;p&gt;A |CC-BY licence| makes it clear to users that they must attribute the work to the creator or author i.e. they must give credit by citing the creator.&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="Congratulations! You have successfully completed this unit." panelWidth="Large"/><text linkID="PG1300895470421" name="Next &amp; further reading "><![CDATA[<p><b>Congratulations once again!</b><br />
-<br />
-You have now completed this final unit of MANTRA. Take a look at the &#39;Further reading&#39; to gain further understanding of sharing and licensing research data.<br />
-<br />
-You may also wish to gain practical skills in data handling in the software environment of your choice (SPSS, R, ArcGIS, NVivo). <b>Click</b> &#39;Data handling tutorials&#39; on the <a href="http://mantra.ed.ac.uk/">MANTRA home page</a> or go directly from <a href="../softwarepracticals.html">here</a> to select from the four tutorial options.<br />
-<br />
-We are interested in your <a href="../feedback.html">feedback</a>, and we would like to get your comments on on any aspect of the course. Please fill in the feedback form, it will only take a few minutes.<br />
-<br />
-<b>If you found this course useful, please recommend it to another person!</b><br />
-<br />
-<br />
-<b>Further reading</b></p>
+</p>]]></text><gapFill linkID="PG1297862175937" name="Summary (1 of 2)" text="&lt;p&gt;You have now been introduced to the issues surrounding the sharing and licensing of research data.&#10;&lt;/p&gt;&#10;&lt;p&gt;As a summary task please drag and drop the words at the bottom of the page into the grey gaps left in the text.&#10;&lt;/p&gt;&#10;" passage="&lt;p&gt;Many funding bodies have adopted research data sharing |policies| or requirements.&lt;/p&gt;&#10;&#10;&lt;p&gt;Sharing research data enables others to replicate, validate and build upon your research without the |duplication| of effort involved in collecting the data again. It may also lead to new |collaborations| between data users and data creators.&lt;/p&gt;&#10;&#10;&lt;p&gt;When sharing research data, applying the |FAIR principles| will help to make your data findable, accessible, interoperable and reusable.&lt;/p&gt;&#10;&#10;&lt;p&gt;However, not all data can or should be shared. Issues such as ownership, commercial value, and |confidentiality| need to be considered.&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="Well done! Please continue to the second part of the activity on the next screen." panelWidth="Large"/><gapFill linkID="PG1399461319733" name="Summary (2 of 2)" text="&lt;p&gt;Please drag and drop the words at the bottom of the page into the grey gaps left in the text.&lt;/p&gt;&#10;" passage="&lt;p&gt;Research data are&amp;nbsp;protected by copyright law, prohibiting others from copying and sharing the work without |permission| from the original data creator/s.&lt;/p&gt;&#10;&#10;&lt;p&gt;Sharing your data under a licence allows you to grant others the right to use your research data, removing&amp;nbsp;any |ambiguity| over what others can and cannot do with your data.&lt;/p&gt;&#10;&#10;&lt;p&gt;A |CC0 licence| makes it clear that the work is in the public domain and may be used, adapted and distributed without restriction.&amp;nbsp;&lt;/p&gt;&#10;&#10;&lt;p&gt;A |CC-BY licence| makes it clear to users that they must attribute the work to the creator or author i.e. they must give credit by citing the creator.&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="Congratulations! You have successfully completed this unit." panelWidth="Large"/><text linkID="PG1661183467681" name="Next &amp; further reading "><![CDATA[<p><strong>Congratulations once again!</strong></p>
+
+<p>You have now completed this final unit of MANTRA. Take a look at the &#39;Further reading&#39; to gain further understanding of sharing and licensing research data.</p>
+
+<p>You may also wish to gain practical skills in data handling in the software environment of your choice (SPSS, R, ArcGIS, NVivo). Click &#39;Data handling tutorials&#39; on the <a href="http://mantra.ed.ac.uk/">MANTRA home page</a> or go directly from <a href="../softwarepracticals.html">here</a> to select from the four tutorial options.</p>
+
+<p>We are interested in your <a href="../feedback.html">feedback</a>, and we would like to get your comments on on any aspect of the course. Please fill in the feedback form, it will only take a few minutes.</p>
+
+<p>If you found this course useful, please recommend it to another person!</p>
+
+<p><br />
+<strong>Further reading</strong></p>
 
 <p>Ball, A. (2014). <em>How to License Research Data</em>. DCC How-to Guides. Edinburgh: Digital Curation Centre. Retrieved 21 April 2020 from<br />
 <a href="https://www.dcc.ac.uk/guidance/how-guides/license-research-data" target="_blank">https://www.dcc.ac.uk/guidance/how-guides/license-research-data</a></p>
-
-<p>Borgman, C. L. (2010). <i>Research Data: Who will share what, with whom, when, and why</i>. China-North America Library Conference, 17 August 2010.<br />
-<a href="https://works.bepress.com/borgman/238/" target="_blank">https://works.bepress.com/borgman/238/</a></p>
 
 <p>Colavizza, G. et al. (2019) <em>The citation advantage of linking publications to research data</em>.<br />
 <a href="https://arxiv.org/abs/1907.02565" target="_blank">https://arxiv.org/abs/1907.02565</a></p>
 
 <p>Consultative Committee for Space Data Systems (CCSDS). (2012). <em>Reference Model for an Open Archival Information System (OAIS), Recommended Practice</em>. CCSDS 650.0-M-2 (Magenta Book), Issue 2, June 2012.Retrieved 21 April 2020 from<br />
-<a href="http://public.ccsds.org/publications/archive/650x0m2.pdf  " target="_blank">http://public.ccsds.org/publications/archive/650x0m2.pdf</a></p>
+<a href="http://public.ccsds.org/publications/archive/650x0m2.pdf" target="_blank">http://public.ccsds.org/publications/archive/650x0m2.pdf</a></p>
 
-<p>Digital Curation Centre (DCC). <i>Curation Reference Manual</i>. Retrieved 21 April 2020 from<br />
+<p>Digital Curation Centre (DCC). <em>Curation Reference Manual</em>. Retrieved 21 April 2020 from<br />
 <a href="http://www.dcc.ac.uk/resources/curation-reference-manual" target="_blank">http://www.dcc.ac.uk/resources/curation-reference-manual</a></p>
 
-<p>Digital Curation Centre (DCC). <i>DCC Curation Lifecycle Model</i>. Retrieved 22 April 2020 from<br />
-<a href="http://www.dcc.ac.uk/resources/curation-lifecycle-model " target="_blank">http://www.dcc.ac.uk/resources/curation-lifecycle-model </a></p>
+<p>Digital Curation Centre (DCC). <em>Curation Lifecycle Model</em>. Retrieved August 2022 from<br />
+<a href="https://www.dcc.ac.uk/guidance/curation-lifecycle-model" target="_blank">https://www.dcc.ac.uk/guidance/curation-lifecycle-model</a></p>
 
 <p>Digital Preservation Coalition (DPC). (2015). <em>Digital Preservation Handbook, 2nd Edition</em>. Retrieved 27 April 2020 from<br />
 <a href="https://www.dpconline.org/handbook" target="_blank">https://www.dpconline.org/handbook</a></p>
@@ -154,26 +151,25 @@ We are interested in your <a href="../feedback.html">feedback</a>, and we would 
 <p>Hannay, T. (5 August 2014). <em>Stop the deluge of science research.</em>&nbsp;The Guardian. Retrieved 22 April 2020 from<br />
 <a href="http://www.theguardian.com/higher-education-network/blog/2014/aug/05/why-we-should-publish-less-scientific-research" target="_blank">https://www.theguardian.com/higher-education-network/blog/2014/aug/05/why-we-should-publish-less-scientific-research</a></p>
 
-<p>Korn, N., Oppenheim, C. (June 2011). <i>Licensing Open Data: A Practical Guide</i> (v.2.0). Retrieved 22 April 2020 from<br />
+<p>Korn, N., Oppenheim, C. (June 2011). <em>Licensing Open Data: A Practical Guide</em> (v.2.0). Retrieved 22 April 2020 from<br />
 <a href="http://discovery.ac.uk/files/pdf/Licensing_Open_Data_A_Practical_Guide.pdf" target="_blank">http://discovery.ac.uk/files/pdf/Licensing_Open_Data_A_Practical_Guide.pdf</a></p>
 
-<p>Murray-Rust, P., Neylon, C., Pollock, R. and Wilbanks, J. (19 February 2010). <i>Panton Principles: Principles for Open Data in Science</i>. Open Knowledge Foundation. Retrieved 22 April 2020 from<br />
+<p>Murray-Rust, P., Neylon, C., Pollock, R. and Wilbanks, J. (19 February 2010). <em>Panton Principles: Principles for Open Data in Science</em>. Open Knowledge Foundation. Retrieved 22 April 2020 from<br />
 <a href="http://pantonprinciples.org/ " target="_blank">http://pantonprinciples.org/ </a></p>
 
-<p>Nature (Editor). (2014). <em>Editorial: Share alike.</em>&nbsp;Nature Vol. 507(07491):140. DOI: 10.1038/507140a. Retrieved 22 April 2020 from<br />
+<p>Nature (Editor). (2014). <em>Editorial: Share alike</em>. Nature Vol. 507(07491):140. DOI: 10.1038/507140a. Retrieved 22 April 2020 from<br />
 <a href="http://www.nature.com/news/share-alike-1.14850" target="_blank">http://www.nature.com/news/share-alike-1.14850</a></p>
 
-<p>OECD. (2007). <i>OECD principles and guidelines for access to research data from public funding</i>. Retrieved 22 April 2020 from<br />
+<p>OECD. (2007). <em>OECD principles and guidelines for access to research data from public funding</em>. Retrieved 22 April 2020 from<br />
 <a href="http://www.oecd.org/science/scienceandtechnologypolicy/38500813.pdf" target="_blank">http://www.oecd.org/science/scienceandtechnologypolicy/38500813.pdf</a></p>
 
 <p>Open Knowledge Foundation (OKF) <em>The Open Data Handbook</em>. Retrieved 22 April 2020 from<br />
 <a href="http://opendatahandbook.org/" target="_blank">http://opendatahandbook.org/</a></p>
 
-<p>Parsons, M. A. and Fox, P. A. (2013). <em>Is Data Publication the Right Metaphor?</em>&nbsp;Data Science Journal, Vol. 12.</p>
+<p>Parsons, M. A. and Fox, P. A. (2013). <em>Is Data Publication the Right Metaphor</em>? Data Science Journal, Vol. 12.<br />
+<a href="https://doi.org/10.2481/dsj.WDS-042" target="_blank">https://doi.org/10.2481/dsj.WDS-042</a></p>
 
-<p><a href="https://doi.org/10.2481/dsj.WDS-042" target="_blank">https://doi.org/10.2481/dsj.WDS-042</a></p>
-
-<p>Piwowar, H. A., Day, R. S., Fridsma, D. B. (21 March 2007). <i>Sharing Detailed Research Data is Associated with Increased Citation Rate</i>. PLoS ONE 2(3): e308.<br />
+<p>Piwowar, H. A., Day, R. S., Fridsma, D. B. (21 March 2007). <em>Sharing Detailed Research Data is Associated with Increased Citation Rate</em>. PLoS ONE 2(3): e308.<br />
 <a href="https://doi.org/10.1371/journal.pone.0000308" target="_blank">https://doi.org/10.1371/journal.pone.0000308</a></p>
 
 <p>Research Data Alliance (RDS). (2020). <em>RDA COVID-19 Guidelines and Recommendations</em>.<br />
@@ -182,16 +178,21 @@ We are interested in your <a href="../feedback.html">feedback</a>, and we would 
 <p>SPARC Europe. (2017). <em>The Open Data Citation Advantage</em>. Retrieved 20 April 2020 from<br />
 <a href="https://sparceurope.org/open-data-citation-advantage" target="_blank">https://sparceurope.org/open-data-citation-advantage</a></p>
 
-<p>Summers, Ed. (2010). <em>The 5 stars of open linked data.</em>&nbsp;inkdroid blog. Retrieved 13 October 2020 from<br />
+<p>Summers, Ed. (2010). <em>The 5 stars of open linked data</em>. inkdroid blog. Retrieved 13 October 2020 from<br />
 <a href="https://inkdroid.org/2010/06/04/the-5-stars-of-open-linked-data/" target="_blank">https://inkdroid.org/2010/06/04/the-5-stars-of-open-linked-data/</a></p>
 
-<p>The Royal Society. (2012). <i>Science as an Open Enterprise: Final Report</i>. Retrieved 13 October 2020 from<br />
+<p>The Royal Society. (2012). <em>Science as an Open Enterprise: Final Report</em>. Retrieved 13 October 2020 from<br />
 <a href="http://royalsociety.org/policy/projects/science-public-enterprise/report/" target="_blank">https://royalsociety.org/topics-policy/projects/science-public-enterprise/Report/</a></p>
 
-<p>UK Research and Innovation. (July 2018) <i>Common principles on data policy. </i>Retrieved 20 April 2020 from<br />
+<p>Tedersoo L, K&uuml;ngas, R, Oras E, et al. (2021). <em>Data sharing practices and data availability upon request differ across scientific disciplines</em>. Sci Data 8, 192<br />
+<a href="https://doi.org/10.1038/s41597-021-00981-0" target="_blank">https://doi.org/10.1038/s41597-021-00981-0</a></p>
+
+<p>Towse AS, Ellis DA and Towse JN. (2021). <em>Making data meaningful: guidelines for good quality open data</em>. The Journal of Social Psychology, 161:4, 395-402. <a href="DOI: 10.1080/00224545.2021.1938811" target="_blank">DOI: 10.1080/00224545.2021.1938811</a></p>
+
+<p>UK Research and Innovation. (July 2018) <em>Common principles on data policy. </em>Retrieved 20 April 2020 from<br />
 <a href="https://www.ukri.org/funding/information-for-award-holders/data-policy/common-principles-on-data-policy/" target="_blank">https://www.ukri.org/funding/information-for-award-holders/data-policy/common-principles-on-data-policy/</a><i> </i></p>
 
-<p>University of Manchester. <i>Data Access Statements. </i>Retrieved 1 December 2020 from<br />
+<p>University of Manchester. <em>Data Access Statements. </em>Retrieved 1 December 2020 from<br />
 <a href="https://www.library.manchester.ac.uk/using-the-library/staff/research/research-data-management/sharing/data-access-statements/" target="_blank">https://www.library.manchester.ac.uk/using-the-library/staff/research/research-data-management/sharing/data-access-statements/</a><i> </i></p>
 
 <p>Watson C. (2022). <em>Many researchers say they&rsquo;ll share data &mdash; but don&rsquo;t.</em> Nature 606, 853. Retrieved 5&nbsp;July 2022 from<br />

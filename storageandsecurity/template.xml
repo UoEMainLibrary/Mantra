@@ -150,53 +150,72 @@
 <p>If you are dealing with sensitive data or working from an untrusted network you should consider using your institution&#39;s VPN (virtual private network) to access&nbsp;data held on your institution&rsquo;s file servers. Check your own institution&#39;s guidelines on accessing the university network remotely&nbsp;.</p>
 
 <p>Last but not least, you should refrain from using public networks, hotspots, conference or hotel Wi-Fi to access sensitive data as these networks do not provide adequate security and should not be trusted.</p>
-]]></textGraphics><gapFill linkID="PG1642154278338" name="Summary" text="You have now been introduced to the storage, backup and security issues in data management. &lt;br /&gt;&lt;br /&gt;As a summary task please drag and drop the words at the bottom of the page into the gaps left in the text.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Hint:&lt;/b&gt; If the word you select is not the correct word you won't be able to drop it into the gap." passage="&lt;p&gt;During your research you must ensure that your research data is stored&amp;nbsp;|securely| and is regularly |backed up|.&amp;nbsp;It is highly recommended to store your research data on your&amp;nbsp;institution&amp;#39;s |networked| drives.&lt;/p&gt;&#10;&#10;&lt;p&gt;Using a&amp;nbsp;password |manager| will make the process of generating and managing passwords easier.&amp;nbsp;Access controls and file |permissions| can be used to restrict who can access data and how they can be used. Two-factor |authentication| provides additional security to control access to sensitive data.&amp;nbsp;&amp;nbsp;&lt;/p&gt;&#10;&#10;&lt;p&gt;Storing sensitive data in an encrypted |container| ensures only those with the corresponding encryption |key| will be able to access the data.&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="Congratulations! You have successfully completed this unit." panelWidth="Large"/><text linkID="PG1641571923066" name="Next &amp; further reading"><![CDATA[<p><b>What to do next?</b><br />
-<br />
-You have now completed this unit. Take a look at the &#39;Further reading&#39; section below where you will find a list of resources that will help you gain further understanding of storage, backup and security issues.<br />
-<br />
-You could also start a new unit and come back to check these resources later. We recommend that you continue with the <a href="../protectingsensitivedata" target="_blank">Protecting sensitive data</a> unit.<br />
-<br />
-If you prefer, you can also go back to the <a href="http://mantra.ed.ac.uk/" target="_blank">MANTRA</a> home page and choose a different unit.<br />
-<br />
-<br />
-<b>Further reading</b><br />
-<br />
-Abouelmehdi, K., Beni-Hessane, A. &amp; Khaloufi, H. (2018). <em>Big healthcare data: preserving security and privacy</em>. Journal of Big Data 5,1.<br />
-<a href="https://doi.org/10.1186/s40537-017-0110-7" target="_blank">https://doi.org/10.1186/s40537-017-0110-7</a><br />
-<br />
-Brathwaite, Shimon. (2021). <i>Why are data backups important?</i>. Last accessed October 2021 from<br />
-<a href="https://www.securitymadesimple.org/cybersecurity-blog/why-are-data-backups-important" target="_blank">https://www.securitymadesimple.org/cybersecurity-blog/why-are-data-backups-important</a><br />
-<br />
-Dicks, C. (2014). <em>Video and audio recordings and 8mm films - FAQ</em>. Last updated 23 July 2020. Retrieved 24 Nov 2020 from<br />
-<a href="https://www.canada.ca/en/conservation-institute/services/care-objects/electronic-media/video-audio-recordings-8mm-films-faq.html" target="_blank">https://www.canada.ca/en/conservation-institute/services/care-objects/electronic-media/video-audio-recordings-8mm-films-faq.html</a><br />
-<br />
-National Cyber Security Centre. <i>Secure sanitisation of storage media</i>. Retrieved 5 May 2020 from<br />
-<a href="https://www.ncsc.gov.uk/guidance/secure-sanitisation-storage-media" target="_blank">https://www.ncsc.gov.uk/guidance/secure-sanitisation-storage-media</a><br />
-<br />
-O&rsquo;Toole, E., Feeney, L., Heard, K., Naimpally, R. (2018)&nbsp;<i>Data Security Procedures for Researchers</i>. J-PAL North America, August 2018. Retrieved 5 May 2020 from<br />
-<a href="https://www.povertyactionlab.org/sites/default/files/documents/Data_Security_Procedures_December.pdf" target="_blank">https://www.povertyactionlab.org/sites/default/files/documents/Data_Security_Procedures_December.pdf</a><br />
-<br />
-Perkel, Jeffrey M. (2019) <em>11 ways to avert a data-storage disaster</em>. Nature 568, 131-132. Retrieved January 2022 from<br />
-<a href="https://doi.org/10.1038/d41586-019-01040-w" target="_blank">https://doi.org/10.1038/d41586-019-01040-w</a><br />
-<br />
-Philips, Gavin. (2020). <em>What Is PGP? How Pretty Good Privacy Works, Explained</em>. Retrieved January 2022 from<br />
-<a href="https://www.makeuseof.com/tag/pgp-me-pretty-good-privacy-explained/" target="_blank">https://www.makeuseof.com/tag/pgp-me-pretty-good-privacy-explained/</a></p>
-
-<p>Secure Storage Services. <em>How to Reduce the Risks of a Data Security Breach While Remote Working</em>. Retrieved January 2022 from<br />
-<a href="https://www.securestorageservices.co.uk/article/44/how-to-reduce-the-risks-of-a-data-security-breach-while-remote-working-" target="_blank">https://www.securestorageservices.co.uk/article/44/how-to-reduce-the-risks-of-a-data-security-breach-while-remote-working</a><br />
-<br />
-Secure Storage Services. <i>Pros and cons of cloud storage</i>. Retrieved October 2021 from<br />
-<a href="https://www.securestorageservices.co.uk/article/11/pros-and-cons-of-cloud-storage" target="_blank">https://www.securestorageservices.co.uk/article/11/pros-and-cons-of-cloud-storage</a><br />
-<br />
-Singh, Vinay. (2020). <em>Top 10 Cloud Storage &amp; File-Sharing Services for 2020</em>. Retrieved January 2022 from<br />
-<a href="https://cloudacademy.com/blog/top-10-cloud-storage-file-sharing-services-for-2020/" target="_blank">https://cloudacademy.com/blog/top-10-cloud-storage-file-sharing-services-for-2020/</a><br />
-<br />
-UK Data Service. <i>Store your data - Backup</i>. Retrieved January 2022 from<br />
-<a href="https://ukdataservice.ac.uk/learning-hub/research-data-management/store-your-data/backup/" target="_blank">https://ukdataservice.ac.uk/learning-hub/research-data-management/store-your-data/backup/</a><br />
-<br />
-University of Edinburgh. <i>Information Security - Encrypting devices and documents</i>. Retrieved January 2022 from<br />
-<a href="https://www.ed.ac.uk/infosec/how-to-protect/encrypting" target="_blank">https://www.ed.ac.uk/infosec/how-to-protect/encrypting</a></p>
-
-<p>Vrije Universiteit Amsterdam, Leiden University and the Eindhoven University of Technology. (2020). <em>Data Horror Escape Room</em>. Retrieved January 2022 from<br />
-<a href="https://sites.google.com/vu.nl/datahorror/home" target="_blank">https://sites.google.com/vu.nl/datahorror/home</a></p>
+]]></textGraphics><gapFill linkID="PG1642154278338" name="Summary" text="You have now been introduced to the storage, backup and security issues in data management. &lt;br /&gt;&lt;br /&gt;As a summary task please drag and drop the words at the bottom of the page into the gaps left in the text.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Hint:&lt;/b&gt; If the word you select is not the correct word you won't be able to drop it into the gap." passage="&lt;p&gt;During your research you must ensure that your research data is stored&amp;nbsp;|securely| and is regularly |backed up|.&amp;nbsp;It is highly recommended to store your research data on your&amp;nbsp;institution&amp;#39;s |networked| drives.&lt;/p&gt;&#10;&#10;&lt;p&gt;Using a&amp;nbsp;password |manager| will make the process of generating and managing passwords easier.&amp;nbsp;Access controls and file |permissions| can be used to restrict who can access data and how they can be used. Two-factor |authentication| provides additional security to control access to sensitive data.&amp;nbsp;&amp;nbsp;&lt;/p&gt;&#10;&#10;&lt;p&gt;Storing sensitive data in an encrypted |container| ensures only those with the corresponding encryption |key| will be able to access the data.&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="Congratulations! You have successfully completed this unit." panelWidth="Large"/><text linkID="PG1661181805255" name="Next &amp; further reading"><![CDATA[<p><strong>What to do next?</strong>
+</p>
+<p>You have now completed this unit. Take a look at the &#39;Further reading&#39; section below where you will find a list of resources that will help you gain further understanding of storage, backup and security issues.
+</p>
+<p>You could also start a new unit and come back to check these resources later. We recommend that you continue with the <a href="../protectingsensitivedata" target="_blank">Protecting sensitive data</a> unit.
+</p>
+<p>If you prefer, you can also go back to the <a href="https://mantra.ed.ac.uk/">MANTRA</a> home page and choose a different unit.
+</p>
+<p>
+  <br />
+  <strong>Further reading</strong>
+</p>
+<p>Abouelmehdi, K., Beni-Hessane, A. &amp; Khaloufi, H. (2018). <em>Big healthcare data: preserving security and privacy</em>. Journal of Big Data 5,1.
+  <br />
+  <a href="https://doi.org/10.1186/s40537-017-0110-7" target="_blank">https://doi.org/10.1186/s40537-017-0110-7</a>.
+</p>
+<p>Brathwaite, Shimon. (2021). <em>Why are data backups important?</em>. Last accessed October 2021 from
+  <br />
+  <a href="https://www.securitymadesimple.org/cybersecurity-blog/why-are-data-backups-important" target="_blank">https://www.securitymadesimple.org/cybersecurity-blog/why-are-data-backups-important</a>
+</p>
+<p>Dicks, C. (2014). <em>Video and audio recordings and 8mm films - FAQ</em>. Last updated 23 July 2020. Retrieved 24 Nov 2020 from
+  <br />
+  <a href="https://www.canada.ca/en/conservation-institute/services/care-objects/electronic-media/video-audio-recordings-8mm-films-faq.html" target="_blank">https://www.canada.ca/en/conservation-institute/services/care-objects/electronic-media/video-audio-recordings-8mm-films-faq.html</a>
+</p>
+<p>Jetico. (2020).<em>Benefits of Using Container Encryption vs. File Encryption</em>. Retrieved August 2022 from
+  <br />
+  <a href="https://www.jetico.com/blog/5-benefits-using-container-encryption-vs-file-encryption" target="_blank">https://www.jetico.com/blog/5-benefits-using-container-encryption-vs-file-encryption</a>
+</p>
+<p>National Cyber Security Centre. <em>Secure sanitisation of storage media</em>. Retrieved 5 May 2020 from
+  <br />
+  <a href="https://www.ncsc.gov.uk/guidance/secure-sanitisation-storage-media" target="_blank">https://www.ncsc.gov.uk/guidance/secure-sanitisation-storage-media</a>
+</p>
+<p>O&rsquo;Toole, E., Feeney, L., Heard, K., Naimpally, R. (2018). <em>Data Security Procedures for Researchers</em>. J-PAL North America, August 2018. Retrieved 5 May 2020 from
+  <br />
+  <a href="https://www.povertyactionlab.org/sites/default/files/documents/Data_Security_Procedures_December.pdf" target="_blank">https://www.povertyactionlab.org/sites/default/files/documents/Data_Security_Procedures_December.pdf</a>
+</p>
+<p>Perkel, Jeffrey M. (2019) <em>11 ways to avert a data-storage disaster</em>. Nature 568, 131-132. Retrieved January 2022 from
+  <br />
+  <a href="https://doi.org/10.1038/d41586-019-01040-w" target="_blank">https://doi.org/10.1038/d41586-019-01040-w</a>
+</p>
+<p>Philips, Gavin. (2020). <em>What Is PGP? How Pretty Good Privacy Works, Explained</em>. Retrieved January 2022 from
+  <br />
+  <a href="https://www.makeuseof.com/tag/pgp-me-pretty-good-privacy-explained/" target="_blank">https://www.makeuseof.com/tag/pgp-me-pretty-good-privacy-explained/</a>
+</p>
+<p>Secure Storage Services. <em>How to Reduce the Risks of a Data Security Breach While Remote Working</em>. Retrieved January 2022 from
+  <br />
+  <a href="https://www.securestorageservices.co.uk/article/44/how-to-reduce-the-risks-of-a-data-security-breach-while-remote-working-" target="_blank">https://www.securestorageservices.co.uk/article/44/how-to-reduce-the-risks-of-a-data-security-breach-while-remote-working</a>
+</p>
+<p>Secure Storage Services. <em>Pros and cons of cloud storage</em>. Retrieved October 2021 from
+  <br />
+  <a href="https://www.securestorageservices.co.uk/article/11/pros-and-cons-of-cloud-storage" target="_blank">https://www.securestorageservices.co.uk/article/11/pros-and-cons-of-cloud-storage</a>
+</p>
+<p>Singh, Vinay. (2020). <em>Top 10 Cloud Storage &amp; File-Sharing Services for 2020</em>. Retrieved January 2022 from
+  <br />
+  <a href="https://cloudacademy.com/blog/top-10-cloud-storage-file-sharing-services-for-2020/" target="_blank">https://cloudacademy.com/blog/top-10-cloud-storage-file-sharing-services-for-2020/</a>
+</p>
+<p>UK Data Service. <em>Store your data - Backup</em>. Retrieved January 2022 from
+  <br />
+  <a href="https://ukdataservice.ac.uk/learning-hub/research-data-management/store-your-data/backup/" target="_blank">https://ukdataservice.ac.uk/learning-hub/research-data-management/store-your-data/backup/</a>
+</p>
+<p>University of Edinburgh. <em>Information Security - Encrypting devices and documents</em>. Retrieved January 2022 from
+  <br />
+  <a href="https://www.ed.ac.uk/infosec/how-to-protect/encrypting" target="_blank">https://www.ed.ac.uk/infosec/how-to-protect/encrypting</a>
+</p>
+<p>Vrije Universiteit Amsterdam, Leiden University and the Eindhoven University of Technology. (2020). <em>Data Horror Escape Room</em>. Retrieved January 2022 from
+  <br />
+  <a href="https://sites.google.com/vu.nl/datahorror/home" target="_blank">https://sites.google.com/vu.nl/datahorror/home</a>
+</p>
 ]]></text></learningObject>

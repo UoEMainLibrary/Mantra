@@ -236,71 +236,65 @@ Following these&nbsp;principles can help your research achieve greater impact bo
 ]]></text><text linkID="PG1506430728850" name="Data Management Plan template"><![CDATA[<p>The next page presents a data management plan (DMP) template suitable for postgraduate research projects.<br />
 <br />
 <b>Please note</b>: if your browser settings are configured to save PDF files rather than view them in a browser, the DMP template may not display on the next page. If the DMP template is not displayed on the next page, please save the PDF file to your computer and view it using your chosen PDF viewer.</p>
-]]></text><embedDiv linkID="PG1409844130413" name="DMP template for postgraduate research projects" src="https://mantra.ed.ac.uk/datamanagementplanning/uoe_pgr_dmp_template_20190726.pdf"/><gapFill linkID="PG1593001252686" name="Summary (1 of 2)" text="&lt;p&gt;You have now been introduced to the key concepts of data management and data management plans and planning.&lt;br /&gt;&#10;&lt;br /&gt;&#10;&lt;b&gt;Instructions:&lt;/b&gt; As a summary task please drag and drop the words at the bottom of the page into the gaps left in the text.&lt;br /&gt;&#10;&lt;br /&gt;&#10;&lt;b&gt;Hint&lt;/b&gt;: If the word you select is not the correct word you won&amp;#39;t be able to drop it into the gap.&lt;/p&gt;&#10;" passage="&lt;p&gt;A &lt;b&gt;data management plan&lt;/b&gt; will help you:&#10;&lt;/p&gt;&#10;&lt;ul&gt;&#10;  &lt;li&gt;ensure your research data and records are |accurate|, complete, authentic and reliable (by helping you ensure labelling is meaningful and complete).&lt;/li&gt;&#10;  &lt;li&gt;save |time| and resources in the long run.&lt;/li&gt;&#10;  &lt;li&gt;enhance data |security| and thereby minimise the |risk| of data loss.&lt;/li&gt;&#10;  &lt;li&gt;reinforce research integrity and |reproducibility| by others.&lt;/li&gt;&#10;  &lt;li&gt;prevent |duplication| of effort by enabling others to use your data.&lt;/li&gt;&#10;&lt;/ul&gt;" interactivity="Drag Drop" feedback="&lt;p&gt;Well done! Please continue to the second part of the activity on the next screen.&lt;/p&gt;&#10;" panelWidth="Large" checkBtn="Check" showBtn="Show Answers" gapFillWrong="You have not filled in any answers correctly. Please try again." gapFillWrongTracking="You have not filled in any answers correctly." gapFillIncomplete="Please complete the exercise." gapFillPartWrongTracking="Your correct answers are shown in green." gapFillPartWrong="Your correct answers are shown in green. Try again with those you have got wrong."/><gapFill linkID="PG1593001139750" name="Summary (2 of 2)" text="" passage="&lt;p&gt;A &lt;b&gt;data management plan&lt;/b&gt; may include information on:&#10;&lt;/p&gt;&#10;&lt;ul&gt;&#10;  &lt;li&gt;data |organisation| e.g. naming of folders and files&lt;/li&gt;&#10;  &lt;li&gt;contextual information about the rersearch project, such as documentation and other |metadata|&lt;/li&gt;&#10;  &lt;li&gt;storage and |security| (including backup methods and use of encryption)&lt;/li&gt;&#10;  &lt;li&gt;data |protection|, rights and access (to help meet your ethical, legal and regulatory obligations)&lt;/li&gt;&#10;  &lt;li&gt;preservation, |sharing| and licensing (to help maximise the reach and impact of your research).&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Data management plans |differ| according to your research area. They don&amp;#39;t come in one-size-fits-all. They should be simple, |clear| and regularly |updated| throughout the course of your research.&#10;&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="&lt;p&gt;Congratulations! You have successfully completed this unit.&lt;/p&gt;&#10;" panelWidth="Full" checkBtn="Check" showBtn="Show Answers" gapFillWrong="You have not filled in any answers correctly. Please try again." gapFillWrongTracking="You have not filled in any answers correctly." gapFillIncomplete="Please complete the exercise." gapFillPartWrongTracking="Your correct answers are shown in green." gapFillPartWrong="Your correct answers are shown in green. Try again with those you have got wrong."/><text linkID="PG1296644000309" name="Next &amp; further reading"><![CDATA[<p><b>What to do next?</b>
-  <br />
-  <br />
-  You have now completed this unit. To gain further understanding of what constitutes and defines research data management planning we suggest that you consult the &#39;Further reading&#39; resources below.
-  <br />
-  <br />
-  You could also start a new unit and come back to check these resources later. We recommend that you continue with the <a href="../organisingdata/">Organising data</a> unit.
-  <br />
-  <br />
-  If you prefer, you could instead go back to the <a href="http://mantra.ed.ac.uk/">MANTRA</a> home page and choose a different unit.
-  <br />
-  <br />
-  <br />
-  <b>Further reading</b>
-</p>
-<p>Borghi J, Abrams S, Lowenberg D, Simms S, Chodacki J. (2018). <em>Support Your Data: A Research Data Management Guide for Researchers</em>. Research Ideas and Outcomes 4: e26439.
-  <br />
-  <a href="https://doi.org/10.3897/rio.4.e26439" target="_blank">https://doi.org/10.3897/rio.4.e26439</a>
-</p>
-<p>Data Archiving and Networked Services (DANS), Netherlands eScience Center. <em>Five recommendations for FAIR software</em>. Retrieved 20 May 2020 from
-  <br />
-  <a href="https://fair-software.eu/" target="_blank">https://fair-software.eu/</a>
-</p>
-<p>Digital Curation Centre (DCC). <em>Data management plans</em>. Retrieved 04 May 2020 from
-  <br />
-  <a href="https://www.dcc.ac.uk/resources/data-management-plans" target="_blank">https://www.dcc.ac.uk/resources/data-management-plans</a>
-</p>
-<p>DCC. <em>DMPonline</em>.
-  <br />
-  <a href="https://dmponline.dcc.ac.uk/">https://dmponline.dcc.ac.uk/</a>
-</p>
-<p>GO FAIR. <em>FAIR Principles</em>. Retrieved 20 May 2020 from
-  <br />
-  <a href="https://www.go-fair.org/fair-principles/" target="_blank">https://www.go-fair.org/fair-principles/</a>
-</p>
-<p>Goodman A, Pepe A, Blocker AW, Borgman CL, Cranmer K, Crosas M, et al. (2014) <em>Ten Simple Rules for the Care and Feeding of Scientific Data</em>. PLoS Comput Biol 10(4): e1003542.
-  <br />
-  <a href="https://doi.org/10.1371/journal.pcbi.1003542" target="_blank">https://doi.org/10.1371/journal.pcbi.1003542</a>
-</p>
-<p>Hudson-Vitale C, Moulaison-Sandy H. (2019). <em>Data Management Plans: A Review</em>. Journal of Library Information Technology Vol. 39, No. 6, pp: 322-328.
-  <br />
-  <a href="https://doi.org/10.14429/djlit.39.06.15086" target="_blank">https://doi.org/10.14429/djlit.39.06.15086</a>
-</p>
-<p>Nature. (2016). <em>1,500 scientists lift the lid on reproducibility</em>.
-  <br />
-  <a href="https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970" target="_blank">https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970</a>
-</p>
-<p>Software Sustainability Institute (SSI). <em>Software Management Plans</em>. Retrieved 12 June 2020 from
-  <br />
-  <a href="https://www.software.ac.uk/software-management-plans" target="_blank">https://www.software.ac.uk/software-management-plans</a>
-</p>
-<p>Strasser C., Cook R., Michener W., Budden A. Primer on Data Management: What you always wanted to know (PDF, 206KB). Retrieved 17 July 2020 from
-  <br />
-  <a href="https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf" target="_blank">https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf</a>
-</p>
-<p>UK Data Service (UKDS). <em>Plan to share</em>. Retrieved 20 May 2020 from
-  <br />
-  <a href="https://www.ukdataservice.ac.uk/manage-data/plan.aspx" target="_blank">https://www.ukdataservice.ac.uk/manage-data/plan.aspx</a>
-</p>
-<p>University of California Curation Center. <em>DMPTool</em>.
-  <br />
-  <a href="https://dmptool.org/" target="_blank">https://dmptool.org/</a>
-</p>
-<p>Wellcome Trust. <em>How to complete an outputs management plan</em>. Retrieved 12 June 2020 from
-  <br />
-  <a href="https://wellcome.ac.uk/grant-funding/guidance/how-complete-outputs-management-plan" target="_blank">https://wellcome.ac.uk/grant-funding/guidance/how-complete-outputs-management-plan</a>
-</p>
+]]></text><embedDiv linkID="PG1409844130413" name="DMP template for postgraduate research projects" src="https://mantra.ed.ac.uk/uoe_pgr_dmp_template_20190726.pdf"/><gapFill linkID="PG1593001252686" name="Summary (1 of 2)" text="&lt;p&gt;You have now been introduced to the key concepts of data management and data management plans and planning.&lt;br /&gt;&#10;&lt;br /&gt;&#10;&lt;b&gt;Instructions:&lt;/b&gt; As a summary task please drag and drop the words at the bottom of the page into the gaps left in the text.&lt;br /&gt;&#10;&lt;br /&gt;&#10;&lt;b&gt;Hint&lt;/b&gt;: If the word you select is not the correct word you won&amp;#39;t be able to drop it into the gap.&lt;/p&gt;&#10;" passage="&lt;p&gt;A &lt;b&gt;data management plan&lt;/b&gt; will help you:&#10;&lt;/p&gt;&#10;&lt;ul&gt;&#10;  &lt;li&gt;ensure your research data and records are |accurate|, complete, authentic and reliable (by helping you ensure labelling is meaningful and complete).&lt;/li&gt;&#10;  &lt;li&gt;save |time| and resources in the long run.&lt;/li&gt;&#10;  &lt;li&gt;enhance data |security| and thereby minimise the |risk| of data loss.&lt;/li&gt;&#10;  &lt;li&gt;reinforce research integrity and |reproducibility| by others.&lt;/li&gt;&#10;  &lt;li&gt;prevent |duplication| of effort by enabling others to use your data.&lt;/li&gt;&#10;&lt;/ul&gt;" interactivity="Drag Drop" feedback="&lt;p&gt;Well done! Please continue to the second part of the activity on the next screen.&lt;/p&gt;&#10;" panelWidth="Large" checkBtn="Check" showBtn="Show Answers" gapFillWrong="You have not filled in any answers correctly. Please try again." gapFillWrongTracking="You have not filled in any answers correctly." gapFillIncomplete="Please complete the exercise." gapFillPartWrongTracking="Your correct answers are shown in green." gapFillPartWrong="Your correct answers are shown in green. Try again with those you have got wrong."/><gapFill linkID="PG1593001139750" name="Summary (2 of 2)" text="" passage="&lt;p&gt;A &lt;b&gt;data management plan&lt;/b&gt; may include information on:&#10;&lt;/p&gt;&#10;&lt;ul&gt;&#10;  &lt;li&gt;data |organisation| e.g. naming of folders and files&lt;/li&gt;&#10;  &lt;li&gt;contextual information about the rersearch project, such as documentation and other |metadata|&lt;/li&gt;&#10;  &lt;li&gt;storage and |security| (including backup methods and use of encryption)&lt;/li&gt;&#10;  &lt;li&gt;data |protection|, rights and access (to help meet your ethical, legal and regulatory obligations)&lt;/li&gt;&#10;  &lt;li&gt;preservation, |sharing| and licensing (to help maximise the reach and impact of your research).&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Data management plans |differ| according to your research area. They don&amp;#39;t come in one-size-fits-all. They should be simple, |clear| and regularly |updated| throughout the course of your research.&#10;&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="&lt;p&gt;Congratulations! You have successfully completed this unit.&lt;/p&gt;&#10;" panelWidth="Full" checkBtn="Check" showBtn="Show Answers" gapFillWrong="You have not filled in any answers correctly. Please try again." gapFillWrongTracking="You have not filled in any answers correctly." gapFillIncomplete="Please complete the exercise." gapFillPartWrongTracking="Your correct answers are shown in green." gapFillPartWrong="Your correct answers are shown in green. Try again with those you have got wrong."/><text linkID="PG1296644000309" name="Next &amp; further reading"><![CDATA[<p><b>What to do next?</b><br />
+<br />
+You have now completed this unit. To gain further understanding of what constitutes and defines research data management planning we suggest that you consult the &#39;Further reading&#39; resources below.<br />
+<br />
+You could also start a new unit and come back to check these resources later. We recommend that you continue with the <a href="../organisingdata/">Organising data</a> unit.<br />
+<br />
+If you prefer, you could instead go back to the <a href="http://mantra.ed.ac.uk/">MANTRA</a> home page and choose a different unit.<br />
+<br />
+<br />
+<b>Further reading</b></p>
+
+<p>Borghi J, Abrams S, Lowenberg D, Simms S, Chodacki J. (2018). <em>Support Your Data: A Research Data Management Guide for Researchers</em>. Research Ideas and Outcomes 4: e26439.<br />
+<a href="https://doi.org/10.3897/rio.4.e26439" target="_blank">https://doi.org/10.3897/rio.4.e26439</a></p>
+
+<p>Data Archiving and Networked Services (DANS), Netherlands eScience Center. <em>Five recommendations for FAIR software</em>. Retrieved 20 May 2020 from<br />
+<a href="https://fair-software.eu/" target="_blank">https://fair-software.eu/</a></p>
+
+<p>Digital Curation Centre. <em>Checklist for a Data Management Plan</em>. Retrieved August 2022 from<br />
+<a href="https://www.dcc.ac.uk/DMPs/checklist" target="_blank">https://www.dcc.ac.uk/DMPs/checklist</a></p>
+
+<p>Digital Curation Centre. <em>Example DMPs and guidance</em>. Retrieved August 2022 from<br />
+<a href="https://www.dcc.ac.uk/resources/data-management-plans/guidance-examples" target="_blank">https://www.dcc.ac.uk/resources/data-management-plans/guidance-examples</a></p>
+
+<p>Digital Curation Centre (DCC). <em>Funders&#39; data plan requirements</em>. Retrieved August 2022 from<br />
+<a href="https://www.dcc.ac.uk/resources/data-management-plans/funders-requirements" target="_blank">https://www.dcc.ac.uk/resources/data-management-plans/funders-requirements</a></p>
+
+<p>Digital Curation Centre (DCC). <em>DMPonline</em>.<br />
+<a href="https://dmponline.dcc.ac.uk/">https://dmponline.dcc.ac.uk/</a></p>
+
+<p>GO FAIR. <em>FAIR Principles</em>. Retrieved 20 May 2020 from<br />
+<a href="https://www.go-fair.org/fair-principles/" target="_blank">https://www.go-fair.org/fair-principles/</a></p>
+
+<p>Goodman A, Pepe A, Blocker AW, Borgman CL, Cranmer K, Crosas M, et al. (2014) <em>Ten Simple Rules for the Care and Feeding of Scientific Data</em>. PLoS Comput Biol 10(4): e1003542.<br />
+<a href="https://doi.org/10.1371/journal.pcbi.1003542" target="_blank">https://doi.org/10.1371/journal.pcbi.1003542</a></p>
+
+<p>Hudson-Vitale C, Moulaison-Sandy H. (2019). <em>Data Management Plans: A Review</em>. Journal of Library Information Technology Vol. 39, No. 6, pp: 322-328.<br />
+<a href="https://doi.org/10.14429/djlit.39.06.15086" target="_blank">https://doi.org/10.14429/djlit.39.06.15086</a></p>
+
+<p>Nature. (2016). <em>1,500 scientists lift the lid on reproducibility</em>.<br />
+<a href="https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970" target="_blank">https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970</a></p>
+
+<p>PLOS. <em>Best Practices in Research Reporting</em>. Retrieved August 2022 from<br />
+<a href="https://journals.plos.org/plosone/s/best-practices-in-research-reporting" target="_blank">https://journals.plos.org/plosone/s/best-practices-in-research-reporting</a></p>
+
+<p>Qualitative Data Repository. <em>Data Management Plan (DMP) Checklist</em>. Retrieved August 2022 from<br />
+<a href="https://qdr.syr.edu/guidance/managing/dmp-checklist" target="_blank">https://qdr.syr.edu/guidance/managing/dmp-checklist</a></p>
+
+<p>Software Sustainability Institute (SSI). <em>Software Management Plans</em>. Retrieved 12 June 2020 from<br />
+<a href="https://www.software.ac.uk/software-management-plans" target="_blank">https://www.software.ac.uk/software-management-plans</a></p>
+
+<p>Strasser C, Cook R, Michener W, Budden A. <em>Primer on Data Management: What you always wanted to know (PDF, 206KB)</em>. Retrieved 17 July 2020 from<br />
+<a href="https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf" target="_blank">https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf</a></p>
+
+<p>UK Data Service (UKDS). <em>Plan to share</em>. Retrieved August 2022 from<br />
+<a href="https://ukdataservice.ac.uk/learning-hub/research-data-management/#plan-to-share" target="_blank">https://ukdataservice.ac.uk/learning-hub/research-data-management/#plan-to-share</a></p>
+
+<p>University of California Curation Center. <em>DMPTool</em>.<br />
+<a href="https://dmptool.org/" target="_blank">https://dmptool.org/</a></p>
+
+<p>Wellcome Trust. <em>How to complete an outputs management plan</em>. Retrieved 12 June 2020 from<br />
+<a href="https://wellcome.ac.uk/grant-funding/guidance/how-complete-outputs-management-plan" target="_blank">https://wellcome.ac.uk/grant-funding/guidance/how-complete-outputs-management-plan</a></p>
 ]]></text></learningObject>
