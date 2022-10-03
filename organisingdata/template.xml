@@ -151,47 +151,35 @@ I think that where you are funded by research councils, for instance like ESRC, 
 <p>This video demonstrates one commercially available electronic lab notebook service, RSpace, showing how ELNs are used to manage documentation and data within a research project.
 </p>
 <p>The University of Edinburgh has a discounted licence agreement with RSpace to provide the standard RSpace Enterprise edition integrated with local storage infrastructure.
-</p>]]></text><gapFill linkID="PG1297862175937" name="Summary" text="&lt;p&gt;You have now been introduced to the principles&amp;nbsp;of good research data organisation, why it is important, and to&amp;nbsp;tools that can help you to&amp;nbsp;manage the process of organising your data.&lt;br /&gt;&#10;&lt;br /&gt;&#10;As a summary task please drag and drop the words at the bottom of the page into the gaps left in the text.&lt;br /&gt;&#10;&lt;br /&gt;&#10;&lt;b&gt;Hint:&lt;/b&gt; If the word you select is not the correct word you won&amp;#39;t be able to drop it into the gap.&lt;/p&gt;&#10;" passage="&lt;p&gt;Research data files and folders need to be labelled and organised in a |systematic| way so that they are both identifiable and accessible for current and future users.&#10;  &lt;br /&gt;&#10;  &lt;br /&gt;&#10;  Naming records according to agreed |conventions| should make file naming easier for colleagues because they will not have to &amp;lsquo;re-think&amp;rsquo; the process each time.&#10;  &lt;br /&gt;&#10;  &lt;br /&gt;&#10;  One benefit of consistent research data file labelling is that files are not accidentally |overwritten| or deleted.&#10;  &lt;br /&gt;&#10;  &lt;br /&gt;&#10;  It is important to consistently identify and distinguish |versions| of research data files. This ensures that a clear audit trail exists for tracking the development of a data file and identifying earlier versions when needed.&#10;&lt;/p&gt;&#10;&lt;p&gt;For larger research projects, think about tools that can help you organise your data, such as batch |renaming| tools, code |versioning| repositories and electronic lab |notebooks|.&#10;&lt;/p&gt;" interactivity="Drag Drop" feedback="Congratulations! You have successfully completed this unit." panelWidth="Large"/><text linkID="PG1590423605731" name="Next &amp;amp; further reading"><![CDATA[<p><b>What to do next</b>?
-  <br />
-  <br />
-  You have now completed this unit. Take a look at the &#39;Further reading&#39; where you will find a list of resources that will help you gain further understanding of file naming conventions and versioning.
-  <br />
-  <br />
-  You could also start a new unit and come back to check these resources later. We recommend that you continue with the <a href="../fileformatsandtransformation/">File formats & transformation</a> unit.
-  <br />
-  <br />
-  If you prefer, you can also go back to the <a href="http://mantra.ed.ac.uk/">MANTRA</a> home page and choose a different unit.
-  <br />
-  <br />
-  <br />
-  <b>Further Reading</b>
-</p>
-<p>Butters O., Plomp E., Gibson S., Zormpa E., Tesfaye B., Amariei T. (2020). Why mycode.R_final.v2_usethisone is not helping your workflow. Retrieved 16 July 2020 from
-  <br />
-  <a href="https://software.ac.uk/blog/2020-06-05-cw20-speed-blog-why-mycoderfinalv2usethisone-not-helping-your-workflow" target="_blank">https://software.ac.uk/blog/2020-06-05-cw20-speed-blog-why-mycoderfinalv2usethisone-not-helping-your-workflow</a>
-</p>
-<p>Git Hub Guides (website).
-  <br />
-  <a href="https://guides.github.com/" target="_blank">https://guides.github.com/</a>
-</p>
-<p>Kwok, R. (2018). How to pick an electronic laboratory notebook. Nature 560, 269-270.
-  <br />
-  <a href="https://www.nature.com/articles/d41586-018-05895-3" target="_blank">https://www.nature.com/articles/d41586-018-05895-3</a>
-</p>
-<p>MIT Libraries. Data management and publishing: Organize your files. Massachusetts Institute of Technology. Retrieved 22 April 2020 from
-  <br />
-  <a href="http://libraries.mit.edu/data-management/store/organize" target="_blank">http://libraries.mit.edu/data-management/store/organize</a>
-</p>
-<p>Open Science Framework (OSF). Best practices [File naming, Organizing files, Version control].
-  <br />
-  <a href="https://help.osf.io/hc/en-us/sections/360003624133-File-Management-and-Licensing" target="_blank">https://help.osf.io/hc/en-us/sections/360003624133-File-Management-and-Licensing</a>
-</p>
-<p>Perkel, JM. (2018). Why Jupyter is data scientists&rsquo; computational notebook of choice. Nature 563, 145-146.
-  <br />
-  <a href="https://www.nature.com/articles/d41586-018-07196-1" target="_blank">https://www.nature.com/articles/d41586-018-07196-1</a>
-</p>
-<p>World Wide Web Consortium (W3C). Date and Time Formats. Retrieved 22 April 2020 from
-  <br />
-  <a href="https://www.w3.org/TR/NOTE-datetime" target="_blank">https://www.w3.org/TR/NOTE-datetime</a>
-</p>
+</p>]]></text><gapFill linkID="PG1297862175937" name="Summary" text="&lt;p&gt;You have now been introduced to the principles&amp;nbsp;of good research data organisation, why it is important, and to&amp;nbsp;tools that can help you to&amp;nbsp;manage the process of organising your data.&lt;br /&gt;&#10;&lt;br /&gt;&#10;As a summary task please drag and drop the words at the bottom of the page into the gaps left in the text.&lt;br /&gt;&#10;&lt;br /&gt;&#10;&lt;b&gt;Hint:&lt;/b&gt; If the word you select is not the correct word you won&amp;#39;t be able to drop it into the gap.&lt;/p&gt;&#10;" passage="&lt;p&gt;Research data files and folders need to be labelled and organised in a |systematic| way so that they are both identifiable and accessible for current and future users.&#10;  &lt;br /&gt;&#10;  &lt;br /&gt;&#10;  Naming records according to agreed |conventions| should make file naming easier for colleagues because they will not have to &amp;lsquo;re-think&amp;rsquo; the process each time.&#10;  &lt;br /&gt;&#10;  &lt;br /&gt;&#10;  One benefit of consistent research data file labelling is that files are not accidentally |overwritten| or deleted.&#10;  &lt;br /&gt;&#10;  &lt;br /&gt;&#10;  It is important to consistently identify and distinguish |versions| of research data files. This ensures that a clear audit trail exists for tracking the development of a data file and identifying earlier versions when needed.&#10;&lt;/p&gt;&#10;&lt;p&gt;For larger research projects, think about tools that can help you organise your data, such as batch |renaming| tools, code |versioning| repositories and electronic lab |notebooks|.&#10;&lt;/p&gt;" interactivity="Drag Drop" feedback="Congratulations! You have successfully completed this unit." panelWidth="Large"/><text linkID="PG1590423605731" name="Next &amp;amp; further reading"><![CDATA[<p><b>What to do next</b>?<br />
+<br />
+You have now completed this unit. Take a look at the &#39;Further reading&#39; where you will find a list of resources that will help you gain further understanding of file naming conventions and versioning.<br />
+<br />
+You could also start a new unit and come back to check these resources later. We recommend that you continue with the <a href="../preparingyourdataforarchiving/" target="_blank">Preparing your data for archiving</a> unit.<br />
+<br />
+If you prefer, you can also go back to the <a href="http://mantra.ed.ac.uk/">MANTRA</a> home page and choose a different unit.<br />
+<br />
+<br />
+<b>Further Reading</b></p>
+
+<p>Butters O., Plomp E., Gibson S., Zormpa E., Tesfaye B., Amariei T. (2020). Why mycode.R_final.v2_usethisone is not helping your workflow. Retrieved 16 July 2020 from<br />
+<a href="https://software.ac.uk/blog/2020-06-05-cw20-speed-blog-why-mycoderfinalv2usethisone-not-helping-your-workflow" target="_blank">https://software.ac.uk/blog/2020-06-05-cw20-speed-blog-why-mycoderfinalv2usethisone-not-helping-your-workflow</a></p>
+
+<p>Git Hub Guides (website).<br />
+<a href="https://guides.github.com/" target="_blank">https://guides.github.com/</a></p>
+
+<p>Kwok, R. (2018). How to pick an electronic laboratory notebook. Nature 560, 269-270.<br />
+<a href="https://www.nature.com/articles/d41586-018-05895-3" target="_blank">https://www.nature.com/articles/d41586-018-05895-3</a></p>
+
+<p>MIT Libraries. Data management and publishing: Organize your files. Massachusetts Institute of Technology. Retrieved 22 April 2020 from<br />
+<a href="http://libraries.mit.edu/data-management/store/organize" target="_blank">http://libraries.mit.edu/data-management/store/organize</a></p>
+
+<p>Open Science Framework (OSF). Best practices [File naming, Organizing files, Version control].<br />
+<a href="https://help.osf.io/hc/en-us/sections/360003624133-File-Management-and-Licensing" target="_blank">https://help.osf.io/hc/en-us/sections/360003624133-File-Management-and-Licensing</a></p>
+
+<p>Perkel, JM. (2018). Why Jupyter is data scientists&rsquo; computational notebook of choice. Nature 563, 145-146.<br />
+<a href="https://www.nature.com/articles/d41586-018-07196-1" target="_blank">https://www.nature.com/articles/d41586-018-07196-1</a></p>
+
+<p>World Wide Web Consortium (W3C). Date and Time Formats. Retrieved 22 April 2020 from<br />
+<a href="https://www.w3.org/TR/NOTE-datetime" target="_blank">https://www.w3.org/TR/NOTE-datetime</a></p>
 ]]></text></learningObject>
