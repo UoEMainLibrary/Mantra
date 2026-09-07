@@ -71,7 +71,9 @@
 	/* __columns__ */
 	
 	#pageContents.col #textHolder {
-		padding-bottom:	1em;
+		border-bottom: 1px solid #ccc;
+		margin-bottom:	1em;
+		padding-bottom:	0.7em;
 	}
 	
 	#pageContents.col .navChild {
@@ -85,7 +87,7 @@
 		padding: 0 4px;
 	}
 	
-	.x_mobile #pageContents.col .navChild, .x_mobile #pageContents.col #textHolder + #navHolder .navChild:first-of-type {
+	.x_mobile #pageContents.col .navChild:not(:first-of-type) {
 		padding-top: 10px;
 		border-top:	1px solid gray;
 	}
@@ -146,16 +148,18 @@
 		border: none;
 	}
 	
-	#tabHolder .navChildTitle {
-		border-bottom: 1px solid #cccccc !important;
-	}
-	
 	#tabHolder .navChildTitle.ui-tabs-active {
-		border-color: #d3d3d3;
 		border-bottom: 1px solid white !important;
 	}
 	
 	#pageContents.tab #paneHolder {
 		overflow: hidden;
+	}
+
+
+	/* __accordion__ */
+	#pageContents.acc .navChildTitle:focus,
+	#pageContents.acc .navChild:focus {
+		outline: auto; /* ensures the browser focus is shown - the jquery ui css removes this */
 	}
 	

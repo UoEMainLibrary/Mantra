@@ -9,6 +9,10 @@
 		margin-bottom:	15px;
 	}
 
+	#optionHolder.hidden {
+		display: none !important;
+	}
+
 	#pageContents input {
 		float:		left;
 		display:	block;
@@ -25,6 +29,41 @@
 		margin-left:	2em;
 		display:		block;
 	}
+
+	#pageContents #optionHolder.answerBtn {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1em;
+	}
+
+	#pageContents .optionGroup.answerBtn,
+	#pageContents .optionGroup.answerBtn .ui-button-text {
+		padding: 0;
+		margin: 0;
+	}
+
+	#pageContents .optionGroup.answerBtn input {
+		width: 0 !important;
+		height: 0 !important;
+	}
+
+	#pageContents .optionGroup.answerBtn .optionTxt {
+		padding: .5em 1em;
+		margin: 0;
+	}
+
+	#pageContents .optionGroup.answerBtn .optionTxt p {
+		padding: 0;
+		margin: 0;
+		color: unset;
+		background: unset;
+	}
+
+	#pageContents .optionGroup.answerBtn.selected {
+		background-color: white;
+		background-image: none;
+	}
 	
 	#feedback, #buttonHolder {
 		clear:		both;
@@ -33,13 +72,18 @@
 	#buttonHolder {
 		float:	right;
 		margin-bottom:	10px;
+		margin-top: 10px;
 		padding-right: 5px;
 	}
 
-	#infoHolder .quizImg {
+	#infoHolder .qImgHolder {
 		padding:	5px;
 		float:		right;
 		max-width:	50%;
+	}
+
+	#infoHolder .quizImg {
+		max-width:	100%;
 		height:		auto;
 	}
 	
@@ -66,4 +110,31 @@
 	#feedback .audioHolder {
 		margin:	0.5em 0 1em 0;
 	}
+	
+	#feedbackGroup {
+		clear: both;
+	}
 
+	#feedbackGroup h3 {
+		border-top: 1px solid #ccc;
+		padding-top: 1em;
+	}
+
+	#qTxt {
+		width: 100%;
+		padding: 0;
+	}
+
+	#feedbackGroup .feedbackBlock {
+		margin-bottom: 0.5em;
+	}
+
+	#mainPanel {
+		overflow: auto;
+		position: relative;
+	}
+
+	#qNo {
+		font-weight: bold;
+		padding-top: 0;
+	}
