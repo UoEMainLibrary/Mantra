@@ -34,7 +34,8 @@
     * @param {[[String]]} puzzle: The puzzle to draw
     */
     var drawPuzzle = function (el, puzzle) {
-      
+
+
       var output = '';
       // for each row in the puzzle
       for (var i = 0, height = puzzle.length; i < height; i++) {
@@ -62,11 +63,11 @@
     * @param {[String]} words: The words to draw
     */
     var drawWords = function (el, words) {
-      
+
       var output = '<ul>';
       for (var i = 0, len = words.length; i < len; i++) {
         var word = words[i];
-        output += '<li class="word ' + word + '">' + word;
+        output += '<li class="wrd ' + word + '">' + word;
       }
       output += '</ul>';
 
@@ -175,15 +176,15 @@
       }
 
     };
-    
+
     var touchMove = function(e) {
       var xPos = e.originalEvent.touches[0].pageX;
       var yPos = e.originalEvent.touches[0].pageY;
       var targetElement = document.elementFromPoint(xPos, yPos);
       select(targetElement)
     };
-    
-    var mouseMove = function() { 
+
+    var mouseMove = function() {
       select(this);
     };
 
@@ -193,7 +194,6 @@
     * @param {el} square: The jQuery element that was played
     */
     var playTurn = function (square) {
-
       // make sure we are still forming a valid word
       for (var i = 0, len = wordList.length; i < len; i++) {
         if (wordList[i].indexOf(curWord + $(square).text()) === 0) {
@@ -215,7 +215,7 @@
 
       // see if we formed a valid word
       for (var i = 0, len = wordList.length; i < len; i++) {
-        
+
         if (wordList[i] === curWord) {
           $('.selected').addClass('found');
           wordList.splice(i,1);
@@ -223,7 +223,7 @@
         }
 
         if (wordList.length === 0) {
-          $('.puzzleSquare').addClass('complete');
+          $('#solve').click();
         }
       }
 
@@ -271,7 +271,7 @@
       * @param {Options} options: WordFind options to use when creating the puzzle
       */
       create: function(words, puzzleEl, wordsEl, options) {
-        
+
         wordList = words.slice(0);
 
         var puzzle = wordfind.newPuzzle(words, options);
