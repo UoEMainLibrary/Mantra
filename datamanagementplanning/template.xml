@@ -133,45 +133,62 @@ Effective data management has many benefits. We offer comprehensive support that
 </p>
 <p><b>Important!</b> DMPs should be maintained and kept up-to-date throughout the course of your research.
 </p>
-]]></bullets><text linkID="PG1324061417074" name="Funder DMP requirements" textWidth="760"><![CDATA[<p>Funding bodies increasingly require that grant applications include data management plans. For example:
-</p>
+]]></bullets><text linkID="PG1324061417074" name="Funder DMP requirements" textWidth="760"><![CDATA[<p>Funding bodies increasingly require that grant applications include data management plans. For example:</p>
+
 <ul>
-  <li>Current <strong>National Science Foundation</strong> (NSF, American funding agency) policy states that all NSF proposals must have a supplementary document of no more than two pages labelled &quot;Data Management Plan&quot;.</li>
+	<li>Current <strong>National Science Foundation</strong> (NSF, American funding agency) policy states that all NSF proposals must have a supplementary document of no more than two pages labelled &quot;Data Management Plan&quot;.</li>
 </ul>
+
 <ul>
-  <li><strong>European Commission</strong> guidance on Open Data Management: <a href="https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm" target="_blank">https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm</a></li>
+	<li><strong>European Commission</strong> guidance on Open Data Management: <a href="https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm" target="_blank">https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm</a></li>
 </ul>
+
 <ul>
-  <li><strong>UK Research and Innovation</strong> (UKRI), the umbrella body for the UK&#39;s publicly funded Research Councils, set expectations for the systematic and routine management and sharing of research data funded by their members: <a href="https://www.ukri.org/funding/information-for-award-holders/data-policy/" target="_blank">https://www.ukri.org/funding/information-for-award-holders/data-policy/</a></li>
+	<li><strong>UK Research and Innovation</strong> (UKRI), the umbrella body for the UK&#39;s publicly funded Research Councils, set expectations for the systematic and routine management and sharing of research data funded by their members:<br />
+	<a href="https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/" target="_blank">https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/</a></li>
 </ul>
-<p>The following <strong>UK funding bodies</strong> explicitly require a data management plan as part of funding proposals:
-</p>
+
+<p>The following <strong>UK funding bodies</strong> explicitly require a data management plan as part of funding proposals:</p>
+
 <ul>
-  <li><strong>Biotechnology and Biological Sciences Research Council </strong>(BBSRC):&nbsp;<a href="http://www.bbsrc.ac.uk/about/policies-standards/data-sharing-policy/" target="_blank">www.bbsrc.ac.uk/about/policies-standards/data-sharing-policy/</a></li>
+	<li><strong>Biotechnology and Biological Sciences Research Council </strong>(BBSRC):&nbsp;<br />
+	<a href="https://www.ukri.org/publications/bbsrc-data-sharing-policy/" target="_blank">https://www.ukri.org/publications/bbsrc-data-sharing-policy/</a></li>
 </ul>
+
 <ul>
-  <li><strong>Cancer Research UK</strong>: <a href="http://www.cancerresearchuk.org/funding-for-researchers/applying-for-funding/policies-that-affect-your-grant/submission-of-a-data-sharing-and-preservation-strategy/data-sharing-guidelines#Data" target="_blank">www.cancerresearchuk.org/funding-for-researchers/applying-for-funding/policies-that-affect-your-grant/submission-of-a-data-sharing-and-preservation-strategy/data-sharing-guidelines#Data</a></li>
+	<li><strong>Cancer Research UK</strong>: <a href="https://www.ukri.org/publications/esrc-research-data-policy/" target="_blank">https://www.ukri.org/publications/esrc-research-data-policy/</a></li>
 </ul>
+
 <ul>
-  <li><strong>Economic and Social Research Council </strong>(ESRC):&nbsp;<a href="http://www.esrc.ac.uk/funding/guidance-for-grant-holders/research-data-policy/" target="_blank">www.esrc.ac.uk/funding/guidance-for-grant-holders/research-data-policy/</a></li>
+	<li><strong>Economic and Social Research Council </strong>(ESRC):&nbsp;<br />
+	<a href="https://www.ukri.org/publications/esrc-research-data-policy/" target="_blank">https://www.ukri.org/publications/esrc-research-data-policy/</a></li>
 </ul>
+
 <ul>
-  <li><strong>Medical Research Council </strong>(MRC):&nbsp;<a href="https://mrc.ukri.org/funding/guidance-for-applicants/2-the-application/#2.2.7" target="_blank">https://mrc.ukri.org/funding/guidance-for-applicants/2-the-application/#2.2.7</a></li>
+	<li><strong>Medical Research Council </strong>(MRC):&nbsp;<br />
+	<a href="https://www.ukri.org/publications/mrc-data-sharing-policy/" target="_blank">https://www.ukri.org/publications/mrc-data-sharing-policy/</a></li>
 </ul>
+
 <ul>
-  <li><strong>Natural Environment Research Council </strong>(NERC):&nbsp;<a href="https://nerc.ukri.org/research/sites/environmental-data-service-eds/dmp/" target="_blank">https://nerc.ukri.org/research/sites/environmental-data-service-eds/dmp</a></li>
+	<li><strong>Natural Environment Research Council </strong>(NERC):&nbsp;<br />
+	<a href="https://www.ukri.org/who-we-are/nerc/our-policies-and-standards/nerc-data-policy/" target="_blank">https://www.ukri.org/who-we-are/nerc/our-policies-and-standards/nerc-data-policy/</a></li>
 </ul>
+
 <ul>
-  <li><strong>Science &amp; Technology Facilities Council </strong>(STFC):&nbsp;<a href="http://www.stfc.ac.uk/funding/research-grants/data-management-plan/" target="_blank">www.stfc.ac.uk/funding/research-grants/data-management-plan/</a></li>
+	<li><strong>Science &amp; Technology Facilities Council </strong>(STFC):&nbsp;<br />
+	<a href="https://www.ukri.org/councils/stfc/guidance-for-applicants/what-to-include-in-your-proposal/data-management-plan/" target="_blank">https://www.ukri.org/councils/stfc/guidance-for-applicants/what-to-include-in-your-proposal/data-management-plan/</a><br />
+	&nbsp;</li>
+	<li><strong>The Wellcome Trust </strong>has a single data, software, and materials managements and sharing policy:&nbsp;<br />
+	<a href="https://wellcome.ac.uk/grant-funding/guidance/data-software-materials-management-and-sharing-policy" target="_blank">https://wellcome.ac.uk/grant-funding/guidance/data-software-materials-management-and-sharing-policy</a></li>
 </ul>
+
+<p>UK funders that currently <b>do not</b> require a data management plan:</p>
+
 <ul>
-  <li><strong>The Wellcome Trust </strong>has a single data, software, and materials managements and sharing policy:&nbsp;<a href="https://wellcome.ac.uk/grant-funding/guidance/data-software-materials-management-and-sharing-policy" target="_blank">https://wellcome.ac.uk/grant-funding/guidance/data-software-materials-management-and-sharing-policy</a></li>
+	<li><strong>Engineering and Physical Sciences Research Council </strong>(EPSRC) &quot;does not require DMPs with research grant applications, but [their] research data principles include that &#39;<em>...project specific data management policies and plans... ...should exist for all data&#39;&quot;</em>:<br />
+	<a href="https://www.ukri.org/who-we-are/epsrc/our-policies-and-standards/policy-framework-on-research-data/principles/" target="_blank">https://www.ukri.org/who-we-are/epsrc/our-policies-and-standards/policy-framework-on-research-data/principles/</a></li>
 </ul>
-<p>UK funders that currently <b>do not</b> require a data management plan:
-</p>
-<ul>
-  <li><strong>Engineering and Physical Sciences Research Council </strong>(EPSRC) &quot;does not require DMPs with research grant applications, but [their] research data principles include that &#39;<em>...project specific data management policies and plans... ...should exist for all data&#39;&quot;</em>: <a href="https://epsrc.ukri.org/files/aboutus/standards/clarificationsofexpectationsresearchdatamanagement/" target="_blank">https://epsrc.ukri.org/files/aboutus/standards/clarificationsofexpectationsresearchdatamanagement</a></li>
-</ul>]]></text><text linkID="PG1591955869520" name="Managing other research outputs"><![CDATA[<p>Data and publications aren&rsquo;t the only outputs of academic research: it often produces software code, workflows, methods and protocols too. In many cases all of these things are required in order to build up a full picture of the research project, or attempt to reproduce its published findings.
+]]></text><text linkID="PG1591955869520" name="Managing other research outputs"><![CDATA[<p>Data and publications aren&rsquo;t the only outputs of academic research: it often produces software code, workflows, methods and protocols too. In many cases all of these things are required in order to build up a full picture of the research project, or attempt to reproduce its published findings.
 </p>
 <p>A relatively recent trend is to think holistically about all of the output types that emerge from the research process. This approach is reflected in the Wellcome Trust&rsquo;s Outputs Management Plan requirement (<a href="https://wellcome.org/grant-funding/guidance/how-complete-outputs-management-plan/" target="_blank">https://wellcome.org/grant-funding/guidance/how-complete-outputs-management-plan</a>), which replaced their former requirement for a data management plan. Here, data management planning is incorporated within a broader activity, addressing all of the different products of research.
 </p>
@@ -285,9 +302,6 @@ If you prefer, you could instead go back to the <a href="http://mantra.ed.ac.uk/
 
 <p>Software Sustainability Institute (SSI). <em>Software Management Plans</em>. Retrieved 12 June 2020 from<br />
 <a href="https://www.software.ac.uk/software-management-plans" target="_blank">https://www.software.ac.uk/software-management-plans</a></p>
-
-<p>Strasser C, Cook R, Michener W, Budden A. <em>Primer on Data Management: What you always wanted to know (PDF, 206KB)</em>. Retrieved 17 July 2020 from<br />
-<a href="https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf" target="_blank">https://old.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf</a></p>
 
 <p>UK Data Service (UKDS). <em>Plan to share</em>. Retrieved August 2022 from<br />
 <a href="https://ukdataservice.ac.uk/learning-hub/research-data-management/#plan-to-share" target="_blank">https://ukdataservice.ac.uk/learning-hub/research-data-management/#plan-to-share</a></p>
