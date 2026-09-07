@@ -29,7 +29,7 @@ childNodes (synchMCQOption):
 required: text correct
 optional: feedback page synch play enable
 
-*dealt with in mediaLesson.html
+*dealt with in interactiveVideo.html and in the medialesson.html
 
 */
 
@@ -38,62 +38,73 @@ optional: feedback page synch play enable
 	Popcorn.plugin("mcq", function(options) {
 
 		// define plugin wide variables / functions here
-		var $target, $optHolder, $checkBtn, $feedbackDiv, media, selected, judge, autoEnable, questions;
-		
-		var finishTracking = function(options) {
-            var allValid = true;
-            var ia_nr = Number(options.tracking_nr);
-            var numOfQuestions = Number(options.total_questions);
-            for (var i = 0; i < options.childNodes.length; i++) {
-                var curValid = false;
-                for (var j = 0; j < selected.length; j++) {
-                    if (i == selected[j] && options.childNodes[i].getAttribute("correct") == "false") {
-                        allValid = false;
-                    }
-                    if (i == selected[j] && options.childNodes[i].getAttribute("correct") == "true") {
-                        curValid = true;
-                    }
-                }
-                if (!curValid && options.childNodes[i].getAttribute("correct") == "true") {
-                    allValid = false;
-                }
-            }
-            var l_options = [];
-            var l_answers = [];
-            var l_feedback = [];
-            $(selected).each(function (i, v) {
-                l_options.push({
-					id: (v + 1) + "",
-					answer: x_GetTrackingTextFromHTML(options.childNodes[v].getAttribute("text"), (v+1) + ""),
-					result: options.childNodes[i].getAttribute("correct") === "true"
-            	});
+		var $target, $optHolder, $checkBtn, $feedbackDiv, $continueBtn, media, selected, judge, autoEnable, $showHs, $showLbl, $showHsActive, $learningObjectParent;
 
-                l_answers.push(x_GetTrackingTextFromHTML(options.childNodes[v].getAttribute("text"), (v+1) + ""));
-                l_feedback.push("");
-            });
-            mediaLesson.questions[ia_nr] = true;
-            var scormScore = 0;
-            if (ia_nr == numOfQuestions-1) {
-                var score = 0;
-                for (var i=0; i<numOfQuestions; i++)
-                {
-                    if (mediaLesson.questions[i])
-                    {
-                        score++;
-                    }
-                }
-                scormScore = Math.ceil(score / numOfQuestions * 100);
-            }
-			var result =
+		// Score tracking Manager
+		var finishTracking = function(options) {
+		    if(x_currentPageXML.getAttribute('trackVideo') === 'only_video') {
+			    return
+		    }
+			// Check the exercise and all individual questions
+		    var allValid = true;
+		    var ia_nr = Number(options.tracking_nr);
+		    var numOfQuestions = Number(options.total_questions);
+		    for (var i = 0; i < options.childNodes.length; i++) {
+			    var curValid = false;
+			    for (var j = 0; j < selected.length; j++) {
+				    if ((i == selected[j] && options.childNodes[i].getAttribute("correct") == "true") || !judge) {
+					    curValid = true;
+				    }
+				    if ((i == selected[j] && options.childNodes[i].getAttribute("correct") == "false") && judge) {
+					    allValid = false;
+				    }
+			    }
+			    if (!curValid && options.childNodes[i].getAttribute("correct") == "true") {
+				    allValid = false;
+			    }
+		    }
+
+				
+
+		    // Xerte Tracking setup
+		    var l_options = [];
+		    var l_answers = [];
+		    var l_feedback = [];
+		    $(selected).each(function (i, v) {
+				l_options.push({
+							id: (v + 1) + "",
+							answer: x_GetTrackingTextFromHTML(options.childNodes[v].getAttribute("text"), (v+1) + ""),
+							result: options.childNodes[i].getAttribute("correct") === "true"
+				});
+
+				l_answers.push(x_GetTrackingTextFromHTML(options.childNodes[v].getAttribute("text"), (v+1) + ""));
+				l_feedback.push("");
+  		    });
+		    $learningObjectParent.questions[ia_nr] = allValid;
+		    var scormScore = 0;
+			var score = 0;
+			for (var i=0; i<numOfQuestions; i++)
+			{
+				if ($learningObjectParent.questions[i])
 				{
-					success: allValid,
-					score: scormScore
-				};
-            XTExitInteraction(x_currentPage, ia_nr, result, l_options, l_answers, l_feedback, x_currentPageXML.getAttribute("trackinglabel"));
-            XTSetPageScore(x_currentPage, scormScore, x_currentPageXML.getAttribute("trackinglabel"));
-            mediaLesson.enableControls(media.media, true);
-        }
-		
+					score++;
+				}
+			}
+			scormScore = Math.ceil(score / numOfQuestions * 100);
+			var result =
+			{
+				success: allValid,
+				score: (allValid ? 100.0 : 0.0),
+				judge: judge
+			};
+
+			//Push results
+			XTSetPageScore(x_currentPage, scormScore);
+			XTExitInteraction(x_currentPage, ia_nr, result, l_options, l_answers, l_feedback);
+            $learningObjectParent.enableControls(media.media, true);
+    };
+
+		// Feedback Manager
 		var answerSelected = function() {
 			// put together feedback string;
 			var feedbackTxt = "",
@@ -116,21 +127,20 @@ optional: feedback page synch play enable
 				}
 			}
 			
-
 			// feedback if question has true/false answers
-			if (judge == true) {
+			if (judge) {
 				var fb;
 				finishTracking(options);
 				if (options.answerType == "multiple" && options.type == "radio") {
 					fb = "multiRight";
 					for (var i=0; i<options.childNodes.length; i++) {
 						if ($.inArray(i, selected) >= 0) {
-							if (options.childNodes[i].getAttribute("correct") == "false") {
+							if (options.childNodes[i].getAttribute("correct") == "false" && judge) {
 								fb = "multiWrong";
 								break;
 							}
 						} else {
-							if (options.childNodes[i].getAttribute("correct") == "true") {
+							if (options.childNodes[i].getAttribute("correct") == "true" && judge) {
 								fb = "multiWrong";
 								break;
 							}
@@ -143,7 +153,7 @@ optional: feedback page synch play enable
 				} else {
 					fb = "singleRight";
 					for (var i=0; i<selected.length; i++) {
-						if (options.childNodes[selected[i]].getAttribute("correct") == "false") {
+						if (options.childNodes[selected[i]].getAttribute("correct") == "false" && judge) {
 							fb = "singleWrong";
 							break;
 						}
@@ -154,28 +164,32 @@ optional: feedback page synch play enable
 				}
 				
 			
-				feedbackTxt += options[fb] != "" ? '<div class="feedback">' + options[fb] + '</div>' : "";
+				feedbackTxt += options[fb] != "" ? '<div class="feedback"><p>' + options[fb] + '</p></div>' : "";
+			}else {
+				finishTracking(options);
 			}
 			
 			if (options.childNodes[index].getAttribute("enable") == "true" || (enable == true && ((options.childNodes[index].getAttribute("page") == undefined || options.childNodes[index].getAttribute("page") == "") && (options.childNodes[index].getAttribute("synch") == undefined || options.childNodes[index].getAttribute("synch") == "")))) {
 				// controls will be enabled if correct answer selected unless there is a 'go to page' or 'go to synch point' action associated with it
-				mediaLesson.enableControls(media.media, true);
+				$learningObjectParent.enableControls(media.media, true);
 			}
 			
 			// automatically enable if the question has been set up so there's no answer that will enable them
 			if (autoEnable == true) {
-				mediaLesson.enableControls(media.media, true);
+				$learningObjectParent.enableControls(media.media, true);
 			}
 			
 			// show feedback if there is some, with button to do action afterwards (change page, media current time, play media)
 			if (feedbackTxt != "") {
 				var feedbackLabel = options.feedbackLabel != "" ? '<h5>' + options.feedbackLabel + '</h5>' : "";
 				
-				$feedbackDiv
-					.html(feedbackLabel + feedbackTxt)
-					.show();
-				
+				$feedbackDiv.html(feedbackLabel + feedbackTxt);
+				$continueBtn.show();
+				x_pageContentsUpdated();
+
+				//#Warning: unused by Xerte at the current time.
 				if (action >= 0) {
+					$(".mcqContinueBtn").hide();
 					$('<button>')
 						.appendTo($feedbackDiv)
 						.button({"label": options.continueBtnTxt != "" ? options.continueBtnTxt : "Continue"})
@@ -187,11 +201,12 @@ optional: feedback page synch play enable
 			// no feedback needed so do change page / play / change media current time immediately
 			} else if (action >= 0) {
 				doAction(action);
+			} else {
+				$continueBtn.show();
 			}
 		}
 		
-		
-		
+		// Media Action Manger (seek, pause, change LO)
 		var doAction = function(index) {
 			if (options.childNodes[index].getAttribute("page") != undefined && options.childNodes[index].getAttribute("page") != "") {
 				// change LO page
@@ -215,70 +230,81 @@ optional: feedback page synch play enable
 					media.play();
 				}
 			}
-			mediaLesson.enableControls(media.media, true);
+			$learningObjectParent.enableControls(media.media, true);
 		}
 		
 		return {
 			_setup: function(options) {
-
 				media = this;
+				let judgeOverride = options.judge?? "true";
 				judge = false;
 				autoEnable = true;
 				var tempEnable = false;
-				
-				// is it to appear over media?
-				if (options.overlay == "true" && (this.video != undefined || $(this.audio).closest(".mediaHolder").find(".audioImg").length > 0)) {
-					var $parent;
-					if (this.video != undefined) {
-						$parent = $(this.media).parent();
-					} else {
-						$parent = $(this.media).closest(".mediaHolder").find(".audioImgHolder");
+				$learningObjectParent = eval(x_currentPageXML.nodeName);
+				$target = $("#" + options.target);
+				var $optionText = options.name !== "" ? '<h4>' + options.name + '</h4>' + x_addLineBreaks(options.text) : x_addLineBreaks(options.text);
+				$target.hide();
+				debugger;
+				// Store the answers in a temporary array
+				var elements = [];
+				(options.childNodes).each(function(i) {
+					elements.push(
+						{
+							label:		this.getAttribute("name"),
+							text:		this.getAttribute("text"),
+							correct:	this.getAttribute("correct"),
+							feedback:	this.getAttribute("feedback"),
+							audioFB:	this.getAttribute("audioFB"),
+							transcript:	this.getAttribute("audioTranscript") != undefined && this.getAttribute("audioTranscript") != '' ? this.getAttribute("audioTranscript") : false,
+							page:		this.getAttribute("page"),
+							synch:		this.getAttribute("synch"),
+							play:		this.getAttribute("play"),
+							enable:		this.getAttribute("enable")
+						}
+					);
+				});
+
+				// Randomise the answers, if required
+				if (options.answerOrder != undefined && options.answerOrder == 'random') {
+					for (var tmp, j, k, i = elements.length; i--;) {
+						j = Math.floor(Math.random() * elements.length);
+						k = Math.floor(Math.random() * elements.length);
+						tmp = elements[j];
+						elements[j] = elements[k];
+						elements[k] = tmp;
 					}
-					
-					// move mcqHolder to overlay media
-					$("#" + options.target)
-						.appendTo($parent)
-						.removeClass("contentBlock")
-						.addClass("overlay");
-					
-					$target = $('<div class="holder"/>').appendTo($("#" + options.target));
-				} else {
-					$target = $("#" + options.target);
 				}
-				
-				$target
-					.append(options.name != "" ? '<h4>' + options.name + '</h4>' + x_addLineBreaks(options.text) : x_addLineBreaks(options.text))
-					.hide();
-				
+
+				$target.data('optionElements', elements);
 				$optHolder = $('<div class="optionHolder"/>').appendTo($target);
-				
-				if ($(options.childNodes).length == 0) {
+
+				if (elements.length == 0) {
 					$optHolder.html('<span class="alert">' + x_getLangInfo(x_languageData.find("errorQuestions")[0], "noA", "No answer options have been added") + '</span>');
 				} else {
 					// create answer options (could be buttons, radio list or drop down menu)
-					$(options.childNodes).each(function(i) {
-						if (judge == false && this.getAttribute("correct") == "true") {
+					$(elements).each(function(i) {
+						if (judge == false && (this.correct == "true" && judgeOverride == "true")) {
 							judge = true;
 							autoEnable = false;
 						}
 						
-						if (tempEnable == false && ((this.getAttribute("page") != undefined && this.getAttribute("page") != "") || (this.getAttribute("synch") == undefined && this.getAttribute("synch") == "") || this.getAttribute("play") == "true" || this.getAttribute("enable") == "true")) {
+						if (tempEnable == false && ((this.page != undefined && this.page != "") || (this.synch == undefined && this.synch == "") || this.play == "true" || this.enable == "true")) {
 							tempEnable = true;
 						}
 						
 						var authorSupport = "";
 						if (x_params.authorSupport == "true") {
-							if (this.getAttribute("synch") != undefined && this.getAttribute("synch") != "") {
+							if (this.synch != undefined && this.synch != "") {
 								var skipTxt = x_currentPageXML.getAttribute("supportSkip") != undefined ? x_currentPageXML.getAttribute("supportSkip") : "skip";
-								authorSupport += ' <span class="alert">[' + skipTxt + ":" + this.getAttribute("synch") + ']</span>';
+								authorSupport += ' <span class="alert">[' + skipTxt + ":" + this.synch + ']</span>';
 							}
-							if (this.getAttribute("page") != undefined && this.getAttribute("page") != "") {
-								var pageNum = x_lookupPage("linkID", this.getAttribute("page")),
+							if (this.page != undefined && this.page != "") {
+								var pageNum = x_lookupPage("linkID", this.page),
 									skipTxt = x_currentPageXML.getAttribute("supportPage") != undefined ? x_currentPageXML.getAttribute("supportPage") : "page";
 								if (pageNum != null) {
 									authorSupport += ' <span class="alert">[' + skipTxt + ":" + x_pages[pageNum].getAttribute("name") + ']</span>';
-								} else if ($.isNumeric(this.getAttribute("page"))) {
-									authorSupport += ' <span class="alert">[' + skipTxt + ":" + this.getAttribute("page") + ']</span>';
+								} else if ($.isNumeric(this.page)) {
+									authorSupport += ' <span class="alert">[' + skipTxt + ":" + this.page + ']</span>';
 								}
 							}
 						}
@@ -286,7 +312,7 @@ optional: feedback page synch play enable
 						if (options.type == "button") {
 							$('<button/>')
 								.appendTo($optHolder)
-								.button({"label": this.getAttribute("text") + authorSupport})
+								.button({"label": this.text + authorSupport})
 								.click(function() {
 									$feedbackDiv.html("");
 									selected = [i];
@@ -310,7 +336,7 @@ optional: feedback page synch play enable
 								$option
 									.attr({
 										"id": options.target + "_option" + i,
-										"value": this.getAttribute("text")
+										"value": this.text
 									})
 									.data("index", i)
 									.change(function() {
@@ -341,7 +367,7 @@ optional: feedback page synch play enable
 									});
 								
 								$optionTxt
-									.html(x_addLineBreaks(this.getAttribute("text")) + authorSupport)
+									.html(x_addLineBreaks(this.text) + authorSupport)
 									.attr("for", options.target + "_option" + i)
 									.data("option", $option);
 								
@@ -378,43 +404,127 @@ optional: feedback page synch play enable
 								var $option = $('<option/>').appendTo($optGroup);
 								
 								$option
-									.attr("value", this.getAttribute("text"))
-									.html(this.getAttribute("text") + authorSupport);
+									.attr("value", this.text)
+									.html(this.text + authorSupport);
 							}
 						}
 					});
-					
 					if (tempEnable == true && autoEnable == true) { // prevent automatic enabling of controls if an answer has an action that will enable anyway
 						autoEnable = false;
 					}
 					
 					// unless it's a button question there needs to be a submit answer button
 					if (options.type != "button") {
-						$checkBtn = $('<button class="mcqCheckBtn"></button>').appendTo($target);
-						$checkBtn
-							.button({
-								"label":	options.checkBtnTxt != "" ? options.checkBtnTxt : "Check",
-								"disabled":	true
-							})
-							.click(function() {
-								answerSelected();
-								$checkBtn.hide();
-							});
-					}
+                        $checkBtn = $('<button class="mcqCheckBtn"></button>').appendTo($target);
+                        $checkBtn
+                            .button({
+                                "label": options.checkBtnTxt != "" ? options.checkBtnTxt : "Check",
+                                "disabled": true
+                            })
+                            .click(function () {
+                                answerSelected();
+                                $checkBtn.hide();
+                            });
+                    }
 					
-					$feedbackDiv = $('<div class="mcqFeedback"></div>')
-						.appendTo($target)
-						.hide();
-					
+					$feedbackDiv = $('<div class="mcqFeedback" aria-live="polite"></div>').appendTo($target)
+
+					$continueBtn = $('<button class="mcqContinueBtn"></button>').appendTo($target).hide();
+					$continueBtn
+						.button({
+							"label": options.continueBtnTxt != "" ? options.continueBtnTxt : "Continue"
+						})
+						.click(function () {
+							$target.hide();
+							media.play();
+                            if (options.overlayPan)
+                                $target.parent().hide();
+                        });
+
 					$target.append('<div class="bottom"/>');
 				}
 				
+
 				if (options.line == "true") {
 					if (options.position == "top") {
 						$target.append("<hr/>");
 					} else {
 						$target.prepend("<hr/>");
 					}
+				}
+			
+				if(options.overlayPan == "true")
+				{
+					$target.parent().hide();
+					$target.hide();
+					
+                	if(options.optional == "true") {
+						var $showHolder  = $('<div id="showHolder"/>').appendTo($target);
+						$showHs = $('<div class="Hs x_noLightBox showHotspot"/>').addClass(options.attrib.icon).appendTo($showHolder);
+						$showHs.css({
+							"background-color": options.attrib.colour1,
+							"color": options.attrib.colour2,
+						}).data({
+							size: options.attrib.hsSize,
+							colour2: options.attrib.colour1
+						}).hover(function(){
+							var $this = $(this);
+							$this.css({
+								'box-shadow': '0px 0px ' + ($this.data('size')/2) + 'px ' + $this.data('colour2'),
+								'cursor': 'pointer',
+								'z-index': 1000
+							});
+						},
+						function() { // On end hover, remove glow effect
+							$(this)
+								.css({
+									'box-shadow': 'none',
+									'z-index': 1
+								})
+						});
+
+						$showLbl = $("<div class='showLabel panel'>" + options.name + "</div>");
+						if(options.attrib.tooltip == "label") {
+							$showLbl.appendTo($showHolder);
+						}
+						else if(options.attrib.tooltip == "tooltip"){
+							$showLbl.removeClass("showLabel").addClass("tooltip").appendTo($showHolder).hide();
+							$('<div class="tipArrow arrowDown"/>').appendTo($showLbl);
+							$showHs.hover(function(){
+								$showLbl.show();
+							}, function() {
+								$showLbl.css({
+									'box-shadow': 'none',
+									'z-index': 1
+								}).hide();
+							});
+						}
+						$showHolder
+							.click(function (e) {
+								e.stopPropagation();
+								$target.parent().css({"padding": 5, "width": options._w + "%", "height": "auto", "overflow-x": "hidden"});
+                                $("#overlay").show();
+								$showHsActive = true;
+                                $learningObjectParent.popcornInstance.media.pause();
+                                $target.parent().addClass("qWindow").addClass("panel");
+								$showHolder.hide();
+								$optHolder.show();
+								$target.prepend($optionText);
+							})
+							.keypress(function(e) {
+								var charCode = e.charCode || e.keyCode;
+								if (charCode == 32) {
+									e.stopPropagation();
+									$(this).trigger("click");
+								}
+							});
+
+					} else {
+						$optHolder.show();
+						$target.parent().css({"padding": 5});
+					}
+					// If not on overlay panel
+					$optHolder.show();
 				}
 			},
 			
@@ -432,10 +542,20 @@ optional: feedback page synch play enable
 							result: v.getAttribute("correct") == "true"
 						}
 						);
-					correctAnswers.push(x_GetTrackingTextFromHTML(v.getAttribute("text"), (i+1)+""));
+					if (v.getAttribute("correct") == "true" )
+						correctAnswers.push(x_GetTrackingTextFromHTML(v.getAttribute("text"), (i+1)+""));
 					correctFeedback.push(v.getAttribute("correct") == "true" ? "Correct" : "Incorrect");
 				});
-				XTEnterInteraction(x_currentPage, ia_nr, 'multiplechoice', x_GetTrackingTextFromHTML(options.text, ia_nr + ""), correctOptions, correctAnswers, correctFeedback, x_currentPageXML.getAttribute("grouping"));
+				var label=ia_nr+"";
+				if (options.name != "")
+				{
+					label = x_GetTrackingTextFromHTML(options.name, ia_nr + "");
+				}
+				else
+				{
+					label = x_GetTrackingTextFromHTML(options.text, ia_nr + "");
+				}
+				XTEnterInteraction(x_currentPage, ia_nr, 'multiplechoice', label, correctOptions, correctAnswers, correctFeedback, x_currentPageXML.getAttribute("grouping"));
 				if ($(options.childNodes).length > 0) {
 					// reset any previous answers given
 					if (options.type == "radio") {
@@ -449,31 +569,135 @@ optional: feedback page synch play enable
 					
 					$feedbackDiv
 						.html("")
-						.hide()
 						.find("button").remove();
-					
-					if ($checkBtn) {
-						$checkBtn
-							.show()
-							.button("disable");
-					}
+					if ($showHs) {
+						$optHolder.hide();
+						$checkBtn.hide();
+					} else {
+						formattedQuestionText = options.name != "" ? '<h4>' + options.name + '</h4>' + x_addLineBreaks(options.text) : x_addLineBreaks(options.text);
+						if (!$target.html().includes(formattedQuestionText)) {
+							$target.prepend(formattedQuestionText);
+						}
+                        if ($checkBtn) {
+                            $checkBtn
+                                .show()
+                                .button("disable");
+                        }
+                    }
 					
 					if (options.disable == "true") {
-						mediaLesson.enableControls(this.media, false);
+						$learningObjectParent.enableControls(this.media, false);
 					} else {
-						mediaLesson.enableControls(this.media, true);
+						$learningObjectParent.enableControls(this.media, true);
 					}
 				}
-				
+				if (options.overlayPan) {
+					if ($showHsActive == true) {
+						$target.parent().css({"margin-right" : "5px", "overflow-x": "hidden"});
+					}
+
+					if ($showHsActive == true || options.optional == "false" || options.optional == undefined) {
+						$target.parent().addClass("qWindow").addClass("panel");
+						$target.parent().css({
+							"padding": "5px",
+							"width" : options._w + "%",
+							"overflow-x": "hidden"
+						});
+						$optHolder.show();
+						$checkBtn.show();
+					}
+					else {
+						var hh = $(".mainMedia").height();
+						var size = options.attrib.hsSize;
+						$showHs.css({
+							"height"  :       (size * 0.008) * hh + "px",
+							"width"   :       (size * 0.008) * hh + "px",
+							"padding" :       (size * 0.001) * hh + "px",
+							"border-radius" : (size / 2 + 1) * 0.01 * hh + "px",
+							"font-size" : 	  (size * 0.007) * hh + "px",
+							"text-align":     "center"
+						});
+						if(options.attrib.tooltip == "label") {	
+							// Cap the fontsize to reasonable values
+							var fs = size * 0.4 <= 12 ? 12 : size * 0.4 > 32 ? 32 : size * 0.4;
+							$showLbl.css({
+								"padding": 5,
+								"padding-left": (size * 0.55) * 0.01 * hh + 5,
+								"left": (size * 0.005) * hh + 5,
+								"top": (size * 0.005) * hh - 2,
+								"font-size": fs
+							});
+						}
+						else if(options.attrib.tooltip == "tooltip"){
+							$showHs.hover(function(){
+								$showLbl.css({
+									"left": $showLbl.outerWidth()  * -0.5 + (size * 0.005 * hh),
+									"top" : $showLbl.outerHeight() * -1,
+									'box-shadow': 'none',
+									"overflow" : 'hidden'
+								}).show();
+							}, function() {
+								$showLbl.css({
+									'box-shadow': 'none',
+									'z-index': 1
+								}).hide();
+							});
+						}
+						$target.parent().css({
+							"padding": 0,
+							"height": 0
+						});
+					}
+					// Set position and max-height
+					let maxH;
+					const topMM = $(".mainMedia").offset().top;
+					const hMM = $(".mainMedia").height();
+					if (x_isMobileBrowser())
+					{
+						// Limit $target.parent() to pageContent height
+						const topPD = $("#x_pageDiv").offset().top;
+						const topP = topMM + options._y * hMM/100.0;
+						const hPC = $("#x_pageDiv").height() - $("#x_footerBlock").height() - (topMM-topPD);
+						maxH = hPC - (topP - topMM);
+					}
+					else
+					{
+						// Limit $target.parent() to main content
+						const topP = topMM + options._y * hMM/100.0;
+						maxH = hMM - (topP - topMM);
+					}
+					// Set max height
+					$target.parent().css({
+						"max-width": options._w + "%",
+						"top": options._y + "%",
+						"left": options._x + "%",
+						"max-weight": maxH + "px",
+					}).show();
+				}
 				$target.show();
+				x_pageContentsUpdated();
 			},
 			
 			end: function(event, options) {
+				
 				// fire on options.end
-				mediaLesson.enableControls(this.media, true);
+				$learningObjectParent.enableControls(this.media, true);
+                if (options.overlayPan) {
+					$target.parent().removeClass("qWindow").removeClass("panel");
+                	$target.parent().css( //The overlay panel
+                	{
+						"top": 0,
+						"left": 0,
+						"padding": 0,
+						"height": "auto",
+						"margin-right" : 0,
+						"overflow-x": '',
+						"overflow" : '',
+						"max-width": ''
+                	}).hide();
+				}
 				$target.hide();
-			}
-		};
-		
+			},
+		};		
 	});
 })(Popcorn);

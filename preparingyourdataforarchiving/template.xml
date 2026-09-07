@@ -222,60 +222,44 @@
 </p>
 <p>When it comes to the sharing of data depending on the nature of the output there are very different stakeholders to whom it&#39;s relevant so when it is a very much a scientific study then I can make a dataset available so that other linguists can use it to investigate language phenomena and answer research questions that I haven&#39;t thought of myself at all.
 </p>
-]]></text><gapFill linkID="PG1663924952578" name="Summary (1&amp;nbsp;of 3)" text="&lt;p&gt;You have now been introduced to the key considerations and challenges for researchers wishing to archive&amp;nbsp;and preserve research data in the long term.&lt;br /&gt;&#10;&lt;br /&gt;&#10;As a summary task please drag and drop the words at the bottom of the page into the gaps left in the text.&lt;br /&gt;&#10;&lt;br /&gt;&#10;&lt;b&gt;Hint:&lt;/b&gt; If the word you select is not the correct word you won&amp;#39;t be able to drop it into the gap.&lt;/p&gt;&#10;" passage="&lt;p&gt;A file |format| encodes information in a computer file, enabling another program to access data within it. HTML and PDF are two examples of commonly used file formats and may be identified by the filename suffixes |.html| and |.pdf| respectively.&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;br /&gt;&#10;Files are based on either text or |binary| encoding; the former is both machine- and human-readable and the latter only readable by means of appropriate software. Thus |text| files are less likely to become obsolete. Examples of file name extensions for text files are .txt and |.csv|.&lt;/p&gt;&#10;&#10;&lt;p&gt;If you need to convert or migrate your data files from one format to another, you need to be aware of the potential risk of the loss or |corruption| of your data and take appropriate steps to avoid/minimise it.&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="&lt;p&gt;Well done! Please continue to the next part of the activity on the next screen.&lt;/p&gt;&#10;" panelWidth="Large" checkBtn="Check" showBtn="Show Answers" gapFillWrong="You have not filled in any answers correctly. Please try again." gapFillWrongTracking="You have not filled in any answers correctly." gapFillIncomplete="Please complete the exercise." gapFillPartWrongTracking="Your correct answers are shown in green." gapFillPartWrong="Your correct answers are shown in green. Try again with those you have got wrong."/><gapFill linkID="PG1663924697283" name="Summary (2&amp;nbsp;of 3)" text="" passage="&lt;p&gt;There are many reasons why you need to document your data:&lt;br /&gt;&#10;- to |help| you remember the details later&lt;br /&gt;&#10;- to help others understand your research, verify your |findings|, |review| your submitted publication, |replicate| your results, or even |archive| your data for access and |re-use|.&lt;/p&gt;&#10;&#10;&lt;p&gt;The term |metadata| is commonly defined as data about data. Metadata is commonly both |machine|-readable and human-readable. The three types of metadata are: descriptive, |administrative|, and structural.&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="&lt;p&gt;Well done! Please continue to the last&amp;nbsp; part of the activity on the next screen.&lt;/p&gt;&#10;" panelWidth="Large" checkBtn="Check" showBtn="Show Answers" gapFillWrong="You have not filled in any answers correctly. Please try again." gapFillWrongTracking="You have not filled in any answers correctly." gapFillIncomplete="Please complete the exercise." gapFillPartWrongTracking="Your correct answers are shown in green." gapFillPartWrong="Your correct answers are shown in green. Try again with those you have got wrong."/><gapFill linkID="PG1664200146616" name="Summary (3&amp;nbsp;of 3)" text="" passage="&lt;p&gt;A data repository provides both the |infrastructure| to store data and the procedures to ensure data:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;&#9;&lt;li&gt;can be |read| and use file formats that will remain |usable| in the future&lt;/li&gt;&#10;&#9;&lt;li&gt;have sufficient |documentation| to ensure they can be understood and used by others&lt;/li&gt;&#10;&#9;&lt;li&gt;are described using appropriate |metadata| to ensure they are findable and |identifiable|&lt;/li&gt;&#10;&lt;/ul&gt;&#10;" interactivity="Drag Drop" feedback="&lt;p&gt;Congratulations! You have successfully completed this unit.&lt;/p&gt;&#10;" panelWidth="Medium" checkBtn="Check" showBtn="Show Answers" gapFillWrong="You have not filled in any answers correctly. Please try again." gapFillWrongTracking="You have not filled in any answers correctly." gapFillIncomplete="Please complete the exercise." gapFillPartWrongTracking="Your correct answers are shown in green." gapFillPartWrong="Your correct answers are shown in green. Try again with those you have got wrong."/><text linkID="PG1661258767366" name="Next &amp; further reading"><![CDATA[<p><strong>What to do next?</strong>
-</p>
-<p>You have now completed this unit. Take a look at the &#39;Further reading&#39; where you will find a list of resources that will help you gain further understanding of file formats, data archiving and preservation.
-</p>
-<p>You could also start a new unit and come back to check these resources later. We recommend that you continue with the <a href="../keepingresearchdatasafe/" target="_blank">Keeping research data safe</a> unit.
-</p>
-<p>If you prefer, you can also go back to the <a href="http://mantra.ed.ac.uk/">MANTRA</a> home page and choose a different unit.
-</p>
-<p>
-  <br />
-  <strong>Further reading</strong>
-</p>
-<p>Borghi J, Abrams S, Lowenberg D, Simms S, Chodacki J. (2018). Support Your Data: A Research Data Management Guide for Researchers. Research Ideas and Outcomes 4: e26439.
-  <br />
-  <a href="https://doi.org/10.3897/rio.4.e26439" target="_blank">https://doi.org/10.3897/rio.4.e26439</a>
-</p>
-<p>Bungers, S. (2022) The Electronic Lab Notebook in 2022: A comprehensive guide - How to choose the best ELN for your research.&nbsp;Retrieved September 2022 from
-  <br />
-  <a href="https://www.labfolder.com/electronic-lab-notebook-eln-research-guide/" target="_blank">https://www.labfolder.com/electronic-lab-notebook-eln-research-guide/</a>
-</p>
-<p>Cornell University. Guide to writing &quot;readme&quot; style metadata. Retrieved September 2022 from
-  <br />
-  <a href="https://data.research.cornell.edu/content/readme" target="_blank">https://data.research.cornell.edu/content/readme</a>
-</p>
-<p>Digital Curation Centre. (2014). <em>&#39;Five steps to decide what data to keep: a checklist for appraising research data v.1&#39;</em>. Edinburgh: Digital Curation Centre. Retrieved September 2022 from
-  <br />
-  <a href="https://www.dcc.ac.uk/guidance/how-guides/five-steps-decide-what-data-keep" target="_blank">https://www.dcc.ac.uk/guidance/how-guides/five-steps-decide-what-data-keep</a>
-</p>
-<p>Digital Preservation Coalition. <em>Technology Watch Publications</em>. Retrieved September 2022 from
-  <br />
-  <a href="https://www.dpconline.org/digipres/discover-good-practice/tech-watch-reports" target="_blank">https://www.dpconline.org/digipres/discover-good-practice/tech-watch-reports</a>
-</p>
-<p>Digital Preservation Coalition. <em>Digital Preservation Handbook, 2nd Edition</em>. Retrieved September 2022 from
-  <br />
-  <a href="https://www.dpconline.org/handbook" target="_blank">https://www.dpconline.org/handbook</a>
-</p>
-<p>Library of Congress. <em>Resource Description &amp; Access (RDA) Metadata Guidance Documentation</em>. Retrieved September 2022 from
-  <br />
-  <a href="https://www.loc.gov/aba/rda/mgd/" target="_blank">https://www.loc.gov/aba/rda/mgd/</a>
-</p>
-<p>Library of Congress. <em>Sustainability Factors</em>. Sustainability of Digital Formats: Planning of Library of Congress Collections. Last updated 01 May 2017. Retrieved August 2022 from
-  <br />
-  <a href="https://www.loc.gov/preservation/digital/formats/sustain/sustain.shtml" target="_blank">https://www.loc.gov/preservation/digital/formats/sustain/sustain.shtml</a>
-</p>
-<p>PLOS. (2019). Building Trust to Break Down Barriers. Retrieved September 2022 from
-  <br />
-  <a href="https://theplosblog.plos.org/2019/10/building-trust-to-break-down-barriers/" target="_blank">https://theplosblog.plos.org/2019/10/building-trust-to-break-down-barriers/</a>
-</p>
-<p>UK Data Service. <em>The importance of managing and sharing data: Document your data</em>. Retrieved September 2022 from
-  <br />
-  <a href="https://ukdataservice.ac.uk/learning-hub/research-data-management/#document-your-data" target="_blank">https://ukdataservice.ac.uk/learning-hub/research-data-management/#document-your-data</a>
-</p>
-<p>University of Edinburgh, Research Data Service. Choose the best file formats. Retrieved September 2022 from
-  <br />
-  <a href="https://www.ed.ac.uk/information-services/research-support/research-data-service/after/data-repository/choosing-file-formats" target="_blank">https://www.ed.ac.uk/information-services/research-support/research-data-service/after/data-repository/choosing-file-formats</a>
-</p>
+]]></text><gapFill linkID="PG1663924952578" name="Summary (1&amp;nbsp;of 3)" text="&lt;p&gt;You have now been introduced to the key considerations and challenges for researchers wishing to archive&amp;nbsp;and preserve research data in the long term.&lt;br /&gt;&#10;&lt;br /&gt;&#10;As a summary task please drag and drop the words at the bottom of the page into the gaps left in the text.&lt;br /&gt;&#10;&lt;br /&gt;&#10;&lt;b&gt;Hint:&lt;/b&gt; If the word you select is not the correct word you won&amp;#39;t be able to drop it into the gap.&lt;/p&gt;&#10;" passage="&lt;p&gt;A file |format| encodes information in a computer file, enabling another program to access data within it. HTML and PDF are two examples of commonly used file formats and may be identified by the filename suffixes |.html| and |.pdf| respectively.&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;br /&gt;&#10;Files are based on either text or |binary| encoding; the former is both machine- and human-readable and the latter only readable by means of appropriate software. Thus |text| files are less likely to become obsolete. Examples of file name extensions for text files are .txt and |.csv|.&lt;/p&gt;&#10;&#10;&lt;p&gt;If you need to convert or migrate your data files from one format to another, you need to be aware of the potential risk of the loss or |corruption| of your data and take appropriate steps to avoid/minimise it.&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="&lt;p&gt;Well done! Please continue to the next part of the activity on the next screen.&lt;/p&gt;&#10;" panelWidth="Large" checkBtn="Check" showBtn="Show Answers" gapFillWrong="You have not filled in any answers correctly. Please try again." gapFillWrongTracking="You have not filled in any answers correctly." gapFillIncomplete="Please complete the exercise." gapFillPartWrongTracking="Your correct answers are shown in green." gapFillPartWrong="Your correct answers are shown in green. Try again with those you have got wrong."/><gapFill linkID="PG1663924697283" name="Summary (2&amp;nbsp;of 3)" text="" passage="&lt;p&gt;There are many reasons why you need to document your data:&lt;br /&gt;&#10;- to |help| you remember the details later&lt;br /&gt;&#10;- to help others understand your research, verify your |findings|, |review| your submitted publication, |replicate| your results, or even |archive| your data for access and |re-use|.&lt;/p&gt;&#10;&#10;&lt;p&gt;The term |metadata| is commonly defined as data about data. Metadata is commonly both |machine|-readable and human-readable. The three types of metadata are: descriptive, |administrative|, and structural.&lt;/p&gt;&#10;" interactivity="Drag Drop" feedback="&lt;p&gt;Well done! Please continue to the last&amp;nbsp; part of the activity on the next screen.&lt;/p&gt;&#10;" panelWidth="Large" checkBtn="Check" showBtn="Show Answers" gapFillWrong="You have not filled in any answers correctly. Please try again." gapFillWrongTracking="You have not filled in any answers correctly." gapFillIncomplete="Please complete the exercise." gapFillPartWrongTracking="Your correct answers are shown in green." gapFillPartWrong="Your correct answers are shown in green. Try again with those you have got wrong."/><gapFill linkID="PG1664200146616" name="Summary (3&amp;nbsp;of 3)" text="" passage="&lt;p&gt;A data repository provides both the |infrastructure| to store data and the procedures to ensure data:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;&#9;&lt;li&gt;can be |read| and use file formats that will remain |usable| in the future&lt;/li&gt;&#10;&#9;&lt;li&gt;have sufficient |documentation| to ensure they can be understood and used by others&lt;/li&gt;&#10;&#9;&lt;li&gt;are described using appropriate |metadata| to ensure they are findable and |identifiable|&lt;/li&gt;&#10;&lt;/ul&gt;&#10;" interactivity="Drag Drop" feedback="&lt;p&gt;Congratulations! You have successfully completed this unit.&lt;/p&gt;&#10;" panelWidth="Medium" checkBtn="Check" showBtn="Show Answers" gapFillWrong="You have not filled in any answers correctly. Please try again." gapFillWrongTracking="You have not filled in any answers correctly." gapFillIncomplete="Please complete the exercise." gapFillPartWrongTracking="Your correct answers are shown in green." gapFillPartWrong="Your correct answers are shown in green. Try again with those you have got wrong."/><text linkID="PG1661258767366" name="Next &amp; further reading"><![CDATA[<p><strong>What to do next?</strong></p>
+
+<p>You have now completed this unit. Take a look at the &#39;Further reading&#39; where you will find a list of resources that will help you gain further understanding of file formats, data archiving and preservation.</p>
+
+<p>You could also start a new unit and come back to check these resources later. We recommend that you continue with the <a href="../keepingresearchdatasafe/" target="_blank">Keeping research data safe</a> unit.</p>
+
+<p>If you prefer, you can also go back to the <a href="http://mantra.ed.ac.uk/">MANTRA</a> home page and choose a different unit.</p>
+
+<p><br />
+<strong>Further reading</strong></p>
+
+<p>Borghi J, Abrams S, Lowenberg D, Simms S, Chodacki J. (2018). Support Your Data: A Research Data Management Guide for Researchers. Research Ideas and Outcomes 4: e26439.<br />
+<a href="https://doi.org/10.3897/rio.4.e26439" target="_blank">https://doi.org/10.3897/rio.4.e26439</a></p>
+
+<p>Cornell University. Guide to writing &quot;readme&quot; style metadata. Retrieved September 2022 from<br />
+<a href="https://data.research.cornell.edu/content/readme" target="_blank">https://data.research.cornell.edu/content/readme</a></p>
+
+<p>Digital Curation Centre. (2014). <em>&#39;Five steps to decide what data to keep: a checklist for appraising research data v.1&#39;</em>. Edinburgh: Digital Curation Centre. Retrieved September 2022 from<br />
+<a href="https://www.dcc.ac.uk/guidance/how-guides/five-steps-decide-what-data-keep" target="_blank">https://www.dcc.ac.uk/guidance/how-guides/five-steps-decide-what-data-keep</a></p>
+
+<p>Digital Preservation Coalition. <em>Technology Watch Publications</em>. Retrieved September 2022 from<br />
+<a href="https://www.dpconline.org/digipres/discover-good-practice/tech-watch-reports" target="_blank">https://www.dpconline.org/digipres/discover-good-practice/tech-watch-reports</a></p>
+
+<p>Digital Preservation Coalition. <em>Digital Preservation Handbook, 2nd Edition</em>. Retrieved September 2022 from<br />
+<a href="https://www.dpconline.org/handbook" target="_blank">https://www.dpconline.org/handbook</a></p>
+
+<p>Kwok, Roberta. (2018. &quot;How to pick an electronic laboratory notebook.&quot; Nature 560(7717): 269-270.&nbsp;<br />
+<a href="https://doi.org/10.1038/d41586-018-05895-3" target="_blank">https://doi.org/10.1038/d41586-018-05895-3</a>&nbsp;&nbsp;</p>
+
+<p>Library of Congress. <em>Resource Description &amp; Access (RDA) Metadata Guidance Documentation</em>. Retrieved September 2022 from<br />
+<a href="https://www.loc.gov/aba/rda/mgd/" target="_blank">https://www.loc.gov/aba/rda/mgd/</a></p>
+
+<p>Library of Congress. <em>Sustainability Factors</em>. Sustainability of Digital Formats: Planning of Library of Congress Collections. Last updated 01 May 2017. Retrieved August 2022 from<br />
+<a href="https://www.loc.gov/preservation/digital/formats/sustain/sustain.shtml" target="_blank">https://www.loc.gov/preservation/digital/formats/sustain/sustain.shtml</a></p>
+
+<p>UK Data Service. <em>The importance of managing and sharing data: Document your data</em>. Retrieved September 2022 from<br />
+<a href="https://ukdataservice.ac.uk/learning-hub/research-data-management/#document-your-data" target="_blank">https://ukdataservice.ac.uk/learning-hub/research-data-management/#document-your-data</a></p>
+
+<p>University of Edinburgh, Research Data Service. Choose the best file formats. Retrieved September 2022 from<br />
+<a href="https://www.ed.ac.uk/information-services/research-support/research-data-service/after/data-repository/choosing-file-formats" target="_blank">https://www.ed.ac.uk/information-services/research-support/research-data-service/after/data-repository/choosing-file-formats</a></p>
 ]]></text></learningObject>
