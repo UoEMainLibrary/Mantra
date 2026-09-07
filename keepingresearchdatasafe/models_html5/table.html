@@ -33,7 +33,11 @@
 		
 		// function called every time the size of the LO is changed
 		this.sizeChanged = function() {
-			
+			if (x_browserInfo.mobile == true) {
+				$('#tableHolder .panel')
+					.width('auto')
+					.width($x_pageDiv.width() - ($('#tableHolder .panel').outerWidth(true) - $('#tableHolder .panel').width()));
+			}
 		}
 		
 		this.init = function() {
@@ -42,12 +46,7 @@
 			var $pageContents = $("#pageContents"),
 				$textHolder = $("#textHolder"),
 				$panel = $("#pageContents .panel");
-			
-			if ($tableInfo[0].getAttribute("name") != "") {
-				$pageContents.find("#tableName").html("<p>" + $tableInfo[0].getAttribute("name") + "</p>");
-			} else {
-				$pageContents.find("#tableName").remove();
-			}
+
 			if ($tableInfo[0].getAttribute("caption") != "" && $tableInfo[0].getAttribute("caption") != undefined) {
 				$pageContents.find("#footnote").html("<p>" + $tableInfo[0].getAttribute("caption") + "</p>");
 			} else {
@@ -117,44 +116,67 @@
 			} else {
 				table.makeTable($tableInfo[0].getAttribute("data").split("||"), false);
 			}
+
+			// add caption &/or summary to table
+			if ($tableInfo[0].getAttribute("name") != "" || ($tableInfo[0].getAttribute("alt") != undefined && $tableInfo[0].getAttribute("alt") != "")) {
+				const $caption = $("<caption id='tableName'></caption>").prependTo($table);
+				if ($tableInfo[0].getAttribute("name") != "") {
+					$caption.append($tableInfo[0].getAttribute("name"));
+				}
+				if ($tableInfo[0].getAttribute("alt") != undefined && $tableInfo[0].getAttribute("alt") != "") {
+					$caption.append("<span class='sr-only'>" + $tableInfo[0].getAttribute("alt") + "</span>");
+				}
+			}
 			
 			// call this function in every model once everything's loaded
 			x_pageLoaded();
+			this.sizeChanged();
 			
 		}
 		
 		this.makeTable = function(tableData, csv) {
 			var tableString = "",
-				seperator = "|",
-				i, j;
+				separator = "|",
+				i, j,
+				tbodySetUp = false;
 			
 			if (csv == true) {
-				seperator = ",";
+				if ($tableInfo[0].getAttribute("delimiter") != "") {
+					separator = ($tableInfo[0].getAttribute("delimiter") == 'semicolon' ? ';' : ',');
+				} else {
+					separator = ',';
+				}
 			}
 			for (i=0; i<tableData.length; i++) {
+				var dataTag = "td";
+				if (header == true && i==0) {
+					tableString += "<thead>";
+					dataTag = "th";
+				} else if (tbodySetUp == false) {
+					tableString += "<tbody>";
+					tbodySetUp = true;
+				}
+				
 				tableString += "<tr>";
-				var rowData = tableData[i].split(seperator);
+				var rowData = tableData[i].split(separator);
 				for (j=0; j<rowData.length; j++) {
-					tableString += "<td>" + rowData[j] + "</td>";
+					tableString += "<" + dataTag + ">" + rowData[j] + "</" + dataTag + ">";
 				}
 				tableString += "</tr>";
+				
+				if (header == true && i==0) {
+					tableString += "</thead>";
+				} else if (i==tableData.length-1) {
+					tableString += "</tbody>";
+				}
 			}
 			$table.html(tableString);
 			
-			if ($tableInfo[0].getAttribute("alt") != undefined) {
-				$table.attr("summary", $tableInfo[0].getAttribute("alt"));
-			}
-			
 			if ($tableInfo[0].getAttribute("shade") == "true") {
-				$table.children(0).children().each(function() {
-					var $this = $(this),
-						thisIndex = $this.index();
-					if (footer != true || thisIndex != tableData.length-1) {
-						if (header == true) { // shade even no. rows, except for 1st row
-							if (thisIndex%2 == 0 && thisIndex != 0) {
-								$this.addClass("shaded");
-							}
-						} else if (thisIndex%2 != 0) { // shade odd no. rows
+				$table.find('tbody').children().each(function(i) {
+					var $this = $(this);
+					if (footer != true || (footer == true && i != $table.find('tbody').children().length-1)) {
+						if (i%2 != 0) { // shade odd no. rows
 							$this.addClass("shaded");
 						}
 					}
@@ -172,7 +194,6 @@
 	
 	<div id="tableHolder" class="mobileAlign"> <!-- this tag is only used when viewed on mobiles to change layout -->
 		<div class="panel inline">
-			<div id="tableName"></div>
 			<table id="table"></table>
 			<div id="footnote"></div>
 		</div>

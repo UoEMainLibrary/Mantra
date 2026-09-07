@@ -1,7 +1,7 @@
 <language name="English" code="en-GB">
     <layout closetooltip="Close this pane" opentooltip="Open this pane" resizetooltip="Resize this pane" pin="Pin" unpin="Un-Pin" />
     <edit label="Edit ..." tooltip="Edit this option" description="Edit button" />
-    <insertDialog label="Insert New {i}" preview="Preview">
+    <insertDialog label="Insert New {i}" preview="Preview" example="View example">
         <insertBefore label="Before" tooltip="Insert before selected page"/>
         <insertAfter label="After" tooltip="Insert after selected page"/>
         <insertAtEnd label="At end" tooltip="Insert as last page"/>
@@ -9,6 +9,7 @@
     </insertDialog>
     <btnSaveXerte label="Save" tooltip="Save Project" description="Save Button"/>
 	<btnPublishXot label="Publish" tooltip="Publish Project" description="Publish Button"/>
+	<wikiLink tooltip="Open {x} wiki page (new window)"/>
 	<popupFileUpload title="File Upload" cancelLabel="Cancel"/>
 	<browseImportFile title="Select file to import...">
 		<dialogFilter>All Files|*.*|JPG|*.jpg|PNG|*.png|SWF Files|*.swf|Sounds|*.mp3|Video|*.flv</dialogFilter>
@@ -31,8 +32,10 @@
 	<btnAddChild tooltip="add some children"/>
 	<btnDuplicate label="Copy" tooltip="Duplicate"/>
 	<btnDelete label="Delete" tooltip="Delete"/>
+	<btnAdvanced label_on="Toggle to advanced mode" tooltip_on="Toggle advanced mode" label_off="Switch off advanced mode" tooltip_off="Toggle off advanced mode"/>
 	<btnMoveUp tooltip="Move Up"/>
 	<btnMoveDown tooltip="Move Down"/>
+	<chkExpandTree label="Expand Pages" tooltip="Expand all pages by default"/>
 	<btnNext tooltip="Next Item"/>
 	<btnPreview label="Play" tooltip="Preview"/>
 	<btnPrev tooltip="Previous Item"/>
@@ -40,13 +43,23 @@
 	<addProp label="Add" tooltip="add" />
 	<optionalProp label="Optional Properties:"/>
 	<optionalPropHTML label="Optional Properties" general="General"/>
+	<optionalAssistantPropHTML label="Ai features and tools" general="Assistants"/>
 	<chkShowLanguage label="Show Language Options" tooltip="If language options are available, show them."/>
 	<chkShowAdvanced label="Show Advanced Options" tooltip="If advanced options are available, show them."/>
     <chkShowToolbar label="Show Toolbar" tooltip="Show all the toolbars by default."/>
+    <chkShowGroups label="Expand Groups" tooltip="Expand all optional property groups by default."/>
 	<compMedia tooltip="Import Media"/>
 	<compPreview tooltip="Preview" error="Preview unavailable"/>
+	<compai tooltip="Image Search and Help Tool"/>
+	<calendar tooltip="Select Date"/>
+	<chapter title="CHAPTER"/>
 	<hidePage title="HIDDEN" tooltip="This page is hidden"/>
+	<hideContent tooltip="This content is hidden"/>
+	<standalonePage tooltip="This is a stand-alone page"/>
+	<milestonePage tooltip="This is a milestone page"/>
+	<passwordPage tooltip="An access code must be entered to view this page/section"/>
 	<unmarkForCompletion tooltip="This page is not required for completion"/>
+	<advancedPage title="Advanced" tooltip="This page is not part of this (sub-)template and can only be added in advanced mode."/>
 	<filemenu title="File">
 		<menuNew>New Project...</menuNew>
 		<menuOpen>Open...</menuOpen>
@@ -94,6 +107,7 @@
 		</fileexists>
 	</importMedia>
 	<Alert>
+		<sessionError>Error: Session expired - please log in!\nReturn to the Xerte workspace and refresh the page to log in again.\nClosing the editor without logging in first may result in a loss of data.</sessionError>
 		<oklabel>Ok</oklabel>
 		<cancellabel>Cancel</cancellabel>
 		<nolabel>No</nolabel>
@@ -131,6 +145,7 @@
 		<deletenode>
 			<confirm>
 				<prompt>Do you want to delete the item?</prompt>
+				<chapterPrompt>Do you want to delete the chapter? All pages within the chapter will also be deleted.</chapterPrompt>
 				<title>Confirmation</title>
 			</confirm>
 			<error>
@@ -156,7 +171,6 @@
 		<changeLanguage>
 			<prompt>Do you want to change all the language options to the default values of language </prompt>
 		</changeLanguage>
-		
 	</Alert>
 	<XotLinkRelativePages>
 		<firstpage>* first page *</firstpage>
@@ -164,4 +178,144 @@
 		<nextpage>* next page *</nextpage>
 		<prevpage>* previous page*</prevpage>
 	</XotLinkRelativePages>
+	<ThemeUrlParam>Theme url parameter:</ThemeUrlParam>
+    <editHotspot>
+		<Buttons>
+			<Rectangle>Rectangle mode</Rectangle>
+			<Polygon>Polygon mode</Polygon>
+			<Icon>Icon mode</Icon>
+			<Reset>Reset</Reset>
+		</Buttons>
+		<Instructions>
+			<header>Hotspot instructions:</header>
+			<rectangle>Draw a rectangle by pressing the left mouse button and dragging.</rectangle>
+			<polygon>Click to add points to the polygon. Click the first (red) point to stop.</polygon>
+			<icon>Click to place an icon.</icon>>
+			<reset>Press the &#8634; reset button to start over.</reset>
+			<edit>The hotspot can be moved and changed by clicking on it.</edit>
+			<save>To save your selection, click the &#9745; Ok button. If you want to go back without saving, click the &#9746; cancel button.</save>
+			<forceRectangle>Only rectangles can be drawn, flexible hotspots are not available.</forceRectangle>
+		</Instructions>
+		<Error>
+			<selectFile>Select image first!</selectFile>
+		</Error>
+    </editHotspot>
+	<edit360Hotspot>
+		<Buttons>
+			<Reset>Reset</Reset>
+		</Buttons>
+		<Instructions>
+			<header>Instructions:</header>
+			<line1>Position a hotspot by clicking on the image.</line1>
+			<line2>Click and drag to rotate the image.</line2>
+			<reset>Press the &#8634; reset button to start over.</reset>
+			<save>To save your selection, click the &#9745; Ok button. If you want to go back without saving, click the &#9746; cancel button.</save>
+		</Instructions>
+		<Error>
+			<selectFile>Select image first!</selectFile>
+		</Error>
+    </edit360Hotspot>
+	<edit360View>
+		<Buttons>
+			<Edit>Click to select view</Edit>
+			<Reset>Reset</Reset>
+		</Buttons>
+		<Instructions>
+			<header>Instructions:</header>
+			<line1>Click the image to focus on a point or click and drag to rotate the image.</line1>
+			<reset>Press the &#8634; reset button to start over.</reset>
+			<save>To save the view, click the &#9745; Ok button. If you want to go back without saving, click the &#9746; cancel button.</save>
+		</Instructions>
+		<Error>
+			<selectFile>Select scene first!</selectFile>
+		</Error>
+    </edit360View>
+	<fontawesome>
+		<preview>Icon preview</preview>
+		<select>Select Icon</select>
+		<search>Search Icon</search>
+		<showAll>Show All</showAll>
+		<cancel>Cancel</cancel>
+		<noResult>No results found</noResult>
+	</fontawesome>
+	<grouping deprecated="Deprecated - the red option is no longer allowed by the course list in the management page"></grouping>
+	<category deprecated="Deprecated - the red option is no longer allowed by the course list in the management page"></category>
+	<course deprecated="Deprecated - the red option is no longer allowed by the course list in the management page">
+		<FreeText label="Other"></FreeText>
+	</course>
+	<categoryList>
+		<error>Add {x} to project first</error>
+		<errorEmpty>Add data to {x} first</errorEmpty>
+	</categoryList>
+	<UploadCSV>
+		<UploadCSVBtn label = "Upload CSV"/>
+		<Info label = "Warning: This will overwrite the current table, are you sure?"> </Info>
+		<Info2 label = "Warning: This will add the new table to the current table, are you sure? Please note that there might be duplicate entries after merge."> </Info2>
+		<mergeOld label = "Keep the old table when importing a CSV file:"/>
+	</UploadCSV>>
+	<imageSelection>
+	    <title>Select every image you wish to keep, then press 'keep'. </title>
+		<keepButtonText>Keep</keepButtonText>
+	    <closeWindowWithSelectionsMsg1>You've selected the following number of images: </closeWindowWithSelectionsMsg1>
+		<closeWindowWithSelectionsMsg2>OK = keep selected, and delete the rest.</closeWindowWithSelectionsMsg2>
+		<closeWindowWithSelectionsMsg3>Cancel = don't keep any of them.</closeWindowWithSelectionsMsg3>
+		<imageSavedSuccessMsg>Kept images successfully saved to media folder.</imageSavedSuccessMsg>
+		<deletionError>An error occurred. Please double-check the media folder to confirm the status of your kept images.</deletionError>
+		<noImagesReturnedMsg>No results could be found for your query. Please verify that the given search terms have been spelled correctly and try again, or attempt the same query with a different service.</noImagesReturnedMsg>
+		<imgEnlargeCornerBtn>Enlarge</imgEnlargeCornerBtn>
+		<imgLoadingText>Loading...</imgLoadingText>
+	</imageSelection>
+	<vendorApi>
+		<missingKey>The selected vendor has no API key installed. Please contact your system administrator</missingKey>
+		<genericAiAPiError>Something went wrong. Please try making another AI request.</genericAiAPiError>
+		<overideSuggestionMsg>Generated suggestions will override any existing suggestions. Generate anyway?</overideSuggestionMsg>
+		<useSuggestionMsg>The selected suggestion will be processed and used to alter the contents of this page or generate a new page. Proceed?</useSuggestionMsg>
+		<overideContentMsg>Generated AI content may override some of the content on this page. Generate anyway?</overideContentMsg>
+		<contextAlerts>
+			<malformedContextUrlMsg>is a malformed url. Please double-check it, and try again.</malformedContextUrlMsg>
+			<missingHttpMsg>is an invalid URL. Please include http:// or https:// if you mean a web link.</missingHttpMsg>
+			<unrecognisedContextPathMsg>is not a recognised path. A path must be a full web URL, or contain “RAG/corpus/” in it.</unrecognisedContextPathMsg>
+			<syncErrorGenericMsg>An error occurred while syncing context resources. Your changes to the context resources may not be saved; please try again. </syncErrorGenericMsg>
+			<noContextReturnedSubmitMsg>The context information couldn't be retrieved. The last change to the context might not be saved, please double-check and try again.</noContextReturnedSubmitMsg>
+			<contextUpdatePreviewMsg>Updating to latest learning object preview. Depending on learning object size, this may take a few minutes.</contextUpdatePreviewMsg>
+			<contextFileFoundProceedMsg>File found in context. Proceeding with AI request, using only this file as the context for this generation.</contextFileFoundProceedMsg>
+			<contextInPageProcessPromptMsg>The file you've selected has not been processed yet. To use it as part of the context for this generation, it must be added to the context for this learning object. Would you like to add it now? Please note that for videos or larger files, this process might take several minutes.</contextInPageProcessPromptMsg>
+			<contextFileUploadMissingInput>You've selected the 'file upload' option but haven't selected a file or provided a valid link. Please select an uploaded file, upload a new file, or use a youtube, vimeo or video.dlearning link.</contextFileUploadMissingInput>
+			<contextSnippetMissingInput>You've selected the 'Submit Snippet' option but haven't included any text.</contextSnippetMissingInput>
+		</contextAlerts>
+		<inputValidations>
+			<fieldFilledIncorrectlyMsg>Please fill in the following field correctly:</fieldFilledIncorrectlyMsg>
+			<mandatoryFieldMissingMsg>is a mandatory field! Please fill it in.</mandatoryFieldMissingMsg>
+			<fieldInvalidNumeralMsg>Please enter a valid numeral in the following field:</fieldInvalidNumeralMsg>
+			<fieldInvalidNumeralExampleMsg>For example: '60', not 'sixty'.</fieldInvalidNumeralExampleMsg>
+			<fieldInvalidCommaListMsg>Please make sure to enter at least two valid items separated by a comma in the following field:</fieldInvalidCommaListMsg>
+			<fieldInvalidCommaListExampleMsg>For example: 'Apples, Oranges, Berries'.</fieldInvalidCommaListExampleMsg>
+
+		</inputValidations>
+		<generationComplete>The content generation has finished. When using AI, models may hallucinate, forget or ignore provided context, or otherwise make mistakes. Please double-check the generated results!</generationComplete>
+	</vendorApi>
+	<assistents>
+		<ImgSearchBtn label="Query"/>
+		<QuickFillBtn label="Quick Fill"/>
+		<GenerateSuggestion btnlabel="Suggest" intructionprompt="Regarding what kind of suggestions I'm looking for, see: "/>
+		<AutoTranslateBtn label="Translate"/>
+		<AIBtn label="Generate"/>
+		<AIGenerationStatus>
+			<LLMOk>Content generated</LLMOk>
+			<LLMInProgress>Generating content...</LLMInProgress>
+			<LLMStarting>Starting...</LLMStarting>
+			<LLMSyncQueued>Sync request queued...</LLMSyncQueued>
+			<LLMLoaded>Loaded...</LLMLoaded>
+			<LLMSyncComplete>Sync complete!</LLMSyncComplete>
+			<LLMSyncFailed>Sync failed: </LLMSyncFailed>
+			<LLMSyncAlreadySynced>File already synced!</LLMSyncAlreadySynced>
+		</AIGenerationStatus>
+		<quickfill>
+			<QFConfirmRequest>The specified nodes will be automatically generated with their default values. Proceed with request?</QFConfirmRequest>
+			<QFError>Something went wrong. Please try using the quick fill feature again.</QFError>
+		</quickfill>
+	</assistents>
+	<lightbox>
+		<settingsButton>Open Settings</settingsButton>
+	</lightbox>
 </language>
